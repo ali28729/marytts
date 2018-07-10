@@ -1,0 +1,214 @@
+<?xml version="1.0" encoding="UTF-8"?><maryxml xmlns="http://mary.dfki.de/2002/MaryXML" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="0.4" xml:lang="nls">
+<p>
+<s>
+<phrase>
+<boundary breakindex="2" duration="100"/>
+<t accent="L+H*" g2p_method="lexicon" ph="hh - er" pos="content">
+Her
+<syllable ph="hh">
+<ph p="hh"/>
+</syllable>
+<syllable ph="er">
+<ph p="er"/>
+</syllable>
+</t>
+<t accent="L+H*" g2p_method="lexicon" ph="m - ao - r" pos="content">
+more
+<syllable ph="m">
+<ph p="m"/>
+</syllable>
+<syllable ph="ao">
+<ph p="ao"/>
+</syllable>
+<syllable ph="r">
+<ph p="r"/>
+</syllable>
+</t>
+<t accent="L+H*" g2p_method="lexicon" ph="k - ey - aa - t - ih - k" pos="content">
+chaotic
+<syllable ph="k">
+<ph p="k"/>
+</syllable>
+<syllable ph="ey">
+<ph p="ey"/>
+</syllable>
+<syllable ph="aa">
+<ph p="aa"/>
+</syllable>
+<syllable ph="t">
+<ph p="t"/>
+</syllable>
+<syllable ph="ih">
+<ph p="ih"/>
+</syllable>
+<syllable ph="k">
+<ph p="k"/>
+</syllable>
+</t>
+<t accent="L+H*" g2p_method="lexicon" ph="ae - n - d" pos="content">
+and
+<syllable ph="ae">
+<ph p="ae"/>
+</syllable>
+<syllable ph="n">
+<ph p="n"/>
+</syllable>
+<syllable ph="d">
+<ph p="d"/>
+</syllable>
+</t>
+<t accent="L+H*" g2p_method="lexicon" ph="m - ax - l - ih - sh - ax - s" pos="content">
+malicious
+<syllable ph="m">
+<ph p="m"/>
+</syllable>
+<syllable ph="ax">
+<ph p="ax"/>
+</syllable>
+<syllable ph="l">
+<ph p="l"/>
+</syllable>
+<syllable ph="ih">
+<ph p="ih"/>
+</syllable>
+<syllable ph="sh">
+<ph p="sh"/>
+</syllable>
+<syllable ph="ax">
+<ph p="ax"/>
+</syllable>
+<syllable ph="s">
+<ph p="s"/>
+</syllable>
+</t>
+<t accent="L+H*" g2p_method="lexicon" ph="ae - k - sh - ax - n - z" pos="content">
+actions
+<syllable ph="ae">
+<ph p="ae"/>
+</syllable>
+<syllable ph="k">
+<ph p="k"/>
+</syllable>
+<syllable ph="sh">
+<ph p="sh"/>
+</syllable>
+<syllable ph="ax">
+<ph p="ax"/>
+</syllable>
+<syllable ph="n">
+<ph p="n"/>
+</syllable>
+<syllable ph="z">
+<ph p="z"/>
+</syllable>
+</t>
+<t accent="L+H*" g2p_method="lexicon" ph="s - t - aa - r - t" pos="content">
+start
+<syllable ph="s">
+<ph p="s"/>
+</syllable>
+<syllable ph="t">
+<ph p="t"/>
+</syllable>
+<syllable ph="aa">
+<ph p="aa"/>
+</syllable>
+<syllable ph="r">
+<ph p="r"/>
+</syllable>
+<syllable ph="t">
+<ph p="t"/>
+</syllable>
+</t>
+<t accent="L+H*" g2p_method="lexicon" ph="t - uw" pos="content">
+to
+<syllable ph="t">
+<ph p="t"/>
+</syllable>
+<syllable ph="uw">
+<ph p="uw"/>
+</syllable>
+</t>
+<t accent="L+H*" g2p_method="lexicon" ph="k - ax - n - s - er - n" pos="content">
+concern
+<syllable ph="k">
+<ph p="k"/>
+</syllable>
+<syllable ph="ax">
+<ph p="ax"/>
+</syllable>
+<syllable ph="n">
+<ph p="n"/>
+</syllable>
+<syllable ph="s">
+<ph p="s"/>
+</syllable>
+<syllable ph="er">
+<ph p="er"/>
+</syllable>
+<syllable ph="n">
+<ph p="n"/>
+</syllable>
+</t>
+<t accent="L+H*" g2p_method="lexicon" ph="hh - er" pos="content">
+her
+<syllable ph="hh">
+<ph p="hh"/>
+</syllable>
+<syllable ph="er">
+<ph p="er"/>
+</syllable>
+</t>
+<t accent="L+H*" g2p_method="lexicon" ph="ae - m - ax - z - aa - n" pos="content">
+Amazon
+<syllable ph="ae">
+<ph p="ae"/>
+</syllable>
+<syllable ph="m">
+<ph p="m"/>
+</syllable>
+<syllable ph="ax">
+<ph p="ax"/>
+</syllable>
+<syllable ph="z">
+<ph p="z"/>
+</syllable>
+<syllable ph="aa">
+<ph p="aa"/>
+</syllable>
+<syllable ph="n">
+<ph p="n"/>
+</syllable>
+</t>
+<t accent="!H*" g2p_method="lexicon" ph="jh - eh - n - er - ax - l - z" pos="content">
+generals
+<syllable ph="jh">
+<ph p="jh"/>
+</syllable>
+<syllable ph="eh">
+<ph p="eh"/>
+</syllable>
+<syllable ph="n">
+<ph p="n"/>
+</syllable>
+<syllable ph="er">
+<ph p="er"/>
+</syllable>
+<syllable ph="ax">
+<ph p="ax"/>
+</syllable>
+<syllable ph="l">
+<ph p="l"/>
+</syllable>
+<syllable ph="z">
+<ph p="z"/>
+</syllable>
+</t>
+<t pos="$PUNCT">
+.
+</t>
+<boundary breakindex="5" tone="L-L%"/>
+</phrase>
+</s>
+</p>
+</maryxml>

@@ -1,0 +1,224 @@
+<?xml version="1.0" encoding="UTF-8"?><maryxml xmlns="http://mary.dfki.de/2002/MaryXML" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="0.4" xml:lang="nls">
+<p>
+<s>
+<prosody pitch="+5%" range="+20%">
+<phrase>
+<boundary breakindex="2" duration="100"/>
+<t accent="L+H*" g2p_method="lexicon" ph="eh - n - iy - w - ey" pos="content">
+Anyway
+<syllable ph="eh">
+<ph p="eh"/>
+</syllable>
+<syllable ph="n">
+<ph p="n"/>
+</syllable>
+<syllable ph="iy">
+<ph p="iy"/>
+</syllable>
+<syllable ph="w">
+<ph p="w"/>
+</syllable>
+<syllable ph="ey">
+<ph p="ey"/>
+</syllable>
+</t>
+<t pos="$PUNCT">
+,
+</t>
+<boundary breakindex="4" tone="H-L%"/>
+</phrase>
+</prosody>
+<prosody pitch="-5%" range="-20%">
+<phrase>
+<t accent="L+H*" g2p_method="lexicon" ph="m - ay" pos="content">
+my
+<syllable ph="m">
+<ph p="m"/>
+</syllable>
+<syllable ph="ay">
+<ph p="ay"/>
+</syllable>
+</t>
+<t accent="L+H*" g2p_method="lexicon" ph="ax - n - eh - jh - uh - k - ey - t - ih - d" pos="content">
+uneducated
+<syllable ph="ax">
+<ph p="ax"/>
+</syllable>
+<syllable ph="n">
+<ph p="n"/>
+</syllable>
+<syllable ph="eh">
+<ph p="eh"/>
+</syllable>
+<syllable ph="jh">
+<ph p="jh"/>
+</syllable>
+<syllable ph="uh">
+<ph p="uh"/>
+</syllable>
+<syllable ph="k">
+<ph p="k"/>
+</syllable>
+<syllable ph="ey">
+<ph p="ey"/>
+</syllable>
+<syllable ph="t">
+<ph p="t"/>
+</syllable>
+<syllable ph="ih">
+<ph p="ih"/>
+</syllable>
+<syllable ph="d">
+<ph p="d"/>
+</syllable>
+</t>
+<t accent="L+H*" g2p_method="lexicon" ph="g - eh - s" pos="content">
+guess
+<syllable ph="g">
+<ph p="g"/>
+</syllable>
+<syllable ph="eh">
+<ph p="eh"/>
+</syllable>
+<syllable ph="s">
+<ph p="s"/>
+</syllable>
+</t>
+<t accent="L+H*" g2p_method="lexicon" ph="ih - z" pos="content">
+is
+<syllable ph="ih">
+<ph p="ih"/>
+</syllable>
+<syllable ph="z">
+<ph p="z"/>
+</syllable>
+</t>
+<t accent="L+H*" g2p_method="lexicon" ph="dh - ae - t" pos="content">
+that
+<syllable ph="dh">
+<ph p="dh"/>
+</syllable>
+<syllable ph="ae">
+<ph p="ae"/>
+</syllable>
+<syllable ph="t">
+<ph p="t"/>
+</syllable>
+</t>
+<t accent="L+H*" g2p_method="lexicon" ph="dh - ih - s" pos="content">
+this
+<syllable ph="dh">
+<ph p="dh"/>
+</syllable>
+<syllable ph="ih">
+<ph p="ih"/>
+</syllable>
+<syllable ph="s">
+<ph p="s"/>
+</syllable>
+</t>
+<t accent="L+H*" g2p_method="lexicon" ph="n - uw" pos="content">
+new
+<syllable ph="n">
+<ph p="n"/>
+</syllable>
+<syllable ph="uw">
+<ph p="uw"/>
+</syllable>
+</t>
+<t accent="L+H*" g2p_method="lexicon" ph="n - ey - m" pos="content">
+name
+<syllable ph="n">
+<ph p="n"/>
+</syllable>
+<syllable ph="ey">
+<ph p="ey"/>
+</syllable>
+<syllable ph="m">
+<ph p="m"/>
+</syllable>
+</t>
+<t accent="L+H*" g2p_method="lexicon" ph="m - iy - n - z" pos="content">
+means
+<syllable ph="m">
+<ph p="m"/>
+</syllable>
+<syllable ph="iy">
+<ph p="iy"/>
+</syllable>
+<syllable ph="n">
+<ph p="n"/>
+</syllable>
+<syllable ph="z">
+<ph p="z"/>
+</syllable>
+</t>
+<t accent="L+H*" g2p_method="lexicon" ph="f - iy - n - iy - ax - n" pos="content">
+Fenian
+<syllable ph="f">
+<ph p="f"/>
+</syllable>
+<syllable ph="iy">
+<ph p="iy"/>
+</syllable>
+<syllable ph="n">
+<ph p="n"/>
+</syllable>
+<syllable ph="iy">
+<ph p="iy"/>
+</syllable>
+<syllable ph="ax">
+<ph p="ax"/>
+</syllable>
+<syllable ph="n">
+<ph p="n"/>
+</syllable>
+</t>
+<t accent="L+H*" g2p_method="lexicon" ph="s - w - ay - n" pos="content">
+Swine
+<syllable ph="s">
+<ph p="s"/>
+</syllable>
+<syllable ph="w">
+<ph p="w"/>
+</syllable>
+<syllable ph="ay">
+<ph p="ay"/>
+</syllable>
+<syllable ph="n">
+<ph p="n"/>
+</syllable>
+</t>
+<t accent="L+H*" g2p_method="lexicon" ph="ih - n" pos="content">
+in
+<syllable ph="ih">
+<ph p="ih"/>
+</syllable>
+<syllable ph="n">
+<ph p="n"/>
+</syllable>
+</t>
+<t accent="!H*" g2p_method="lexicon" ph="ay - r - ih - sh" pos="content">
+Irish
+<syllable ph="ay">
+<ph p="ay"/>
+</syllable>
+<syllable ph="r">
+<ph p="r"/>
+</syllable>
+<syllable ph="ih">
+<ph p="ih"/>
+</syllable>
+<syllable ph="sh">
+<ph p="sh"/>
+</syllable>
+</t>
+<t pos="$PUNCT">
+.
+</t>
+<boundary breakindex="5" tone="L-L%"/>
+</phrase>
+</prosody>
+</s>
+</p>
+</maryxml>

@@ -1,0 +1,6 @@
+ByteValuedFeatureProcessors
+phone 0 aa aa0 aa1 ae ae0 ae1 ah ah0 ah1 ao ao0 ao1 aw aw0 aw1 ax ax0 ax1 ay ay0 ay1 b ch d dh eh eh0 eh1 er er0 er1 ey ey0 ey1 f g hh ih ih0 ih1 iy iy0 iy1 jh k l m n ng ow ow0 ow1 oy oy0 oy1 p pau r s sh t th uh uh0 uh1 uw uw0 uw1 v w y z zh
+next_phone 0 aa aa0 aa1 ae ae0 ae1 ah ah0 ah1 ao ao0 ao1 aw aw0 aw1 ax ax0 ax1 ay ay0 ay1 b ch d dh eh eh0 eh1 er er0 er1 ey ey0 ey1 f g hh ih ih0 ih1 iy iy0 iy1 jh k l m n ng ow ow0 ow1 oy oy0 oy1 p pau r s sh t th uh uh0 uh1 uw uw0 uw1 v w y z zh
+selection_prosody 0 stressed pre-nuclear nuclear finalHigh finalLow final
+ShortValuedFeatureProcessors
+ContinuousFeatureProcessors

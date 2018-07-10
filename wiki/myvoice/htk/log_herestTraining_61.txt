@@ -1,0 +1,243 @@
+/usr/local/bin//HERest -A -D -V -T 1 -C /home/ali28729/Downloads/marytts/wiki/myvoice//htk//config/htkTrain.conf -I /home/ali28729/Downloads/marytts/wiki/myvoice//htk//etc/htk.phones3.mlf -t 250.0 150.0 1000.0 -S /home/ali28729/Downloads/marytts/wiki/myvoice//htk//etc/htkTrain.list -H /home/ali28729/Downloads/marytts/wiki/myvoice//htk//hmm/hmm60/macros -H /home/ali28729/Downloads/marytts/wiki/myvoice//htk//hmm/hmm60/hmmdefs -M /home/ali28729/Downloads/marytts/wiki/myvoice//htk//hmm/hmm61 /home/ali28729/Downloads/marytts/wiki/myvoice//htk//etc/htk.phone3.list 
+
+HTK Configuration Parameters[10]
+  Module/Tool     Parameter                  Value
+#                 ENORMALISE                 FALSE
+#                 CEPFILTER                     22
+#                 NUMCHANS                      26
+#                 PREEMCOEF               0.970000
+#                 USEHAMMING                  TRUE
+#                 NUMCEPS                       12
+#                 TARGETRATE          50000.000000
+#                 WINDOWSIZE         100000.000000
+#                 PARAMETERKIND         MFCC_0_D_A
+#                 TARGETKIND            MFCC_0_D_A
+
+
+HTK Version Information
+Module     Version    Who    Date      : CVS Info
+HERest     3.4.1      CUED   12/03/09  : $Id: HERest.c,v 1.2 2006/12/07 11:09:08 mjfg Exp $
+HShell     3.4.1      CUED   12/03/09  : $Id: HShell.c,v 1.1.1.1 2006/10/11 09:54:58 jal58 Exp $
+HMem       3.4.1      CUED   12/03/09  : $Id: HMem.c,v 1.1.1.1 2006/10/11 09:54:58 jal58 Exp $
+HMath      3.4.1      CUED   12/03/09  : $Id: HMath.c,v 1.1.1.1 2006/10/11 09:54:58 jal58 Exp $
+HSigP      3.4.1      CUED   12/03/09  : $Id: HSigP.c,v 1.1.1.1 2006/10/11 09:54:58 jal58 Exp $
+HAudio     3.4.1      CUED   12/03/09  : $Id: HAudio.c,v 1.1.1.1 2006/10/11 09:54:57 jal58 Exp $
+HWave      3.4.1      CUED   12/03/09  : $Id: HWave.c,v 1.1.1.1 2006/10/11 09:54:59 jal58 Exp $
+HVQ        3.4.1      CUED   12/03/09  : $Id: HVQ.c,v 1.1.1.1 2006/10/11 09:54:59 jal58 Exp $
+HLabel     3.4.1      CUED   12/03/09  : $Id: HLabel.c,v 1.1.1.1 2006/10/11 09:54:57 jal58 Exp $
+HModel     3.4.1      CUED   12/03/09  : $Id: HModel.c,v 1.2 2006/12/07 11:09:08 mjfg Exp $
+HParm      3.4.1      CUED   12/03/09  : $Id: HParm.c,v 1.1.1.1 2006/10/11 09:54:58 jal58 Exp $
+HTrain     3.4.1      CUED   12/03/09  : $Id: HTrain.c,v 1.1.1.1 2006/10/11 09:54:58 jal58 Exp $
+HUtil      3.4.1      CUED   12/03/09  : $Id: HUtil.c,v 1.1.1.1 2006/10/11 09:54:59 jal58 Exp $
+HFB        3.4.1      CUED   12/03/09  : $Id: HFB.c,v 1.1.1.1 2006/10/11 09:54:57 jal58 Exp $
+HAdapt     3.4.1      CUED   12/03/09  : $Id: HAdapt.c,v 1.2 2006/12/07 11:09:07 mjfg Exp $
+HMap       3.4.1      CUED   12/03/09  : $Id: HMap.c,v 1.1.1.1 2006/10/11 09:54:57 jal58 Exp $
+
+HERest  ML Updating: Transitions Means Variances MixWeights 
+
+ System is SHARED
+45 Logical/45 Physical Models Loaded, VecSize=39
+2 MMF input files
+Pruning-On[250.0 150.0 1000.0]
+ Processing Data: s01.mfcc; Label s01.lab
+ Utterance prob per frame = -7.046869e+01
+ Processing Data: s02.mfcc; Label s02.lab
+ Utterance prob per frame = -6.754428e+01
+ Processing Data: s03.mfcc; Label s03.lab
+ Utterance prob per frame = -6.756965e+01
+ Processing Data: s04.mfcc; Label s04.lab
+ Utterance prob per frame = -6.894198e+01
+ Processing Data: s05.mfcc; Label s05.lab
+ Utterance prob per frame = -7.084643e+01
+ Processing Data: s06.mfcc; Label s06.lab
+ Utterance prob per frame = -6.639777e+01
+ Processing Data: s07.mfcc; Label s07.lab
+ Utterance prob per frame = -6.932181e+01
+ Processing Data: s08.mfcc; Label s08.lab
+ Utterance prob per frame = -6.805477e+01
+ Processing Data: s09.mfcc; Label s09.lab
+ Utterance prob per frame = -6.761416e+01
+ Processing Data: s10.mfcc; Label s10.lab
+ Utterance prob per frame = -7.030701e+01
+ Processing Data: s11.mfcc; Label s11.lab
+ Utterance prob per frame = -6.659295e+01
+ Processing Data: s12.mfcc; Label s12.lab
+ Utterance prob per frame = -7.016815e+01
+ Processing Data: s13.mfcc; Label s13.lab
+ Utterance prob per frame = -6.855351e+01
+ Processing Data: s14.mfcc; Label s14.lab
+ Utterance prob per frame = -6.931692e+01
+ Processing Data: s15.mfcc; Label s15.lab
+ Utterance prob per frame = -6.795532e+01
+ Processing Data: s16.mfcc; Label s16.lab
+ Utterance prob per frame = -6.924155e+01
+ Processing Data: s17.mfcc; Label s17.lab
+ Utterance prob per frame = -6.711872e+01
+ Processing Data: s18.mfcc; Label s18.lab
+ Utterance prob per frame = -6.728902e+01
+ Processing Data: s19.mfcc; Label s19.lab
+ Utterance prob per frame = -7.073049e+01
+ Processing Data: s20.mfcc; Label s20.lab
+ Utterance prob per frame = -6.907111e+01
+ Processing Data: s21.mfcc; Label s21.lab
+ Utterance prob per frame = -7.046647e+01
+ Processing Data: s22.mfcc; Label s22.lab
+ Utterance prob per frame = -7.022287e+01
+ Processing Data: s23.mfcc; Label s23.lab
+ Utterance prob per frame = -7.149449e+01
+ Processing Data: s24.mfcc; Label s24.lab
+ Utterance prob per frame = -6.968301e+01
+ Processing Data: s25.mfcc; Label s25.lab
+ Utterance prob per frame = -6.914740e+01
+ Processing Data: s26.mfcc; Label s26.lab
+ Utterance prob per frame = -6.933844e+01
+ Processing Data: s27.mfcc; Label s27.lab
+ Utterance prob per frame = -6.958026e+01
+ Processing Data: s28.mfcc; Label s28.lab
+ Utterance prob per frame = -6.947035e+01
+ Processing Data: s29.mfcc; Label s29.lab
+ Utterance prob per frame = -6.880293e+01
+ Processing Data: s30.mfcc; Label s30.lab
+ Utterance prob per frame = -6.825067e+01
+ Processing Data: s31.mfcc; Label s31.lab
+ Utterance prob per frame = -7.095454e+01
+ Processing Data: s32.mfcc; Label s32.lab
+ Utterance prob per frame = -6.948059e+01
+ Processing Data: s33.mfcc; Label s33.lab
+ Utterance prob per frame = -6.941009e+01
+ Processing Data: s34.mfcc; Label s34.lab
+ Utterance prob per frame = -6.891636e+01
+ Processing Data: s35.mfcc; Label s35.lab
+ Utterance prob per frame = -7.096678e+01
+ Processing Data: s36.mfcc; Label s36.lab
+ Utterance prob per frame = -7.038264e+01
+ Processing Data: s37.mfcc; Label s37.lab
+ Utterance prob per frame = -6.789387e+01
+ Processing Data: s38.mfcc; Label s38.lab
+ Utterance prob per frame = -6.899283e+01
+ Processing Data: s39.mfcc; Label s39.lab
+ Utterance prob per frame = -6.901625e+01
+ Processing Data: s40.mfcc; Label s40.lab
+ Utterance prob per frame = -6.747652e+01
+ Processing Data: s41.mfcc; Label s41.lab
+ Utterance prob per frame = -6.722883e+01
+ Processing Data: s42.mfcc; Label s42.lab
+ Utterance prob per frame = -6.968177e+01
+ Processing Data: s43.mfcc; Label s43.lab
+ Utterance prob per frame = -7.049752e+01
+ Processing Data: s44.mfcc; Label s44.lab
+ Utterance prob per frame = -7.122432e+01
+ Processing Data: s45.mfcc; Label s45.lab
+ Utterance prob per frame = -7.092121e+01
+ Processing Data: s46.mfcc; Label s46.lab
+ Utterance prob per frame = -6.833279e+01
+ Processing Data: s47.mfcc; Label s47.lab
+ Utterance prob per frame = -6.842177e+01
+ Processing Data: s48.mfcc; Label s48.lab
+ Utterance prob per frame = -6.648728e+01
+ Processing Data: s49.mfcc; Label s49.lab
+ Utterance prob per frame = -7.010958e+01
+ Processing Data: s50.mfcc; Label s50.lab
+ Utterance prob per frame = -6.978215e+01
+ Processing Data: s51.mfcc; Label s51.lab
+ Utterance prob per frame = -6.805704e+01
+ Processing Data: s52.mfcc; Label s52.lab
+ Utterance prob per frame = -6.797069e+01
+ Processing Data: s53.mfcc; Label s53.lab
+ Utterance prob per frame = -6.990062e+01
+ Processing Data: s54.mfcc; Label s54.lab
+ Utterance prob per frame = -6.871457e+01
+ Processing Data: s55.mfcc; Label s55.lab
+ Utterance prob per frame = -7.016941e+01
+ Processing Data: s56.mfcc; Label s56.lab
+ Utterance prob per frame = -7.180021e+01
+ Processing Data: s57.mfcc; Label s57.lab
+ Utterance prob per frame = -6.877423e+01
+ Processing Data: s58.mfcc; Label s58.lab
+ Utterance prob per frame = -6.720119e+01
+ Processing Data: s59.mfcc; Label s59.lab
+ Utterance prob per frame = -6.984837e+01
+ Processing Data: s60.mfcc; Label s60.lab
+ Utterance prob per frame = -6.640565e+01
+ Processing Data: s61.mfcc; Label s61.lab
+ Utterance prob per frame = -6.747444e+01
+ Processing Data: s62.mfcc; Label s62.lab
+ Utterance prob per frame = -7.010136e+01
+ Processing Data: s63.mfcc; Label s63.lab
+ Utterance prob per frame = -7.003549e+01
+ Processing Data: s64.mfcc; Label s64.lab
+ Utterance prob per frame = -6.710587e+01
+ Processing Data: s65.mfcc; Label s65.lab
+ Utterance prob per frame = -6.729930e+01
+ Processing Data: s66.mfcc; Label s66.lab
+ Utterance prob per frame = -7.015784e+01
+ Processing Data: s67.mfcc; Label s67.lab
+ Utterance prob per frame = -6.860103e+01
+ Processing Data: s68.mfcc; Label s68.lab
+ Utterance prob per frame = -6.799014e+01
+ Processing Data: s69.mfcc; Label s69.lab
+ Utterance prob per frame = -6.875178e+01
+ Processing Data: s70.mfcc; Label s70.lab
+ Utterance prob per frame = -6.992481e+01
+ Processing Data: s71.mfcc; Label s71.lab
+ Utterance prob per frame = -6.761943e+01
+ Processing Data: s72.mfcc; Label s72.lab
+ Utterance prob per frame = -6.893714e+01
+ Processing Data: s73.mfcc; Label s73.lab
+ Utterance prob per frame = -6.934632e+01
+ Processing Data: s74.mfcc; Label s74.lab
+ Utterance prob per frame = -6.859681e+01
+ Processing Data: s75.mfcc; Label s75.lab
+ Utterance prob per frame = -6.856758e+01
+ Processing Data: s76.mfcc; Label s76.lab
+ Utterance prob per frame = -6.862320e+01
+ Processing Data: s77.mfcc; Label s77.lab
+ Utterance prob per frame = -6.778105e+01
+ Processing Data: s78.mfcc; Label s78.lab
+ Utterance prob per frame = -6.702498e+01
+ Processing Data: s79.mfcc; Label s79.lab
+ Utterance prob per frame = -6.795950e+01
+ Processing Data: s80.mfcc; Label s80.lab
+ Utterance prob per frame = -6.946254e+01
+ Processing Data: s81.mfcc; Label s81.lab
+ Utterance prob per frame = -6.978991e+01
+ Processing Data: s82.mfcc; Label s82.lab
+ Utterance prob per frame = -6.910270e+01
+ Processing Data: s83.mfcc; Label s83.lab
+ Utterance prob per frame = -6.769649e+01
+ Processing Data: s84.mfcc; Label s84.lab
+ Utterance prob per frame = -6.904530e+01
+ Processing Data: s85.mfcc; Label s85.lab
+ Utterance prob per frame = -6.767732e+01
+ Processing Data: s86.mfcc; Label s86.lab
+ Utterance prob per frame = -6.810148e+01
+ Processing Data: s87.mfcc; Label s87.lab
+ Utterance prob per frame = -6.892392e+01
+ Processing Data: s88.mfcc; Label s88.lab
+ Utterance prob per frame = -6.703023e+01
+ Processing Data: s89.mfcc; Label s89.lab
+ Utterance prob per frame = -7.128470e+01
+ Processing Data: s90.mfcc; Label s90.lab
+ Utterance prob per frame = -7.274218e+01
+ WARNING [-2331]  UpdateModels: dx[26] copied: only 0 egs
+ in /usr/local/bin//HERest
+ WARNING [-2331]  UpdateModels: ix[32] copied: only 0 egs
+ in /usr/local/bin//HERest
+Total 4 floored variance elements in 3 different mixes
+Saving hmm's to dir /home/ali28729/Downloads/marytts/wiki/myvoice//htk//hmm/hmm61
+Reestimation complete - average log prob per frame = -6.908663e+01
+     - total frames seen          = 1.035660e+05
+
+HTK Configuration Parameters[10]
+  Module/Tool     Parameter                  Value
+                  ENORMALISE                 FALSE
+#                 CEPFILTER                     22
+                  NUMCHANS                      26
+                  PREEMCOEF               0.970000
+                  USEHAMMING                  TRUE
+                  NUMCEPS                       12
+                  TARGETRATE          50000.000000
+                  WINDOWSIZE         100000.000000
+#                 PARAMETERKIND         MFCC_0_D_A
+                  TARGETKIND            MFCC_0_D_A
+

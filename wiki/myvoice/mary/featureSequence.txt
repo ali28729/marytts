@@ -1,0 +1,4 @@
+# Automatically generated feature sequence file for CARTBuilder
+# Add features (one per line) to refine
+# Defines the feature sequence used to build the top-level CART
+phone

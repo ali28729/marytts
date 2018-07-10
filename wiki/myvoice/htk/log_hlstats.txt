@@ -1,0 +1,7 @@
+Computing Bigram Statistics
+  unifloor = 1.000000
+  bgthresh = 0
+  discount = 0.500000
+
+
+Read Label list - 45/45 labels

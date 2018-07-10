@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?><maryxml xmlns="http://mary.dfki.de/2002/MaryXML" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="0.4" xml:lang="nls">
+<p>
+<s>
+<phrase>
+<boundary breakindex="2" duration="100"/>
+<t accent="L+H*" g2p_method="lexicon" ph="d - ih - s - ax - g - r - iy - m - ax - n - t" pos="content">
+Disagreement
+<syllable ph="d">
+<ph p="d"/>
+</syllable>
+<syllable ph="ih">
+<ph p="ih"/>
+</syllable>
+<syllable ph="s">
+<ph p="s"/>
+</syllable>
+<syllable ph="ax">
+<ph p="ax"/>
+</syllable>
+<syllable ph="g">
+<ph p="g"/>
+</syllable>
+<syllable ph="r">
+<ph p="r"/>
+</syllable>
+<syllable ph="iy">
+<ph p="iy"/>
+</syllable>
+<syllable ph="m">
+<ph p="m"/>
+</syllable>
+<syllable ph="ax">
+<ph p="ax"/>
+</syllable>
+<syllable ph="n">
+<ph p="n"/>
+</syllable>
+<syllable ph="t">
+<ph p="t"/>
+</syllable>
+</t>
+<t accent="L+H*" g2p_method="lexicon" ph="w - ih - dh" pos="content">
+with
+<syllable ph="w">
+<ph p="w"/>
+</syllable>
+<syllable ph="ih">
+<ph p="ih"/>
+</syllable>
+<syllable ph="dh">
+<ph p="dh"/>
+</syllable>
+</t>
+<t accent="L+H*" g2p_method="lexicon" ph="ao - s - t - r - ey - l - y - ax - n" pos="content">
+Australian
+<syllable ph="ao">
+<ph p="ao"/>
+</syllable>
+<syllable ph="s">
+<ph p="s"/>
+</syllable>
+<syllable ph="t">
+<ph p="t"/>
+</syllable>
+<syllable ph="r">
+<ph p="r"/>
+</syllable>
+<syllable ph="ey">
+<ph p="ey"/>
+</syllable>
+<syllable ph="l">
+<ph p="l"/>
+</syllable>
+<syllable ph="y">
+<ph p="y"/>
+</syllable>
+<syllable ph="ax">
+<ph p="ax"/>
+</syllable>
+<syllable ph="n">
+<ph p="n"/>
+</syllable>
+</t>
+<t accent="!H*" g2p_method="lexicon" ph="g - ah - v - er - m - ax - n - t" pos="content">
+government
+<syllable ph="g">
+<ph p="g"/>
+</syllable>
+<syllable ph="ah">
+<ph p="ah"/>
+</syllable>
+<syllable ph="v">
+<ph p="v"/>
+</syllable>
+<syllable ph="er">
+<ph p="er"/>
+</syllable>
+<syllable ph="m">
+<ph p="m"/>
+</syllable>
+<syllable ph="ax">
+<ph p="ax"/>
+</syllable>
+<syllable ph="n">
+<ph p="n"/>
+</syllable>
+<syllable ph="t">
+<ph p="t"/>
+</syllable>
+</t>
+<t pos="$PUNCT">
+.
+</t>
+<boundary breakindex="5" tone="L-L%"/>
+</phrase>
+</s>
+</p>
+</maryxml>

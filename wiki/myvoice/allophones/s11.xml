@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><maryxml xmlns="http://mary.dfki.de/2002/MaryXML" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="0.4" xml:lang="nls">
+<p>
+<s>
+<phrase>
+<boundary breakindex="2" duration="100"/>
+<t accent="L+H*" g2p_method="lexicon" ph="dh - eh - r" pos="content">
+There
+<syllable ph="dh">
+<ph p="dh"/>
+</syllable>
+<syllable ph="eh">
+<ph p="eh"/>
+</syllable>
+<syllable ph="r">
+<ph p="r"/>
+</syllable>
+</t>
+<t accent="L+H*" g2p_method="lexicon" ph="aa - r" pos="content">
+are
+<syllable ph="aa">
+<ph p="aa"/>
+</syllable>
+<syllable ph="r">
+<ph p="r"/>
+</syllable>
+</t>
+<t accent="L+H*" g2p_method="lexicon" ph="k - er - ax - n - t - l - iy" pos="content">
+currently
+<syllable ph="k">
+<ph p="k"/>
+</syllable>
+<syllable ph="er">
+<ph p="er"/>
+</syllable>
+<syllable ph="ax">
+<ph p="ax"/>
+</syllable>
+<syllable ph="n">
+<ph p="n"/>
+</syllable>
+<syllable ph="t">
+<ph p="t"/>
+</syllable>
+<syllable ph="l">
+<ph p="l"/>
+</syllable>
+<syllable ph="iy">
+<ph p="iy"/>
+</syllable>
+</t>
+<t accent="L+H*" g2p_method="lexicon" ph="f - ao - r" pos="content">
+four
+<syllable ph="f">
+<ph p="f"/>
+</syllable>
+<syllable ph="ao">
+<ph p="ao"/>
+</syllable>
+<syllable ph="r">
+<ph p="r"/>
+</syllable>
+</t>
+<t accent="L+H*" g2p_method="lexicon" ph="m - ey - jh - er" pos="content">
+major
+<syllable ph="m">
+<ph p="m"/>
+</syllable>
+<syllable ph="ey">
+<ph p="ey"/>
+</syllable>
+<syllable ph="jh">
+<ph p="jh"/>
+</syllable>
+<syllable ph="er">
+<ph p="er"/>
+</syllable>
+</t>
+<t accent="L+H*" g2p_method="lexicon" ph="k - ae - n - , eh - iy" pos="content">
+Kan-Ei
+<syllable ph="k">
+<ph p="k"/>
+</syllable>
+<syllable ph="ae">
+<ph p="ae"/>
+</syllable>
+<syllable ph="n">
+<ph p="n"/>
+</syllable>
+<syllable ph=", eh" stress="2">
+<ph p="eh"/>
+</syllable>
+<syllable ph="iy">
+<ph p="iy"/>
+</syllable>
+</t>
+<boundary breakindex="3"/><t accent="!H*" g2p_method="lexicon" ph="d - ih - k - sh - ax - n - eh - r - iy - z" pos="content">
+dictionaries
+<syllable ph="d">
+<ph p="d"/>
+</syllable>
+<syllable ph="ih">
+<ph p="ih"/>
+</syllable>
+<syllable ph="k">
+<ph p="k"/>
+</syllable>
+<syllable ph="sh">
+<ph p="sh"/>
+</syllable>
+<syllable ph="ax">
+<ph p="ax"/>
+</syllable>
+<syllable ph="n">
+<ph p="n"/>
+</syllable>
+<syllable ph="eh">
+<ph p="eh"/>
+</syllable>
+<syllable ph="r">
+<ph p="r"/>
+</syllable>
+<syllable ph="iy">
+<ph p="iy"/>
+</syllable>
+<syllable ph="z">
+<ph p="z"/>
+</syllable>
+</t>
+<t pos="$PUNCT">
+.
+</t>
+<boundary breakindex="5" tone="L-L%"/>
+</phrase>
+</s>
+</p>
+</maryxml>

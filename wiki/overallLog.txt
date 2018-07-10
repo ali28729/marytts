@@ -1,0 +1,88 @@
+*******************************
+Results for 06_08_2017_02_38_11:
+number of basenames 124748
+Stop criterion numSentences 90 simpleDiphones simpleProsody 
+simpleDiphones true
+frequency inverse
+considerSentenceLength true
+phoneLevelWeight 25.0
+diphoneLevelWeight 5.0
+prosodyLevelWeight 1.0
+maxSentenceLength 150
+minSentenceLength 30
+divideWantedWeightBy 1000.0
+
+Num sent in cover : 90
+Avg sent length : 45.60000
+Max sent length : 98
+Min sent length : 20
+phones: 0.77778 (0.77778)
+Simple Coverage:
+diphones: 0.18417 (0.36910)
+overall: 0.02683 (0.06064)
+*******************************
+Results for 06_08_2017_03_10_24:
+number of basenames 124748
+Stop criterion numSentences 30 simpleDiphones simpleProsody 
+simpleDiphones true
+frequency inverse
+considerSentenceLength true
+phoneLevelWeight 25.0
+diphoneLevelWeight 5.0
+prosodyLevelWeight 1.0
+maxSentenceLength 150
+minSentenceLength 30
+divideWantedWeightBy 1000.0
+
+Num sent in cover : 90
+Avg sent length : 45.60000
+Max sent length : 98
+Min sent length : 20
+phones: 0.77778 (0.77778)
+Simple Coverage:
+diphones: 0.18417 (0.36910)
+overall: 0.02683 (0.06064)
+*******************************
+Results for 07_08_2017_12_01_58:
+number of basenames 124748
+Stop criterion numSentences 30 simpleDiphones simpleProsody 
+simpleDiphones true
+frequency inverse
+considerSentenceLength true
+phoneLevelWeight 25.0
+diphoneLevelWeight 5.0
+prosodyLevelWeight 1.0
+maxSentenceLength 150
+minSentenceLength 30
+divideWantedWeightBy 1000.0
+
+Num sent in cover : 90
+Avg sent length : 45.60000
+Max sent length : 98
+Min sent length : 20
+phones: 0.77778 (0.77778)
+Simple Coverage:
+diphones: 0.18417 (0.36910)
+overall: 0.02683 (0.06064)
+*******************************
+Results for 08_08_2017_11_58_49:
+number of basenames 124748
+Stop criterion numSentences 30 simpleDiphones simpleProsody 
+simpleDiphones true
+frequency inverse
+considerSentenceLength true
+phoneLevelWeight 25.0
+diphoneLevelWeight 5.0
+prosodyLevelWeight 1.0
+maxSentenceLength 150
+minSentenceLength 30
+divideWantedWeightBy 1000.0
+
+Num sent in cover : 90
+Avg sent length : 45.60000
+Max sent length : 98
+Min sent length : 20
+phones: 0.77778 (0.77778)
+Simple Coverage:
+diphones: 0.18417 (0.36910)
+overall: 0.02683 (0.06064)

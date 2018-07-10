@@ -1,0 +1,3 @@
+Reading bigram from file /home/ali28729/Downloads/marytts/wiki/myvoice//htk//etc/htk.phones.big
+Converting back-off bigram -> lattice
+Saving lattice to file /home/ali28729/Downloads/marytts/wiki/myvoice//htk//etc/htk.phones.net

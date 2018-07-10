@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?><marytts-install xmlns="http://mary.dfki.de/installer">
+  <voice gender="male" locale="nls" name="nls" type="marytts.unitselection.UnitSelectionVoice" version="5.2">
+    <description>A male nls general voice</description>
+    <license href="http://mary.dfki.de/download/by-nd-3.0.html"/>
+    <package filename="voice-my_voice-5.2.zip" md5sum="16e7f9117099991f1dca56d066a0cac4" size="15456536">
+      <location folder="true" href="http://mary.dfki.de/download/5.2/"/>
+    </package>
+    <files>lib/voice-my_voice-5.2.jar</files>
+    <depends language="nls" version="5.2"/>
+  </voice>
+</marytts-install>

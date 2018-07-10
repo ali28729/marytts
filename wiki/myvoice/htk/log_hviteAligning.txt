@@ -1,0 +1,1128 @@
+/usr/local/bin//HVite -A -D -V -T 1 -b sil -l /home/ali28729/Downloads/marytts/wiki/myvoice//htk//lab -o W -C /home/ali28729/Downloads/marytts/wiki/myvoice//htk//config/htkTrain.conf -a -H /home/ali28729/Downloads/marytts/wiki/myvoice//htk//hmm/hmm-final/macros -H /home/ali28729/Downloads/marytts/wiki/myvoice//htk//hmm/hmm-final/hmmdefs -i /home/ali28729/Downloads/marytts/wiki/myvoice//htk//aligned.mlf -t 250.0 -y lab -I /home/ali28729/Downloads/marytts/wiki/myvoice//htk//etc/htk.phones3.mlf -S /home/ali28729/Downloads/marytts/wiki/myvoice//htk//etc/htkTrain.list /home/ali28729/Downloads/marytts/wiki/myvoice//htk//etc/htk.phone.dict /home/ali28729/Downloads/marytts/wiki/myvoice//htk//etc/htk.phone3.list 
+
+HTK Configuration Parameters[10]
+  Module/Tool     Parameter                  Value
+#                 ENORMALISE                 FALSE
+#                 CEPFILTER                     22
+#                 NUMCHANS                      26
+#                 PREEMCOEF               0.970000
+#                 USEHAMMING                  TRUE
+#                 NUMCEPS                       12
+#                 TARGETRATE          50000.000000
+#                 WINDOWSIZE         100000.000000
+#                 PARAMETERKIND         MFCC_0_D_A
+#                 TARGETKIND            MFCC_0_D_A
+
+
+HTK Version Information
+Module     Version    Who    Date      : CVS Info
+HVite      3.4.1      CUED   12/03/09  : $Id: HVite.c,v 1.1.1.1 2006/10/11 09:55:02 jal58 Exp $
+HShell     3.4.1      CUED   12/03/09  : $Id: HShell.c,v 1.1.1.1 2006/10/11 09:54:58 jal58 Exp $
+HMem       3.4.1      CUED   12/03/09  : $Id: HMem.c,v 1.1.1.1 2006/10/11 09:54:58 jal58 Exp $
+HLabel     3.4.1      CUED   12/03/09  : $Id: HLabel.c,v 1.1.1.1 2006/10/11 09:54:57 jal58 Exp $
+HMath      3.4.1      CUED   12/03/09  : $Id: HMath.c,v 1.1.1.1 2006/10/11 09:54:58 jal58 Exp $
+HSigP      3.4.1      CUED   12/03/09  : $Id: HSigP.c,v 1.1.1.1 2006/10/11 09:54:58 jal58 Exp $
+HWave      3.4.1      CUED   12/03/09  : $Id: HWave.c,v 1.1.1.1 2006/10/11 09:54:59 jal58 Exp $
+HAudio     3.4.1      CUED   12/03/09  : $Id: HAudio.c,v 1.1.1.1 2006/10/11 09:54:57 jal58 Exp $
+HVQ        3.4.1      CUED   12/03/09  : $Id: HVQ.c,v 1.1.1.1 2006/10/11 09:54:59 jal58 Exp $
+HModel     3.4.1      CUED   12/03/09  : $Id: HModel.c,v 1.2 2006/12/07 11:09:08 mjfg Exp $
+HParm      3.4.1      CUED   12/03/09  : $Id: HParm.c,v 1.1.1.1 2006/10/11 09:54:58 jal58 Exp $
+HDict      3.4.1      CUED   12/03/09  : $Id: HDict.c,v 1.1.1.1 2006/10/11 09:54:57 jal58 Exp $
+HNet       3.4.1      CUED   12/03/09  : $Id: HNet.c,v 1.1.1.1 2006/10/11 09:54:58 jal58 Exp $
+HRec       3.4.1      CUED   12/03/09  : $Id: HRec.c,v 1.1.1.1 2006/10/11 09:54:58 jal58 Exp $
+HUtil      3.4.1      CUED   12/03/09  : $Id: HUtil.c,v 1.1.1.1 2006/10/11 09:54:59 jal58 Exp $
+HAdapt     3.4.1      CUED   12/03/09  : $Id: HAdapt.c,v 1.2 2006/12/07 11:09:07 mjfg Exp $
+HMap       3.4.1      CUED   12/03/09  : $Id: HMap.c,v 1.1.1.1 2006/10/11 09:54:57 jal58 Exp $
+
+Read 45 physical / 45 logical HMMs
+Label file will be used to align each file
+Aligning File: /home/ali28729/Downloads/marytts/wiki/myvoice//htk//feat/s01.mfcc
+Created lattice with 50 nodes / 49 arcs from label file
+ WARNING [-8232]  ExpandWordNet: Pronunciation 1 of sp is 'tee' word in /usr/local/bin//HVite
+ WARNING [-8232]  ExpandWordNet: Pronunciation 1 of sp is 'tee' word in /usr/local/bin//HVite
+ WARNING [-8232]  ExpandWordNet: Pronunciation 1 of sp is 'tee' word in /usr/local/bin//HVite
+ WARNING [-8232]  ExpandWordNet: Pronunciation 1 of sp is 'tee' word in /usr/local/bin//HVite
+ WARNING [-8232]  ExpandWordNet: Pronunciation 1 of sp is 'tee' word in /usr/local/bin//HVite
+ WARNING [-8232]  ExpandWordNet: Pronunciation 1 of sp is 'tee' word in /usr/local/bin//HVite
+ WARNING [-8232]  ExpandWordNet: Pronunciation 1 of sp is 'tee' word in /usr/local/bin//HVite
+sil sil dh ax sp m aa hh er aa zh ah sp y uw z d sp t uw sp ih n s p eh k t sp dh ax sp g aa r d z sp k ax n t ih n jh ax n t sil sil  ==  [895 frames] -70.4777 [Ac=-63077.5 LM=0.0] (Act=14.6)
+Aligning File: /home/ali28729/Downloads/marytts/wiki/myvoice//htk//feat/s02.mfcc
+Created lattice with 41 nodes / 40 arcs from label file
+ WARNING [-8232]  ExpandWordNet: Pronunciation 1 of sp is 'tee' word in /usr/local/bin//HVite
+ WARNING [-8232]  ExpandWordNet: Pronunciation 1 of sp is 'tee' word in /usr/local/bin//HVite
+ WARNING [-8232]  ExpandWordNet: Pronunciation 1 of sp is 'tee' word in /usr/local/bin//HVite
+ WARNING [-8232]  ExpandWordNet: Pronunciation 1 of sp is 'tee' word in /usr/local/bin//HVite
+ WARNING [-8232]  ExpandWordNet: Pronunciation 1 of sp is 'tee' word in /usr/local/bin//HVite
+ WARNING [-8232]  ExpandWordNet: Pronunciation 1 of sp is 'tee' word in /usr/local/bin//HVite
+sil sil hh iy sp ih z sp ey sp r ay t er sp f ao r sp t ae b l oy d l eh v ax l sp n uw z p ey p er z sil sil  ==  [895 frames] -67.5495 [Ac=-60456.8 LM=0.0] (Act=12.0)
+Aligning File: /home/ali28729/Downloads/marytts/wiki/myvoice//htk//feat/s03.mfcc
+Created lattice with 38 nodes / 37 arcs from label file
+ WARNING [-8232]  ExpandWordNet: Pronunciation 1 of sp is 'tee' word in /usr/local/bin//HVite
+ WARNING [-8232]  ExpandWordNet: Pronunciation 1 of sp is 'tee' word in /usr/local/bin//HVite
+ WARNING [-8232]  ExpandWordNet: Pronunciation 1 of sp is 'tee' word in /usr/local/bin//HVite
+ WARNING [-8232]  ExpandWordNet: Pronunciation 1 of sp is 'tee' word in /usr/local/bin//HVite
+ WARNING [-8232]  ExpandWordNet: Pronunciation 1 of sp is 'tee' word in /usr/local/bin//HVite
+sil sil hh aw eh v er ssil m ay sp f r eh n d z sp t eh l sp m iy sp ih t sp w ih k ah p eh iy ax sil sil  ==  [1063 frames] -67.5984 [Ac=-71857.1 LM=0.0] (Act=12.3)
+Aligning File: /home/ali28729/Downloads/marytts/wiki/myvoice//htk//feat/s04.mfcc
+Created lattice with 41 nodes / 40 arcs from label file
+ WARNING [-8232]  ExpandWordNet: Pronunciation 1 of sp is 'tee' word in /usr/local/bin//HVite
+ WARNING [-8232]  ExpandWordNet: Pronunciation 1 of sp is 'tee' word in /usr/local/bin//HVite
+ WARNING [-8232]  ExpandWordNet: Pronunciation 1 of sp is 'tee' word in /usr/local/bin//HVite
+ WARNING [-8232]  ExpandWordNet: Pronunciation 1 of sp is 'tee' word in /usr/local/bin//HVite
+ WARNING [-8232]  ExpandWordNet: Pronunciation 1 of sp is 'tee' word in /usr/local/bin//HVite
+ WARNING [-8232]  ExpandWordNet: Pronunciation 1 of sp is 'tee' word in /usr/local/bin//HVite
+ WARNING [-8232]  ExpandWordNet: Pronunciation 1 of sp is 'tee' word in /usr/local/bin//HVite
+sil sil f ao r sp hh er ssil ih t sp w aa z sp dh ax sp l ih n ch p ih n sp f ao r sp dh ax sp ae l b ax m sil sil  ==  [771 frames] -68.9554 [Ac=-53164.6 LM=0.0] (Act=11.9)
+Aligning File: /home/ali28729/Downloads/marytts/wiki/myvoice//htk//feat/s05.mfcc
+Created lattice with 38 nodes / 37 arcs from label file
+ WARNING [-8232]  ExpandWordNet: Pronunciation 1 of sp is 'tee' word in /usr/local/bin//HVite
+ WARNING [-8232]  ExpandWordNet: Pronunciation 1 of sp is 'tee' word in /usr/local/bin//HVite
+ WARNING [-8232]  ExpandWordNet: Pronunciation 1 of sp is 'tee' word in /usr/local/bin//HVite
+sil sil d ih s ax g r iy m ax n t sp w ih dh sp ao s t r ey l y ax n sp g ah v er m ax n t sil sil  ==  [799 frames] -70.8247 [Ac=-56588.9 LM=0.0] (Act=11.3)
+Aligning File: /home/ali28729/Downloads/marytts/wiki/myvoice//htk//feat/s06.mfcc
+Created lattice with 46 nodes / 45 arcs from label file
+ WARNING [-8232]  ExpandWordNet: Pronunciation 1 of sp is 'tee' word in /usr/local/bin//HVite
+ WARNING [-8232]  ExpandWordNet: Pronunciation 1 of sp is 'tee' word in /usr/local/bin//HVite
+ WARNING [-8232]  ExpandWordNet: Pronunciation 1 of sp is 'tee' word in /usr/local/bin//HVite
+ WARNING [-8232]  ExpandWordNet: Pronunciation 1 of sp is 'tee' word in /usr/local/bin//HVite
+ WARNING [-8232]  ExpandWordNet: Pronunciation 1 of sp is 'tee' word in /usr/local/bin//HVite
+ WARNING [-8232]  ExpandWordNet: Pronunciation 1 of sp is 'tee' word in /usr/local/bin//HVite
+ WARNING [-8232]  ExpandWordNet: Pronunciation 1 of sp is 'tee' word in /usr/local/bin//HVite
+ WARNING [-8232]  ExpandWordNet: Pronunciation 1 of sp is 'tee' word in /usr/local/bin//HVite
+sil sil dh ax sp f y uw n er ax l sp m ae s sp ih z sp ax n aw n s t sp dh ae t sp b eh l aa v sp ih z sp k ih l d sil sil  ==  [985 frames] -66.4089 [Ac=-65412.8 LM=0.0] (Act=12.4)
+Aligning File: /home/ali28729/Downloads/marytts/wiki/myvoice//htk//feat/s07.mfcc
+Created lattice with 40 nodes / 39 arcs from label file
+ WARNING [-8232]  ExpandWordNet: Pronunciation 1 of sp is 'tee' word in /usr/local/bin//HVite
+ WARNING [-8232]  ExpandWordNet: Pronunciation 1 of sp is 'tee' word in /usr/local/bin//HVite
+ WARNING [-8232]  ExpandWordNet: Pronunciation 1 of sp is 'tee' word in /usr/local/bin//HVite
+ WARNING [-8232]  ExpandWordNet: Pronunciation 1 of sp is 'tee' word in /usr/local/bin//HVite
+sil sil hh aw sp ao t ax m ae t ih k sp m y uw z ih k sp t r ae n s k r ih p sh ax n sp w er k s sil sil  ==  [931 frames] -69.3088 [Ac=-64526.5 LM=0.0] (Act=9.3)
+Aligning File: /home/ali28729/Downloads/marytts/wiki/myvoice//htk//feat/s08.mfcc
+Created lattice with 44 nodes / 43 arcs from label file
+ WARNING [-8232]  ExpandWordNet: Pronunciation 1 of sp is 'tee' word in /usr/local/bin//HVite
+ WARNING [-8232]  ExpandWordNet: Pronunciation 1 of sp is 'tee' word in /usr/local/bin//HVite
+ WARNING [-8232]  ExpandWordNet: Pronunciation 1 of sp is 'tee' word in /usr/local/bin//HVite
+ WARNING [-8232]  ExpandWordNet: Pronunciation 1 of sp is 'tee' word in /usr/local/bin//HVite
+ WARNING [-8232]  ExpandWordNet: Pronunciation 1 of sp is 'tee' word in /usr/local/bin//HVite
+ WARNING [-8232]  ExpandWordNet: Pronunciation 1 of sp is 'tee' word in /usr/local/bin//HVite
+ WARNING [-8232]  ExpandWordNet: Pronunciation 1 of sp is 'tee' word in /usr/local/bin//HVite
+sil sil hh aw eh v er ssil dh ax sp b ao r d er sp k ax f ey sp ay d iy ax sp w aa z sp ey sp m ah n iy sp l uw z er sil sil  ==  [927 frames] -68.0570 [Ac=-63088.9 LM=0.0] (Act=10.8)
+Aligning File: /home/ali28729/Downloads/marytts/wiki/myvoice//htk//feat/s09.mfcc
+Created lattice with 47 nodes / 46 arcs from label file
+ WARNING [-8232]  ExpandWordNet: Pronunciation 1 of sp is 'tee' word in /usr/local/bin//HVite
+ WARNING [-8232]  ExpandWordNet: Pronunciation 1 of sp is 'tee' word in /usr/local/bin//HVite
+ WARNING [-8232]  ExpandWordNet: Pronunciation 1 of sp is 'tee' word in /usr/local/bin//HVite
+ WARNING [-8232]  ExpandWordNet: Pronunciation 1 of sp is 'tee' word in /usr/local/bin//HVite
+ WARNING [-8232]  ExpandWordNet: Pronunciation 1 of sp is 'tee' word in /usr/local/bin//HVite
+ WARNING [-8232]  ExpandWordNet: Pronunciation 1 of sp is 'tee' word in /usr/local/bin//HVite
+ WARNING [-8232]  ExpandWordNet: Pronunciation 1 of sp is 'tee' word in /usr/local/bin//HVite
+ WARNING [-8232]  ExpandWordNet: Pronunciation 1 of sp is 'tee' word in /usr/local/bin//HVite
+sil sil dh ax sp k l ao z sp w er sp f l ae t ssil hh uw f sh ey p sp ae n d sp k er v d sp t uw sp dh ax sp ih n s ay d sil sil  ==  [1143 frames] -67.6308 [Ac=-77302.0 LM=0.0] (Act=11.7)
+Aligning File: /home/ali28729/Downloads/marytts/wiki/myvoice//htk//feat/s10.mfcc
+Created lattice with 48 nodes / 47 arcs from label file
+ WARNING [-8232]  ExpandWordNet: Pronunciation 1 of sp is 'tee' word in /usr/local/bin//HVite
+ WARNING [-8232]  ExpandWordNet: Pronunciation 1 of sp is 'tee' word in /usr/local/bin//HVite
+ WARNING [-8232]  ExpandWordNet: Pronunciation 1 of sp is 'tee' word in /usr/local/bin//HVite
+ WARNING [-8232]  ExpandWordNet: Pronunciation 1 of sp is 'tee' word in /usr/local/bin//HVite
+ WARNING [-8232]  ExpandWordNet: Pronunciation 1 of sp is 'tee' word in /usr/local/bin//HVite
+ WARNING [-8232]  ExpandWordNet: Pronunciation 1 of sp is 'tee' word in /usr/local/bin//HVite
+ WARNING [-8232]  ExpandWordNet: Pronunciation 1 of sp is 'tee' word in /usr/local/bin//HVite
+ WARNING [-8232]  ExpandWordNet: Pronunciation 1 of sp is 'tee' word in /usr/local/bin//HVite
+ WARNING [-8232]  ExpandWordNet: Pronunciation 1 of sp is 'tee' word in /usr/local/bin//HVite
+sil sil th ih ng z sp l ay k sp dh ae t sp w ih ch sp m ey k sp ih t sp f l ow sp eh r ae t ih k l iy sp ae t sp t ay m z sil sil  ==  [1049 frames] -70.2628 [Ac=-73705.7 LM=0.0] (Act=12.2)
+Aligning File: /home/ali28729/Downloads/marytts/wiki/myvoice//htk//feat/s11.mfcc
+Created lattice with 44 nodes / 43 arcs from label file
+ WARNING [-8232]  ExpandWordNet: Pronunciation 1 of sp is 'tee' word in /usr/local/bin//HVite
+ WARNING [-8232]  ExpandWordNet: Pronunciation 1 of sp is 'tee' word in /usr/local/bin//HVite
+ WARNING [-8232]  ExpandWordNet: Pronunciation 1 of sp is 'tee' word in /usr/local/bin//HVite
+ WARNING [-8232]  ExpandWordNet: Pronunciation 1 of sp is 'tee' word in /usr/local/bin//HVite
+ WARNING [-8232]  ExpandWordNet: Pronunciation 1 of sp is 'tee' word in /usr/local/bin//HVite
+ WARNING [-8232]  ExpandWordNet: Pronunciation 1 of sp is 'tee' word in /usr/local/bin//HVite
+sil sil dh eh r sp aa r sp k er ax n t l iy sp f ao r sp m ey jh er sp k ae n eh iy sp d ih k sh ax n eh r iy z sil sil  ==  [999 frames] -66.5887 [Ac=-66522.1 LM=0.0] (Act=11.1)
+Aligning File: /home/ali28729/Downloads/marytts/wiki/myvoice//htk//feat/s12.mfcc
+Created lattice with 48 nodes / 47 arcs from label file
+ WARNING [-8232]  ExpandWordNet: Pronunciation 1 of sp is 'tee' word in /usr/local/bin//HVite
+ WARNING [-8232]  ExpandWordNet: Pronunciation 1 of sp is 'tee' word in /usr/local/bin//HVite
+ WARNING [-8232]  ExpandWordNet: Pronunciation 1 of sp is 'tee' word in /usr/local/bin//HVite
+ WARNING [-8232]  ExpandWordNet: Pronunciation 1 of sp is 'tee' word in /usr/local/bin//HVite
+ WARNING [-8232]  ExpandWordNet: Pronunciation 1 of sp is 'tee' word in /usr/local/bin//HVite
+ WARNING [-8232]  ExpandWordNet: Pronunciation 1 of sp is 'tee' word in /usr/local/bin//HVite
+ WARNING [-8232]  ExpandWordNet: Pronunciation 1 of sp is 'tee' word in /usr/local/bin//HVite
+ WARNING [-8232]  ExpandWordNet: Pronunciation 1 of sp is 'tee' word in /usr/local/bin//HVite
+ WARNING [-8232]  ExpandWordNet: Pronunciation 1 of sp is 'tee' word in /usr/local/bin//HVite
+sil sil sh uh r ssil y uw sp d r ao sp ey sp s er k ax l ssil ae n d sp ey sp s er k ax l sp ih z sp w ah t sp y uw sp g eh t sil sil  ==  [985 frames] -70.1855 [Ac=-69132.7 LM=0.0] (Act=11.7)
+Aligning File: /home/ali28729/Downloads/marytts/wiki/myvoice//htk//feat/s13.mfcc
+Created lattice with 42 nodes / 41 arcs from label file
+ WARNING [-8232]  ExpandWordNet: Pronunciation 1 of sp is 'tee' word in /usr/local/bin//HVite
+ WARNING [-8232]  ExpandWordNet: Pronunciation 1 of sp is 'tee' word in /usr/local/bin//HVite
+ WARNING [-8232]  ExpandWordNet: Pronunciation 1 of sp is 'tee' word in /usr/local/bin//HVite
+sil sil ih n t er m ih n ih s t iy r iy ax l sp ae n d sp ih n t er ey jh ax n s iy sp k ax m ih t iy z sil sil  ==  [911 frames] -68.5325 [Ac=-62433.1 LM=0.0] (Act=10.5)
+Aligning File: /home/ali28729/Downloads/marytts/wiki/myvoice//htk//feat/s14.mfcc
+Created lattice with 49 nodes / 48 arcs from label file
+ WARNING [-8232]  ExpandWordNet: Pronunciation 1 of sp is 'tee' word in /usr/local/bin//HVite
+ WARNING [-8232]  ExpandWordNet: Pronunciation 1 of sp is 'tee' word in /usr/local/bin//HVite
+ WARNING [-8232]  ExpandWordNet: Pronunciation 1 of sp is 'tee' word in /usr/local/bin//HVite
+ WARNING [-8232]  ExpandWordNet: Pronunciation 1 of sp is 'tee' word in /usr/local/bin//HVite
+ WARNING [-8232]  ExpandWordNet: Pronunciation 1 of sp is 'tee' word in /usr/local/bin//HVite
+ WARNING [-8232]  ExpandWordNet: Pronunciation 1 of sp is 'tee' word in /usr/local/bin//HVite
+ WARNING [-8232]  ExpandWordNet: Pronunciation 1 of sp is 'tee' word in /usr/local/bin//HVite
+ WARNING [-8232]  ExpandWordNet: Pronunciation 1 of sp is 'tee' word in /usr/local/bin//HVite
+ WARNING [-8232]  ExpandWordNet: Pronunciation 1 of sp is 'tee' word in /usr/local/bin//HVite
+sil sil hh iy sp w aa z sp w eh l sp n ow n sp f ao r sp k ih k ih ng sp k ih k aa f z sp th r uw sp dh ax sp ah p r ay t s sil sil  ==  [853 frames] -69.3785 [Ac=-59179.8 LM=0.0] (Act=12.3)
+Aligning File: /home/ali28729/Downloads/marytts/wiki/myvoice//htk//feat/s15.mfcc
+Created lattice with 47 nodes / 46 arcs from label file
+ WARNING [-8232]  ExpandWordNet: Pronunciation 1 of sp is 'tee' word in /usr/local/bin//HVite
+ WARNING [-8232]  ExpandWordNet: Pronunciation 1 of sp is 'tee' word in /usr/local/bin//HVite
+ WARNING [-8232]  ExpandWordNet: Pronunciation 1 of sp is 'tee' word in /usr/local/bin//HVite
+ WARNING [-8232]  ExpandWordNet: Pronunciation 1 of sp is 'tee' word in /usr/local/bin//HVite
+ WARNING [-8232]  ExpandWordNet: Pronunciation 1 of sp is 'tee' word in /usr/local/bin//HVite
+ WARNING [-8232]  ExpandWordNet: Pronunciation 1 of sp is 'tee' word in /usr/local/bin//HVite
+sil sil dh eh r sp m y uw z ih k sp ih z sp ih n sp dh ax sp ih l eh k t r ow ih n d ah s t r iy ax l sp zh aa n r ax sil sil  ==  [891 frames] -67.9637 [Ac=-60555.7 LM=0.0] (Act=11.4)
+Aligning File: /home/ali28729/Downloads/marytts/wiki/myvoice//htk//feat/s16.mfcc
+Created lattice with 50 nodes / 49 arcs from label file
+ WARNING [-8232]  ExpandWordNet: Pronunciation 1 of sp is 'tee' word in /usr/local/bin//HVite
+sil sil s eh n t r ax l ih z ey sh ax n ssil d ih s eh n t r ax l ih z ey sh ax n ssil ae n d sp f ao r m ax l ax z ey sh ax n sil sil  ==  [1005 frames] -69.2622 [Ac=-69608.5 LM=0.0] (Act=10.2)
+Aligning File: /home/ali28729/Downloads/marytts/wiki/myvoice//htk//feat/s17.mfcc
+Created lattice with 45 nodes / 44 arcs from label file
+ WARNING [-8232]  ExpandWordNet: Pronunciation 1 of sp is 'tee' word in /usr/local/bin//HVite
+ WARNING [-8232]  ExpandWordNet: Pronunciation 1 of sp is 'tee' word in /usr/local/bin//HVite
+ WARNING [-8232]  ExpandWordNet: Pronunciation 1 of sp is 'tee' word in /usr/local/bin//HVite
+ WARNING [-8232]  ExpandWordNet: Pronunciation 1 of sp is 'tee' word in /usr/local/bin//HVite
+ WARNING [-8232]  ExpandWordNet: Pronunciation 1 of sp is 'tee' word in /usr/local/bin//HVite
+sil sil b ih z n ax s sp l ih ng k ih jh ih z sp ae n d sp v ae l y uw sp ch ey n sp d ih v eh l ax p m ax n t sil sil  ==  [853 frames] -67.1336 [Ac=-57264.9 LM=0.0] (Act=11.5)
+Aligning File: /home/ali28729/Downloads/marytts/wiki/myvoice//htk//feat/s18.mfcc
+Created lattice with 50 nodes / 49 arcs from label file
+ WARNING [-8232]  ExpandWordNet: Pronunciation 1 of sp is 'tee' word in /usr/local/bin//HVite
+ WARNING [-8232]  ExpandWordNet: Pronunciation 1 of sp is 'tee' word in /usr/local/bin//HVite
+ WARNING [-8232]  ExpandWordNet: Pronunciation 1 of sp is 'tee' word in /usr/local/bin//HVite
+ WARNING [-8232]  ExpandWordNet: Pronunciation 1 of sp is 'tee' word in /usr/local/bin//HVite
+ WARNING [-8232]  ExpandWordNet: Pronunciation 1 of sp is 'tee' word in /usr/local/bin//HVite
+ WARNING [-8232]  ExpandWordNet: Pronunciation 1 of sp is 'tee' word in /usr/local/bin//HVite
+ WARNING [-8232]  ExpandWordNet: Pronunciation 1 of sp is 'tee' word in /usr/local/bin//HVite
+ WARNING [-8232]  ExpandWordNet: Pronunciation 1 of sp is 'tee' word in /usr/local/bin//HVite
+ WARNING [-8232]  ExpandWordNet: Pronunciation 1 of sp is 'tee' word in /usr/local/bin//HVite
+ WARNING [-8232]  ExpandWordNet: Pronunciation 1 of sp is 'tee' word in /usr/local/bin//HVite
+sil sil dh ax sp w ay t sp f er sp ao l s ow sp hh ae d sp ey sp m ao r sp d ih s t ih ng k t sp ae n d sp k er v d sp l ay n sil sil  ==  [1045 frames] -67.3271 [Ac=-70356.9 LM=0.0] (Act=12.3)
+Aligning File: /home/ali28729/Downloads/marytts/wiki/myvoice//htk//feat/s19.mfcc
+Created lattice with 49 nodes / 48 arcs from label file
+ WARNING [-8232]  ExpandWordNet: Pronunciation 1 of sp is 'tee' word in /usr/local/bin//HVite
+ WARNING [-8232]  ExpandWordNet: Pronunciation 1 of sp is 'tee' word in /usr/local/bin//HVite
+ WARNING [-8232]  ExpandWordNet: Pronunciation 1 of sp is 'tee' word in /usr/local/bin//HVite
+ WARNING [-8232]  ExpandWordNet: Pronunciation 1 of sp is 'tee' word in /usr/local/bin//HVite
+ WARNING [-8232]  ExpandWordNet: Pronunciation 1 of sp is 'tee' word in /usr/local/bin//HVite
+ WARNING [-8232]  ExpandWordNet: Pronunciation 1 of sp is 'tee' word in /usr/local/bin//HVite
+ WARNING [-8232]  ExpandWordNet: Pronunciation 1 of sp is 'tee' word in /usr/local/bin//HVite
+sil sil hh iy sp s ax k s eh s f ax l iy sp k ih l z sp d oy ssil w uw n d z sp ey sp g aa r d sp ae n d sp ih s k ey p s sil sil  ==  [971 frames] -70.9673 [Ac=-68909.3 LM=0.0] (Act=14.9)
+Aligning File: /home/ali28729/Downloads/marytts/wiki/myvoice//htk//feat/s20.mfcc
+Created lattice with 50 nodes / 49 arcs from label file
+ WARNING [-8232]  ExpandWordNet: Pronunciation 1 of sp is 'tee' word in /usr/local/bin//HVite
+ WARNING [-8232]  ExpandWordNet: Pronunciation 1 of sp is 'tee' word in /usr/local/bin//HVite
+ WARNING [-8232]  ExpandWordNet: Pronunciation 1 of sp is 'tee' word in /usr/local/bin//HVite
+ WARNING [-8232]  ExpandWordNet: Pronunciation 1 of sp is 'tee' word in /usr/local/bin//HVite
+ WARNING [-8232]  ExpandWordNet: Pronunciation 1 of sp is 'tee' word in /usr/local/bin//HVite
+ WARNING [-8232]  ExpandWordNet: Pronunciation 1 of sp is 'tee' word in /usr/local/bin//HVite
+ WARNING [-8232]  ExpandWordNet: Pronunciation 1 of sp is 'tee' word in /usr/local/bin//HVite
+ WARNING [-8232]  ExpandWordNet: Pronunciation 1 of sp is 'tee' word in /usr/local/bin//HVite
+ WARNING [-8232]  ExpandWordNet: Pronunciation 1 of sp is 'tee' word in /usr/local/bin//HVite
+sil sil ih f sp eh n iy w ah n sp w aa n t s sp t uw sp hh ih r sp m ay sp ay d iy ax z ssil f iy l sp f r iy sp t uw sp ae s k sil sil  ==  [1069 frames] -68.9888 [Ac=-73749.0 LM=0.0] (Act=12.2)
+Aligning File: /home/ali28729/Downloads/marytts/wiki/myvoice//htk//feat/s21.mfcc
+Created lattice with 77 nodes / 76 arcs from label file
+ WARNING [-8232]  ExpandWordNet: Pronunciation 1 of sp is 'tee' word in /usr/local/bin//HVite
+ WARNING [-8232]  ExpandWordNet: Pronunciation 1 of sp is 'tee' word in /usr/local/bin//HVite
+ WARNING [-8232]  ExpandWordNet: Pronunciation 1 of sp is 'tee' word in /usr/local/bin//HVite
+ WARNING [-8232]  ExpandWordNet: Pronunciation 1 of sp is 'tee' word in /usr/local/bin//HVite
+ WARNING [-8232]  ExpandWordNet: Pronunciation 1 of sp is 'tee' word in /usr/local/bin//HVite
+ WARNING [-8232]  ExpandWordNet: Pronunciation 1 of sp is 'tee' word in /usr/local/bin//HVite
+ WARNING [-8232]  ExpandWordNet: Pronunciation 1 of sp is 'tee' word in /usr/local/bin//HVite
+ WARNING [-8232]  ExpandWordNet: Pronunciation 1 of sp is 'tee' word in /usr/local/bin//HVite
+ WARNING [-8232]  ExpandWordNet: Pronunciation 1 of sp is 'tee' word in /usr/local/bin//HVite
+ WARNING [-8232]  ExpandWordNet: Pronunciation 1 of sp is 'tee' word in /usr/local/bin//HVite
+ WARNING [-8232]  ExpandWordNet: Pronunciation 1 of sp is 'tee' word in /usr/local/bin//HVite
+ WARNING [-8232]  ExpandWordNet: Pronunciation 1 of sp is 'tee' word in /usr/local/bin//HVite
+ WARNING [-8232]  ExpandWordNet: Pronunciation 1 of sp is 'tee' word in /usr/local/bin//HVite
+ WARNING [-8232]  ExpandWordNet: Pronunciation 1 of sp is 'tee' word in /usr/local/bin//HVite
+ WARNING [-8232]  ExpandWordNet: Pronunciation 1 of sp is 'tee' word in /usr/local/bin//HVite
+ WARNING [-8232]  ExpandWordNet: Pronunciation 1 of sp is 'tee' word in /usr/local/bin//HVite
+sil sil w eh n sp ey sp g er aa zh sp ih z sp ax t ae ch t sp t uw sp ey sp hh aw z ssil dh ax sp g er aa zh sp t ih p ax k l iy sp hh ae z sp ae n sp eh n t r iy sp d ao r sp ih n t uw sp dh ax sp hh aw z sil sil  ==  [1449 frames] -70.4368 [Ac=-102062.9 LM=0.0] (Act=14.8)
+Aligning File: /home/ali28729/Downloads/marytts/wiki/myvoice//htk//feat/s22.mfcc
+Created lattice with 101 nodes / 100 arcs from label file
+ WARNING [-8232]  ExpandWordNet: Pronunciation 1 of sp is 'tee' word in /usr/local/bin//HVite
+ WARNING [-8232]  ExpandWordNet: Pronunciation 1 of sp is 'tee' word in /usr/local/bin//HVite
+ WARNING [-8232]  ExpandWordNet: Pronunciation 1 of sp is 'tee' word in /usr/local/bin//HVite
+ WARNING [-8232]  ExpandWordNet: Pronunciation 1 of sp is 'tee' word in /usr/local/bin//HVite
+ WARNING [-8232]  ExpandWordNet: Pronunciation 1 of sp is 'tee' word in /usr/local/bin//HVite
+ WARNING [-8232]  ExpandWordNet: Pronunciation 1 of sp is 'tee' word in /usr/local/bin//HVite
+ WARNING [-8232]  ExpandWordNet: Pronunciation 1 of sp is 'tee' word in /usr/local/bin//HVite
+ WARNING [-8232]  ExpandWordNet: Pronunciation 1 of sp is 'tee' word in /usr/local/bin//HVite
+ WARNING [-8232]  ExpandWordNet: Pronunciation 1 of sp is 'tee' word in /usr/local/bin//HVite
+ WARNING [-8232]  ExpandWordNet: Pronunciation 1 of sp is 'tee' word in /usr/local/bin//HVite
+ WARNING [-8232]  ExpandWordNet: Pronunciation 1 of sp is 'tee' word in /usr/local/bin//HVite
+ WARNING [-8232]  ExpandWordNet: Pronunciation 1 of sp is 'tee' word in /usr/local/bin//HVite
+ WARNING [-8232]  ExpandWordNet: Pronunciation 1 of sp is 'tee' word in /usr/local/bin//HVite
+ WARNING [-8232]  ExpandWordNet: Pronunciation 1 of sp is 'tee' word in /usr/local/bin//HVite
+ WARNING [-8232]  ExpandWordNet: Pronunciation 1 of sp is 'tee' word in /usr/local/bin//HVite
+ WARNING [-8232]  ExpandWordNet: Pronunciation 1 of sp is 'tee' word in /usr/local/bin//HVite
+ WARNING [-8232]  ExpandWordNet: Pronunciation 1 of sp is 'tee' word in /usr/local/bin//HVite
+sil sil hh iy sp ao l r eh d iy sp hh ae d sp eh m f ay s m aa sp ae n d sp hh aa r t sp d ih z iy z ssil ae n d sp hh iy sp ae n d sp hh ih z sp d aa k t er z sp d ih s ay d ih d sp t uw sp f ao r g ow sp t r iy t m ax n t sp f ao r sp dh ax sp k ae n s er sil sil  ==  [1919 frames] -70.2212 [Ac=-134754.4 LM=0.0] (Act=13.7)
+Aligning File: /home/ali28729/Downloads/marytts/wiki/myvoice//htk//feat/s23.mfcc
+Created lattice with 49 nodes / 48 arcs from label file
+ WARNING [-8232]  ExpandWordNet: Pronunciation 1 of sp is 'tee' word in /usr/local/bin//HVite
+ WARNING [-8232]  ExpandWordNet: Pronunciation 1 of sp is 'tee' word in /usr/local/bin//HVite
+ WARNING [-8232]  ExpandWordNet: Pronunciation 1 of sp is 'tee' word in /usr/local/bin//HVite
+ WARNING [-8232]  ExpandWordNet: Pronunciation 1 of sp is 'tee' word in /usr/local/bin//HVite
+ WARNING [-8232]  ExpandWordNet: Pronunciation 1 of sp is 'tee' word in /usr/local/bin//HVite
+ WARNING [-8232]  ExpandWordNet: Pronunciation 1 of sp is 'tee' word in /usr/local/bin//HVite
+sil sil b ih g ih k w sp y uw z ih z sp ey sp m ah l t iy t eh n ax n t sp ax p r ow ch sp t uw sp m ae n ax jh m ax n t sil sil  ==  [1119 frames] -71.4793 [Ac=-79985.3 LM=0.0] (Act=14.3)
+Aligning File: /home/ali28729/Downloads/marytts/wiki/myvoice//htk//feat/s24.mfcc
+Created lattice with 52 nodes / 51 arcs from label file
+ WARNING [-8232]  ExpandWordNet: Pronunciation 1 of sp is 'tee' word in /usr/local/bin//HVite
+ WARNING [-8232]  ExpandWordNet: Pronunciation 1 of sp is 'tee' word in /usr/local/bin//HVite
+ WARNING [-8232]  ExpandWordNet: Pronunciation 1 of sp is 'tee' word in /usr/local/bin//HVite
+ WARNING [-8232]  ExpandWordNet: Pronunciation 1 of sp is 'tee' word in /usr/local/bin//HVite
+ WARNING [-8232]  ExpandWordNet: Pronunciation 1 of sp is 'tee' word in /usr/local/bin//HVite
+ WARNING [-8232]  ExpandWordNet: Pronunciation 1 of sp is 'tee' word in /usr/local/bin//HVite
+ WARNING [-8232]  ExpandWordNet: Pronunciation 1 of sp is 'tee' word in /usr/local/bin//HVite
+ WARNING [-8232]  ExpandWordNet: Pronunciation 1 of sp is 'tee' word in /usr/local/bin//HVite
+ WARNING [-8232]  ExpandWordNet: Pronunciation 1 of sp is 'tee' word in /usr/local/bin//HVite
+sil sil dh ax sp w ih z er d sp f ey v er d sp k l ae s sp w aa z sp ao l s ow sp ao l r eh d iy sp y uw z d sp b ay sp eh l v z sil sil  ==  [999 frames] -69.6822 [Ac=-69612.5 LM=0.0] (Act=13.5)
+Aligning File: /home/ali28729/Downloads/marytts/wiki/myvoice//htk//feat/s25.mfcc
+Created lattice with 54 nodes / 53 arcs from label file
+ WARNING [-8232]  ExpandWordNet: Pronunciation 1 of sp is 'tee' word in /usr/local/bin//HVite
+ WARNING [-8232]  ExpandWordNet: Pronunciation 1 of sp is 'tee' word in /usr/local/bin//HVite
+ WARNING [-8232]  ExpandWordNet: Pronunciation 1 of sp is 'tee' word in /usr/local/bin//HVite
+ WARNING [-8232]  ExpandWordNet: Pronunciation 1 of sp is 'tee' word in /usr/local/bin//HVite
+ WARNING [-8232]  ExpandWordNet: Pronunciation 1 of sp is 'tee' word in /usr/local/bin//HVite
+ WARNING [-8232]  ExpandWordNet: Pronunciation 1 of sp is 'tee' word in /usr/local/bin//HVite
+ WARNING [-8232]  ExpandWordNet: Pronunciation 1 of sp is 'tee' word in /usr/local/bin//HVite
+ WARNING [-8232]  ExpandWordNet: Pronunciation 1 of sp is 'tee' word in /usr/local/bin//HVite
+ WARNING [-8232]  ExpandWordNet: Pronunciation 1 of sp is 'tee' word in /usr/local/bin//HVite
+sil sil f ae n t ae s t ih k sp aa r t sp ih z sp ey sp b r ao d sp ae n d sp l uw s l iy sp d ih f ay n d sp aa r t sp zh aa n r ax sil sil  ==  [1137 frames] -69.1377 [Ac=-78609.6 LM=0.0] (Act=12.0)
+Aligning File: /home/ali28729/Downloads/marytts/wiki/myvoice//htk//feat/s26.mfcc
+Created lattice with 70 nodes / 69 arcs from label file
+ WARNING [-8232]  ExpandWordNet: Pronunciation 1 of sp is 'tee' word in /usr/local/bin//HVite
+ WARNING [-8232]  ExpandWordNet: Pronunciation 1 of sp is 'tee' word in /usr/local/bin//HVite
+ WARNING [-8232]  ExpandWordNet: Pronunciation 1 of sp is 'tee' word in /usr/local/bin//HVite
+ WARNING [-8232]  ExpandWordNet: Pronunciation 1 of sp is 'tee' word in /usr/local/bin//HVite
+ WARNING [-8232]  ExpandWordNet: Pronunciation 1 of sp is 'tee' word in /usr/local/bin//HVite
+ WARNING [-8232]  ExpandWordNet: Pronunciation 1 of sp is 'tee' word in /usr/local/bin//HVite
+ WARNING [-8232]  ExpandWordNet: Pronunciation 1 of sp is 'tee' word in /usr/local/bin//HVite
+ WARNING [-8232]  ExpandWordNet: Pronunciation 1 of sp is 'tee' word in /usr/local/bin//HVite
+ WARNING [-8232]  ExpandWordNet: Pronunciation 1 of sp is 'tee' word in /usr/local/bin//HVite
+ WARNING [-8232]  ExpandWordNet: Pronunciation 1 of sp is 'tee' word in /usr/local/bin//HVite
+ WARNING [-8232]  ExpandWordNet: Pronunciation 1 of sp is 'tee' word in /usr/local/bin//HVite
+ WARNING [-8232]  ExpandWordNet: Pronunciation 1 of sp is 'tee' word in /usr/local/bin//HVite
+ WARNING [-8232]  ExpandWordNet: Pronunciation 1 of sp is 'tee' word in /usr/local/bin//HVite
+sil sil f ao r t ey sp hh ae z sp b ih n sp w er k ih ng sp w ih dh sp ae t r ih s k sp y uw th sp t uw sp d ih t er sp dh eh m sp f r ah m sp d r ah g z sp ae n d sp k r ay m sil sil  ==  [1329 frames] -69.3379 [Ac=-92150.1 LM=0.0] (Act=12.0)
+Aligning File: /home/ali28729/Downloads/marytts/wiki/myvoice//htk//feat/s27.mfcc
+Created lattice with 53 nodes / 52 arcs from label file
+ WARNING [-8232]  ExpandWordNet: Pronunciation 1 of sp is 'tee' word in /usr/local/bin//HVite
+ WARNING [-8232]  ExpandWordNet: Pronunciation 1 of sp is 'tee' word in /usr/local/bin//HVite
+ WARNING [-8232]  ExpandWordNet: Pronunciation 1 of sp is 'tee' word in /usr/local/bin//HVite
+ WARNING [-8232]  ExpandWordNet: Pronunciation 1 of sp is 'tee' word in /usr/local/bin//HVite
+ WARNING [-8232]  ExpandWordNet: Pronunciation 1 of sp is 'tee' word in /usr/local/bin//HVite
+ WARNING [-8232]  ExpandWordNet: Pronunciation 1 of sp is 'tee' word in /usr/local/bin//HVite
+ WARNING [-8232]  ExpandWordNet: Pronunciation 1 of sp is 'tee' word in /usr/local/bin//HVite
+sil sil th aw z ax n d z sp w er sp ih n aa k y ax l ey t ih d sp f ao r sp t ay f oy d sp f iy v er sp ae n d sp t eh t ax n ax s sil sil  ==  [1075 frames] -69.5621 [Ac=-74779.3 LM=0.0] (Act=11.5)
+Aligning File: /home/ali28729/Downloads/marytts/wiki/myvoice//htk//feat/s28.mfcc
+Created lattice with 58 nodes / 57 arcs from label file
+ WARNING [-8232]  ExpandWordNet: Pronunciation 1 of sp is 'tee' word in /usr/local/bin//HVite
+ WARNING [-8232]  ExpandWordNet: Pronunciation 1 of sp is 'tee' word in /usr/local/bin//HVite
+ WARNING [-8232]  ExpandWordNet: Pronunciation 1 of sp is 'tee' word in /usr/local/bin//HVite
+ WARNING [-8232]  ExpandWordNet: Pronunciation 1 of sp is 'tee' word in /usr/local/bin//HVite
+ WARNING [-8232]  ExpandWordNet: Pronunciation 1 of sp is 'tee' word in /usr/local/bin//HVite
+ WARNING [-8232]  ExpandWordNet: Pronunciation 1 of sp is 'tee' word in /usr/local/bin//HVite
+ WARNING [-8232]  ExpandWordNet: Pronunciation 1 of sp is 'tee' word in /usr/local/bin//HVite
+ WARNING [-8232]  ExpandWordNet: Pronunciation 1 of sp is 'tee' word in /usr/local/bin//HVite
+ WARNING [-8232]  ExpandWordNet: Pronunciation 1 of sp is 'tee' word in /usr/local/bin//HVite
+ WARNING [-8232]  ExpandWordNet: Pronunciation 1 of sp is 'tee' word in /usr/local/bin//HVite
+sil sil hh iy sp m uw v d sp dh eh n sp t uw sp dh ax sp k ah n t r iy s ay d ssil t uw sp v l ih v sp w ih dh sp hh ih z sp b r ah dh er sp l uw iy s sil sil  ==  [951 frames] -69.5043 [Ac=-66098.6 LM=0.0] (Act=13.0)
+Aligning File: /home/ali28729/Downloads/marytts/wiki/myvoice//htk//feat/s29.mfcc
+Created lattice with 64 nodes / 63 arcs from label file
+ WARNING [-8232]  ExpandWordNet: Pronunciation 1 of sp is 'tee' word in /usr/local/bin//HVite
+ WARNING [-8232]  ExpandWordNet: Pronunciation 1 of sp is 'tee' word in /usr/local/bin//HVite
+ WARNING [-8232]  ExpandWordNet: Pronunciation 1 of sp is 'tee' word in /usr/local/bin//HVite
+ WARNING [-8232]  ExpandWordNet: Pronunciation 1 of sp is 'tee' word in /usr/local/bin//HVite
+ WARNING [-8232]  ExpandWordNet: Pronunciation 1 of sp is 'tee' word in /usr/local/bin//HVite
+ WARNING [-8232]  ExpandWordNet: Pronunciation 1 of sp is 'tee' word in /usr/local/bin//HVite
+ WARNING [-8232]  ExpandWordNet: Pronunciation 1 of sp is 'tee' word in /usr/local/bin//HVite
+ WARNING [-8232]  ExpandWordNet: Pronunciation 1 of sp is 'tee' word in /usr/local/bin//HVite
+ WARNING [-8232]  ExpandWordNet: Pronunciation 1 of sp is 'tee' word in /usr/local/bin//HVite
+ WARNING [-8232]  ExpandWordNet: Pronunciation 1 of sp is 'tee' word in /usr/local/bin//HVite
+sil sil dh ax sp f aa dh er sp t eh l z sp hh er sp dh ae t sp s uw y eh ax n sp ih z sp d eh d ssil b ih w ih l d er ih ng sp dh ax sp d ih s t r eh s t sp s uw m iy sil sil  ==  [1415 frames] -68.8187 [Ac=-97378.4 LM=0.0] (Act=11.8)
+Aligning File: /home/ali28729/Downloads/marytts/wiki/myvoice//htk//feat/s30.mfcc
+Created lattice with 55 nodes / 54 arcs from label file
+ WARNING [-8232]  ExpandWordNet: Pronunciation 1 of sp is 'tee' word in /usr/local/bin//HVite
+ WARNING [-8232]  ExpandWordNet: Pronunciation 1 of sp is 'tee' word in /usr/local/bin//HVite
+ WARNING [-8232]  ExpandWordNet: Pronunciation 1 of sp is 'tee' word in /usr/local/bin//HVite
+ WARNING [-8232]  ExpandWordNet: Pronunciation 1 of sp is 'tee' word in /usr/local/bin//HVite
+ WARNING [-8232]  ExpandWordNet: Pronunciation 1 of sp is 'tee' word in /usr/local/bin//HVite
+ WARNING [-8232]  ExpandWordNet: Pronunciation 1 of sp is 'tee' word in /usr/local/bin//HVite
+ WARNING [-8232]  ExpandWordNet: Pronunciation 1 of sp is 'tee' word in /usr/local/bin//HVite
+sil sil v ih z ax b ax l sp ih n sp dh ih s sp d ih s ao r d er sp aa r sp l aa r jh sp m eh g ax n eh er r ay t sp f ao r m ey sh ax n z sil sil  ==  [1049 frames] -68.2792 [Ac=-71624.9 LM=0.0] (Act=12.9)
+Aligning File: /home/ali28729/Downloads/marytts/wiki/myvoice//htk//feat/s31.mfcc
+Created lattice with 58 nodes / 57 arcs from label file
+ WARNING [-8232]  ExpandWordNet: Pronunciation 1 of sp is 'tee' word in /usr/local/bin//HVite
+ WARNING [-8232]  ExpandWordNet: Pronunciation 1 of sp is 'tee' word in /usr/local/bin//HVite
+ WARNING [-8232]  ExpandWordNet: Pronunciation 1 of sp is 'tee' word in /usr/local/bin//HVite
+ WARNING [-8232]  ExpandWordNet: Pronunciation 1 of sp is 'tee' word in /usr/local/bin//HVite
+ WARNING [-8232]  ExpandWordNet: Pronunciation 1 of sp is 'tee' word in /usr/local/bin//HVite
+ WARNING [-8232]  ExpandWordNet: Pronunciation 1 of sp is 'tee' word in /usr/local/bin//HVite
+ WARNING [-8232]  ExpandWordNet: Pronunciation 1 of sp is 'tee' word in /usr/local/bin//HVite
+ WARNING [-8232]  ExpandWordNet: Pronunciation 1 of sp is 'tee' word in /usr/local/bin//HVite
+ WARNING [-8232]  ExpandWordNet: Pronunciation 1 of sp is 'tee' word in /usr/local/bin//HVite
+ WARNING [-8232]  ExpandWordNet: Pronunciation 1 of sp is 'tee' word in /usr/local/bin//HVite
+sil sil hh ih z sp t r ay aw t sp w aa z sp s ax k s eh s f ax l sp ae n d sp hh iy sp w aa z sp ae k s eh p t ih d sp ae z sp ey sp t r ey n iy sil sil  ==  [1091 frames] -71.0056 [Ac=-77467.2 LM=0.0] (Act=12.7)
+Aligning File: /home/ali28729/Downloads/marytts/wiki/myvoice//htk//feat/s32.mfcc
+Created lattice with 58 nodes / 57 arcs from label file
+ WARNING [-8232]  ExpandWordNet: Pronunciation 1 of sp is 'tee' word in /usr/local/bin//HVite
+ WARNING [-8232]  ExpandWordNet: Pronunciation 1 of sp is 'tee' word in /usr/local/bin//HVite
+ WARNING [-8232]  ExpandWordNet: Pronunciation 1 of sp is 'tee' word in /usr/local/bin//HVite
+ WARNING [-8232]  ExpandWordNet: Pronunciation 1 of sp is 'tee' word in /usr/local/bin//HVite
+ WARNING [-8232]  ExpandWordNet: Pronunciation 1 of sp is 'tee' word in /usr/local/bin//HVite
+ WARNING [-8232]  ExpandWordNet: Pronunciation 1 of sp is 'tee' word in /usr/local/bin//HVite
+ WARNING [-8232]  ExpandWordNet: Pronunciation 1 of sp is 'tee' word in /usr/local/bin//HVite
+ WARNING [-8232]  ExpandWordNet: Pronunciation 1 of sp is 'tee' word in /usr/local/bin//HVite
+ WARNING [-8232]  ExpandWordNet: Pronunciation 1 of sp is 'tee' word in /usr/local/bin//HVite
+ WARNING [-8232]  ExpandWordNet: Pronunciation 1 of sp is 'tee' word in /usr/local/bin//HVite
+sil sil dh ih s sp s t ae n d sp w aa z sp ao l s ow sp n ey m d sp ae f t er sp ey sp f ao r m er sp ch eh r m ax n sp d eh sp w ih l y ax m z sil sil  ==  [1243 frames] -69.4795 [Ac=-86363.0 LM=0.0] (Act=11.8)
+Aligning File: /home/ali28729/Downloads/marytts/wiki/myvoice//htk//feat/s33.mfcc
+Created lattice with 58 nodes / 57 arcs from label file
+ WARNING [-8232]  ExpandWordNet: Pronunciation 1 of sp is 'tee' word in /usr/local/bin//HVite
+ WARNING [-8232]  ExpandWordNet: Pronunciation 1 of sp is 'tee' word in /usr/local/bin//HVite
+ WARNING [-8232]  ExpandWordNet: Pronunciation 1 of sp is 'tee' word in /usr/local/bin//HVite
+ WARNING [-8232]  ExpandWordNet: Pronunciation 1 of sp is 'tee' word in /usr/local/bin//HVite
+ WARNING [-8232]  ExpandWordNet: Pronunciation 1 of sp is 'tee' word in /usr/local/bin//HVite
+ WARNING [-8232]  ExpandWordNet: Pronunciation 1 of sp is 'tee' word in /usr/local/bin//HVite
+ WARNING [-8232]  ExpandWordNet: Pronunciation 1 of sp is 'tee' word in /usr/local/bin//HVite
+ WARNING [-8232]  ExpandWordNet: Pronunciation 1 of sp is 'tee' word in /usr/local/bin//HVite
+ WARNING [-8232]  ExpandWordNet: Pronunciation 1 of sp is 'tee' word in /usr/local/bin//HVite
+ WARNING [-8232]  ExpandWordNet: Pronunciation 1 of sp is 'tee' word in /usr/local/bin//HVite
+sil sil dh ax sp s eh r ax m ow n iy sp w aa z sp f aa l ow d sp b ay sp ey sp t r iy uw m f ax l sp eh n t r iy sp ih n t uw sp dh ax sp s ih t iy sil sil  ==  [1129 frames] -69.3942 [Ac=-78346.1 LM=0.0] (Act=12.1)
+Aligning File: /home/ali28729/Downloads/marytts/wiki/myvoice//htk//feat/s34.mfcc
+Created lattice with 40 nodes / 39 arcs from label file
+ WARNING [-8232]  ExpandWordNet: Pronunciation 1 of sp is 'tee' word in /usr/local/bin//HVite
+ WARNING [-8232]  ExpandWordNet: Pronunciation 1 of sp is 'tee' word in /usr/local/bin//HVite
+ WARNING [-8232]  ExpandWordNet: Pronunciation 1 of sp is 'tee' word in /usr/local/bin//HVite
+ WARNING [-8232]  ExpandWordNet: Pronunciation 1 of sp is 'tee' word in /usr/local/bin//HVite
+ WARNING [-8232]  ExpandWordNet: Pronunciation 1 of sp is 'tee' word in /usr/local/bin//HVite
+sil sil dh ih s sp ao l s ow sp y uw z ih z sp m ae k sp ae d r eh s sp ao th eh n t ax k ey sh ax n sil sil  ==  [845 frames] -68.9521 [Ac=-58264.6 LM=0.0] (Act=9.9)
+Aligning File: /home/ali28729/Downloads/marytts/wiki/myvoice//htk//feat/s35.mfcc
+Created lattice with 58 nodes / 57 arcs from label file
+ WARNING [-8232]  ExpandWordNet: Pronunciation 1 of sp is 'tee' word in /usr/local/bin//HVite
+ WARNING [-8232]  ExpandWordNet: Pronunciation 1 of sp is 'tee' word in /usr/local/bin//HVite
+ WARNING [-8232]  ExpandWordNet: Pronunciation 1 of sp is 'tee' word in /usr/local/bin//HVite
+ WARNING [-8232]  ExpandWordNet: Pronunciation 1 of sp is 'tee' word in /usr/local/bin//HVite
+ WARNING [-8232]  ExpandWordNet: Pronunciation 1 of sp is 'tee' word in /usr/local/bin//HVite
+ WARNING [-8232]  ExpandWordNet: Pronunciation 1 of sp is 'tee' word in /usr/local/bin//HVite
+ WARNING [-8232]  ExpandWordNet: Pronunciation 1 of sp is 'tee' word in /usr/local/bin//HVite
+ WARNING [-8232]  ExpandWordNet: Pronunciation 1 of sp is 'tee' word in /usr/local/bin//HVite
+ WARNING [-8232]  ExpandWordNet: Pronunciation 1 of sp is 'tee' word in /usr/local/bin//HVite
+sil sil dh ax sp k ax n ey d iy ax n sp f ao r s ih z sp hh ae v sp ao l s ow sp ih s t ae b l ih sh t sp ey sp d r aa p sp z ow n sp n ih r b ay sil sil  ==  [1047 frames] -70.9606 [Ac=-74295.8 LM=0.0] (Act=11.7)
+Aligning File: /home/ali28729/Downloads/marytts/wiki/myvoice//htk//feat/s36.mfcc
+Created lattice with 59 nodes / 58 arcs from label file
+ WARNING [-8232]  ExpandWordNet: Pronunciation 1 of sp is 'tee' word in /usr/local/bin//HVite
+ WARNING [-8232]  ExpandWordNet: Pronunciation 1 of sp is 'tee' word in /usr/local/bin//HVite
+ WARNING [-8232]  ExpandWordNet: Pronunciation 1 of sp is 'tee' word in /usr/local/bin//HVite
+ WARNING [-8232]  ExpandWordNet: Pronunciation 1 of sp is 'tee' word in /usr/local/bin//HVite
+ WARNING [-8232]  ExpandWordNet: Pronunciation 1 of sp is 'tee' word in /usr/local/bin//HVite
+ WARNING [-8232]  ExpandWordNet: Pronunciation 1 of sp is 'tee' word in /usr/local/bin//HVite
+ WARNING [-8232]  ExpandWordNet: Pronunciation 1 of sp is 'tee' word in /usr/local/bin//HVite
+ WARNING [-8232]  ExpandWordNet: Pronunciation 1 of sp is 'tee' word in /usr/local/bin//HVite
+ WARNING [-8232]  ExpandWordNet: Pronunciation 1 of sp is 'tee' word in /usr/local/bin//HVite
+ WARNING [-8232]  ExpandWordNet: Pronunciation 1 of sp is 'tee' word in /usr/local/bin//HVite
+ WARNING [-8232]  ExpandWordNet: Pronunciation 1 of sp is 'tee' word in /usr/local/bin//HVite
+sil sil dh ax sp eh r k r ae f t sp w aa z sp d ih z ay n d sp t uw sp k ae r iy sp ae n d sp d ih p l oy sp ah p sp t uw sp f ao r sp d r ow n z sil sil  ==  [1041 frames] -70.4358 [Ac=-73323.7 LM=0.0] (Act=12.1)
+Aligning File: /home/ali28729/Downloads/marytts/wiki/myvoice//htk//feat/s37.mfcc
+Created lattice with 41 nodes / 40 arcs from label file
+ WARNING [-8232]  ExpandWordNet: Pronunciation 1 of sp is 'tee' word in /usr/local/bin//HVite
+ WARNING [-8232]  ExpandWordNet: Pronunciation 1 of sp is 'tee' word in /usr/local/bin//HVite
+ WARNING [-8232]  ExpandWordNet: Pronunciation 1 of sp is 'tee' word in /usr/local/bin//HVite
+ WARNING [-8232]  ExpandWordNet: Pronunciation 1 of sp is 'tee' word in /usr/local/bin//HVite
+ WARNING [-8232]  ExpandWordNet: Pronunciation 1 of sp is 'tee' word in /usr/local/bin//HVite
+ WARNING [-8232]  ExpandWordNet: Pronunciation 1 of sp is 'tee' word in /usr/local/bin//HVite
+sil sil jh uw l iy ax n sp w aa z sp ao l s ow sp ey sp l aa r jh l iy sp v ax b s eh n t sp f aa dh er sil sil  ==  [859 frames] -67.8774 [Ac=-58306.7 LM=0.0] (Act=11.2)
+Aligning File: /home/ali28729/Downloads/marytts/wiki/myvoice//htk//feat/s38.mfcc
+Created lattice with 63 nodes / 62 arcs from label file
+ WARNING [-8232]  ExpandWordNet: Pronunciation 1 of sp is 'tee' word in /usr/local/bin//HVite
+ WARNING [-8232]  ExpandWordNet: Pronunciation 1 of sp is 'tee' word in /usr/local/bin//HVite
+ WARNING [-8232]  ExpandWordNet: Pronunciation 1 of sp is 'tee' word in /usr/local/bin//HVite
+ WARNING [-8232]  ExpandWordNet: Pronunciation 1 of sp is 'tee' word in /usr/local/bin//HVite
+ WARNING [-8232]  ExpandWordNet: Pronunciation 1 of sp is 'tee' word in /usr/local/bin//HVite
+ WARNING [-8232]  ExpandWordNet: Pronunciation 1 of sp is 'tee' word in /usr/local/bin//HVite
+ WARNING [-8232]  ExpandWordNet: Pronunciation 1 of sp is 'tee' word in /usr/local/bin//HVite
+ WARNING [-8232]  ExpandWordNet: Pronunciation 1 of sp is 'tee' word in /usr/local/bin//HVite
+ WARNING [-8232]  ExpandWordNet: Pronunciation 1 of sp is 'tee' word in /usr/local/bin//HVite
+ WARNING [-8232]  ExpandWordNet: Pronunciation 1 of sp is 'tee' word in /usr/local/bin//HVite
+ WARNING [-8232]  ExpandWordNet: Pronunciation 1 of sp is 'tee' word in /usr/local/bin//HVite
+ WARNING [-8232]  ExpandWordNet: Pronunciation 1 of sp is 'tee' word in /usr/local/bin//HVite
+sil sil dh ax sp v ih k t er iy sp ae t sp dh ax sp eh n d sp ih z sp d aw n b iy t ssil ae n d sp dh eh r sp ih z sp ae n sp ih n d ih f er ax n s sp t uw sp ih t sil sil  ==  [1041 frames] -68.9896 [Ac=-71818.2 LM=0.0] (Act=14.0)
+Aligning File: /home/ali28729/Downloads/marytts/wiki/myvoice//htk//feat/s39.mfcc
+Created lattice with 64 nodes / 63 arcs from label file
+ WARNING [-8232]  ExpandWordNet: Pronunciation 1 of sp is 'tee' word in /usr/local/bin//HVite
+ WARNING [-8232]  ExpandWordNet: Pronunciation 1 of sp is 'tee' word in /usr/local/bin//HVite
+ WARNING [-8232]  ExpandWordNet: Pronunciation 1 of sp is 'tee' word in /usr/local/bin//HVite
+ WARNING [-8232]  ExpandWordNet: Pronunciation 1 of sp is 'tee' word in /usr/local/bin//HVite
+ WARNING [-8232]  ExpandWordNet: Pronunciation 1 of sp is 'tee' word in /usr/local/bin//HVite
+ WARNING [-8232]  ExpandWordNet: Pronunciation 1 of sp is 'tee' word in /usr/local/bin//HVite
+ WARNING [-8232]  ExpandWordNet: Pronunciation 1 of sp is 'tee' word in /usr/local/bin//HVite
+ WARNING [-8232]  ExpandWordNet: Pronunciation 1 of sp is 'tee' word in /usr/local/bin//HVite
+ WARNING [-8232]  ExpandWordNet: Pronunciation 1 of sp is 'tee' word in /usr/local/bin//HVite
+ WARNING [-8232]  ExpandWordNet: Pronunciation 1 of sp is 'tee' word in /usr/local/bin//HVite
+ WARNING [-8232]  ExpandWordNet: Pronunciation 1 of sp is 'tee' word in /usr/local/bin//HVite
+ WARNING [-8232]  ExpandWordNet: Pronunciation 1 of sp is 'tee' word in /usr/local/bin//HVite
+sil sil ae n d sp ih z sp dh eh r sp eh n iy sp t r uw th sp t uw sp dh ax sp ay d iy ax sp dh ae t sp k uh k ih ng sp k ae n sp d ih s t r oy sp v ay t ax m ax n z sil sil  ==  [1093 frames] -69.0274 [Ac=-75447.0 LM=0.0] (Act=13.2)
+Aligning File: /home/ali28729/Downloads/marytts/wiki/myvoice//htk//feat/s40.mfcc
+Created lattice with 40 nodes / 39 arcs from label file
+ WARNING [-8232]  ExpandWordNet: Pronunciation 1 of sp is 'tee' word in /usr/local/bin//HVite
+ WARNING [-8232]  ExpandWordNet: Pronunciation 1 of sp is 'tee' word in /usr/local/bin//HVite
+ WARNING [-8232]  ExpandWordNet: Pronunciation 1 of sp is 'tee' word in /usr/local/bin//HVite
+ WARNING [-8232]  ExpandWordNet: Pronunciation 1 of sp is 'tee' word in /usr/local/bin//HVite
+ WARNING [-8232]  ExpandWordNet: Pronunciation 1 of sp is 'tee' word in /usr/local/bin//HVite
+ WARNING [-8232]  ExpandWordNet: Pronunciation 1 of sp is 'tee' word in /usr/local/bin//HVite
+sil sil dh ey sp k l ey m sp d ih s eh n t sp f r ah m sp dh ax sp f uw jh iy w aa r ax sp k l ae n sil sil  ==  [833 frames] -67.4803 [Ac=-56211.1 LM=0.0] (Act=11.0)
+Aligning File: /home/ali28729/Downloads/marytts/wiki/myvoice//htk//feat/s41.mfcc
+Created lattice with 66 nodes / 65 arcs from label file
+ WARNING [-8232]  ExpandWordNet: Pronunciation 1 of sp is 'tee' word in /usr/local/bin//HVite
+ WARNING [-8232]  ExpandWordNet: Pronunciation 1 of sp is 'tee' word in /usr/local/bin//HVite
+ WARNING [-8232]  ExpandWordNet: Pronunciation 1 of sp is 'tee' word in /usr/local/bin//HVite
+ WARNING [-8232]  ExpandWordNet: Pronunciation 1 of sp is 'tee' word in /usr/local/bin//HVite
+ WARNING [-8232]  ExpandWordNet: Pronunciation 1 of sp is 'tee' word in /usr/local/bin//HVite
+ WARNING [-8232]  ExpandWordNet: Pronunciation 1 of sp is 'tee' word in /usr/local/bin//HVite
+ WARNING [-8232]  ExpandWordNet: Pronunciation 1 of sp is 'tee' word in /usr/local/bin//HVite
+ WARNING [-8232]  ExpandWordNet: Pronunciation 1 of sp is 'tee' word in /usr/local/bin//HVite
+ WARNING [-8232]  ExpandWordNet: Pronunciation 1 of sp is 'tee' word in /usr/local/bin//HVite
+ WARNING [-8232]  ExpandWordNet: Pronunciation 1 of sp is 'tee' word in /usr/local/bin//HVite
+ WARNING [-8232]  ExpandWordNet: Pronunciation 1 of sp is 'tee' word in /usr/local/bin//HVite
+sil sil ae z sp ey sp f ey v er ssil hh iy sp b ih k ah m z sp ey sp t eh m p er eh r iy sp sh ow f er sp f ao r sp dh ax sp w eh l th iy sp b ih l ih ng z sp f ae m ax l iy sil sil  ==  [1163 frames] -67.2885 [Ac=-78256.5 LM=0.0] (Act=12.2)
+Aligning File: /home/ali28729/Downloads/marytts/wiki/myvoice//htk//feat/s42.mfcc
+Created lattice with 66 nodes / 65 arcs from label file
+ WARNING [-8232]  ExpandWordNet: Pronunciation 1 of sp is 'tee' word in /usr/local/bin//HVite
+ WARNING [-8232]  ExpandWordNet: Pronunciation 1 of sp is 'tee' word in /usr/local/bin//HVite
+ WARNING [-8232]  ExpandWordNet: Pronunciation 1 of sp is 'tee' word in /usr/local/bin//HVite
+ WARNING [-8232]  ExpandWordNet: Pronunciation 1 of sp is 'tee' word in /usr/local/bin//HVite
+ WARNING [-8232]  ExpandWordNet: Pronunciation 1 of sp is 'tee' word in /usr/local/bin//HVite
+ WARNING [-8232]  ExpandWordNet: Pronunciation 1 of sp is 'tee' word in /usr/local/bin//HVite
+ WARNING [-8232]  ExpandWordNet: Pronunciation 1 of sp is 'tee' word in /usr/local/bin//HVite
+ WARNING [-8232]  ExpandWordNet: Pronunciation 1 of sp is 'tee' word in /usr/local/bin//HVite
+ WARNING [-8232]  ExpandWordNet: Pronunciation 1 of sp is 'tee' word in /usr/local/bin//HVite
+ WARNING [-8232]  ExpandWordNet: Pronunciation 1 of sp is 'tee' word in /usr/local/bin//HVite
+ WARNING [-8232]  ExpandWordNet: Pronunciation 1 of sp is 'tee' word in /usr/local/bin//HVite
+sil sil dh ax sp m ao l sp ao l s ow sp f iy ch er z sp ey sp l aa r jh sp aa r k ey d sp ih n sp dh ax sp b ey s m ax n t ssil k ao l d sp aa r k ey d sp l eh g ax s iy sil sil  ==  [1249 frames] -69.7361 [Ac=-87100.3 LM=0.0] (Act=11.6)
+Aligning File: /home/ali28729/Downloads/marytts/wiki/myvoice//htk//feat/s43.mfcc
+Created lattice with 45 nodes / 44 arcs from label file
+ WARNING [-8232]  ExpandWordNet: Pronunciation 1 of sp is 'tee' word in /usr/local/bin//HVite
+ WARNING [-8232]  ExpandWordNet: Pronunciation 1 of sp is 'tee' word in /usr/local/bin//HVite
+ WARNING [-8232]  ExpandWordNet: Pronunciation 1 of sp is 'tee' word in /usr/local/bin//HVite
+ WARNING [-8232]  ExpandWordNet: Pronunciation 1 of sp is 'tee' word in /usr/local/bin//HVite
+ WARNING [-8232]  ExpandWordNet: Pronunciation 1 of sp is 'tee' word in /usr/local/bin//HVite
+ WARNING [-8232]  ExpandWordNet: Pronunciation 1 of sp is 'tee' word in /usr/local/bin//HVite
+ WARNING [-8232]  ExpandWordNet: Pronunciation 1 of sp is 'tee' word in /usr/local/bin//HVite
+sil sil eh m p er er sp w eh n sp aa n er d sp eh m p r eh s sp zh ae ng sp ae z sp eh m p r eh s sp d aw ax jh er sil sil  ==  [1175 frames] -70.4845 [Ac=-82819.3 LM=0.0] (Act=12.0)
+Aligning File: /home/ali28729/Downloads/marytts/wiki/myvoice//htk//feat/s44.mfcc
+Created lattice with 69 nodes / 68 arcs from label file
+ WARNING [-8232]  ExpandWordNet: Pronunciation 1 of sp is 'tee' word in /usr/local/bin//HVite
+ WARNING [-8232]  ExpandWordNet: Pronunciation 1 of sp is 'tee' word in /usr/local/bin//HVite
+ WARNING [-8232]  ExpandWordNet: Pronunciation 1 of sp is 'tee' word in /usr/local/bin//HVite
+ WARNING [-8232]  ExpandWordNet: Pronunciation 1 of sp is 'tee' word in /usr/local/bin//HVite
+ WARNING [-8232]  ExpandWordNet: Pronunciation 1 of sp is 'tee' word in /usr/local/bin//HVite
+ WARNING [-8232]  ExpandWordNet: Pronunciation 1 of sp is 'tee' word in /usr/local/bin//HVite
+ WARNING [-8232]  ExpandWordNet: Pronunciation 1 of sp is 'tee' word in /usr/local/bin//HVite
+ WARNING [-8232]  ExpandWordNet: Pronunciation 1 of sp is 'tee' word in /usr/local/bin//HVite
+ WARNING [-8232]  ExpandWordNet: Pronunciation 1 of sp is 'tee' word in /usr/local/bin//HVite
+ WARNING [-8232]  ExpandWordNet: Pronunciation 1 of sp is 'tee' word in /usr/local/bin//HVite
+sil sil w eh n sp s t ah d iy ih ng sp ih n sp jh ax p ae n ssil hh iy sp b ih k ey m sp ax k w ey n t ax d sp w ih dh sp f eh l ow sp s t uw d ax n t sp ch ae ng sp k ay sh ih k sil sil  ==  [1497 frames] -71.2557 [Ac=-106669.7 LM=0.0] (Act=12.7)
+Aligning File: /home/ali28729/Downloads/marytts/wiki/myvoice//htk//feat/s45.mfcc
+Created lattice with 62 nodes / 61 arcs from label file
+ WARNING [-8232]  ExpandWordNet: Pronunciation 1 of sp is 'tee' word in /usr/local/bin//HVite
+ WARNING [-8232]  ExpandWordNet: Pronunciation 1 of sp is 'tee' word in /usr/local/bin//HVite
+ WARNING [-8232]  ExpandWordNet: Pronunciation 1 of sp is 'tee' word in /usr/local/bin//HVite
+ WARNING [-8232]  ExpandWordNet: Pronunciation 1 of sp is 'tee' word in /usr/local/bin//HVite
+ WARNING [-8232]  ExpandWordNet: Pronunciation 1 of sp is 'tee' word in /usr/local/bin//HVite
+ WARNING [-8232]  ExpandWordNet: Pronunciation 1 of sp is 'tee' word in /usr/local/bin//HVite
+ WARNING [-8232]  ExpandWordNet: Pronunciation 1 of sp is 'tee' word in /usr/local/bin//HVite
+ WARNING [-8232]  ExpandWordNet: Pronunciation 1 of sp is 'tee' word in /usr/local/bin//HVite
+sil sil ao l t er n ax t ih v sp t eh k n iy k s sp ih g z ih s t sp dh ae t sp ae f ih k s sp dh ax sp ih m p l ae n t sp w ih th aw t sp s ax m eh n t sil sil  ==  [1229 frames] -70.9362 [Ac=-87180.5 LM=0.0] (Act=12.4)
+Aligning File: /home/ali28729/Downloads/marytts/wiki/myvoice//htk//feat/s46.mfcc
+Created lattice with 39 nodes / 38 arcs from label file
+ WARNING [-8232]  ExpandWordNet: Pronunciation 1 of sp is 'tee' word in /usr/local/bin//HVite
+ WARNING [-8232]  ExpandWordNet: Pronunciation 1 of sp is 'tee' word in /usr/local/bin//HVite
+ WARNING [-8232]  ExpandWordNet: Pronunciation 1 of sp is 'tee' word in /usr/local/bin//HVite
+ WARNING [-8232]  ExpandWordNet: Pronunciation 1 of sp is 'tee' word in /usr/local/bin//HVite
+ WARNING [-8232]  ExpandWordNet: Pronunciation 1 of sp is 'tee' word in /usr/local/bin//HVite
+ WARNING [-8232]  ExpandWordNet: Pronunciation 1 of sp is 'tee' word in /usr/local/bin//HVite
+sil sil hh iy sp ae n d sp hh ih z sp f ao r s ih z sp dh eh n sp v ey k ey t ax d sp jh uw d iy ax sil sil  ==  [777 frames] -68.3910 [Ac=-53139.8 LM=0.0] (Act=11.9)
+Aligning File: /home/ali28729/Downloads/marytts/wiki/myvoice//htk//feat/s47.mfcc
+Created lattice with 64 nodes / 63 arcs from label file
+ WARNING [-8232]  ExpandWordNet: Pronunciation 1 of sp is 'tee' word in /usr/local/bin//HVite
+ WARNING [-8232]  ExpandWordNet: Pronunciation 1 of sp is 'tee' word in /usr/local/bin//HVite
+ WARNING [-8232]  ExpandWordNet: Pronunciation 1 of sp is 'tee' word in /usr/local/bin//HVite
+ WARNING [-8232]  ExpandWordNet: Pronunciation 1 of sp is 'tee' word in /usr/local/bin//HVite
+ WARNING [-8232]  ExpandWordNet: Pronunciation 1 of sp is 'tee' word in /usr/local/bin//HVite
+ WARNING [-8232]  ExpandWordNet: Pronunciation 1 of sp is 'tee' word in /usr/local/bin//HVite
+ WARNING [-8232]  ExpandWordNet: Pronunciation 1 of sp is 'tee' word in /usr/local/bin//HVite
+ WARNING [-8232]  ExpandWordNet: Pronunciation 1 of sp is 'tee' word in /usr/local/bin//HVite
+ WARNING [-8232]  ExpandWordNet: Pronunciation 1 of sp is 'tee' word in /usr/local/bin//HVite
+ WARNING [-8232]  ExpandWordNet: Pronunciation 1 of sp is 'tee' word in /usr/local/bin//HVite
+sil sil hh iy sp s t aa r d sp ih n sp v eh r iy ax s sp f ih l m sp zh aa n r ax z sp s ah ch sp ae z sp d r aa m ax ssil k aa m ax d iy sp ae n d sp ae k sh ax n sil sil  ==  [1245 frames] -68.4363 [Ac=-85203.2 LM=0.0] (Act=12.0)
+Aligning File: /home/ali28729/Downloads/marytts/wiki/myvoice//htk//feat/s48.mfcc
+Created lattice with 76 nodes / 75 arcs from label file
+ WARNING [-8232]  ExpandWordNet: Pronunciation 1 of sp is 'tee' word in /usr/local/bin//HVite
+ WARNING [-8232]  ExpandWordNet: Pronunciation 1 of sp is 'tee' word in /usr/local/bin//HVite
+ WARNING [-8232]  ExpandWordNet: Pronunciation 1 of sp is 'tee' word in /usr/local/bin//HVite
+ WARNING [-8232]  ExpandWordNet: Pronunciation 1 of sp is 'tee' word in /usr/local/bin//HVite
+ WARNING [-8232]  ExpandWordNet: Pronunciation 1 of sp is 'tee' word in /usr/local/bin//HVite
+ WARNING [-8232]  ExpandWordNet: Pronunciation 1 of sp is 'tee' word in /usr/local/bin//HVite
+ WARNING [-8232]  ExpandWordNet: Pronunciation 1 of sp is 'tee' word in /usr/local/bin//HVite
+ WARNING [-8232]  ExpandWordNet: Pronunciation 1 of sp is 'tee' word in /usr/local/bin//HVite
+ WARNING [-8232]  ExpandWordNet: Pronunciation 1 of sp is 'tee' word in /usr/local/bin//HVite
+ WARNING [-8232]  ExpandWordNet: Pronunciation 1 of sp is 'tee' word in /usr/local/bin//HVite
+ WARNING [-8232]  ExpandWordNet: Pronunciation 1 of sp is 'tee' word in /usr/local/bin//HVite
+ WARNING [-8232]  ExpandWordNet: Pronunciation 1 of sp is 'tee' word in /usr/local/bin//HVite
+ WARNING [-8232]  ExpandWordNet: Pronunciation 1 of sp is 'tee' word in /usr/local/bin//HVite
+ WARNING [-8232]  ExpandWordNet: Pronunciation 1 of sp is 'tee' word in /usr/local/bin//HVite
+ WARNING [-8232]  ExpandWordNet: Pronunciation 1 of sp is 'tee' word in /usr/local/bin//HVite
+ WARNING [-8232]  ExpandWordNet: Pronunciation 1 of sp is 'tee' word in /usr/local/bin//HVite
+sil sil ih n sp eh v r iy th ih ng sp n uw sp ah n d er sp dh ax sp s ah n ssil ae b iy sp m iy t s sp hh er sp w eh n sp dh ey sp b ow th sp g ow sp t uw sp s t ey sp w ih dh sp g r ae m aa sp eh m ax sil sil  ==  [1443 frames] -66.4828 [Ac=-95934.7 LM=0.0] (Act=13.9)
+Aligning File: /home/ali28729/Downloads/marytts/wiki/myvoice//htk//feat/s49.mfcc
+Created lattice with 65 nodes / 64 arcs from label file
+ WARNING [-8232]  ExpandWordNet: Pronunciation 1 of sp is 'tee' word in /usr/local/bin//HVite
+ WARNING [-8232]  ExpandWordNet: Pronunciation 1 of sp is 'tee' word in /usr/local/bin//HVite
+ WARNING [-8232]  ExpandWordNet: Pronunciation 1 of sp is 'tee' word in /usr/local/bin//HVite
+ WARNING [-8232]  ExpandWordNet: Pronunciation 1 of sp is 'tee' word in /usr/local/bin//HVite
+ WARNING [-8232]  ExpandWordNet: Pronunciation 1 of sp is 'tee' word in /usr/local/bin//HVite
+ WARNING [-8232]  ExpandWordNet: Pronunciation 1 of sp is 'tee' word in /usr/local/bin//HVite
+ WARNING [-8232]  ExpandWordNet: Pronunciation 1 of sp is 'tee' word in /usr/local/bin//HVite
+ WARNING [-8232]  ExpandWordNet: Pronunciation 1 of sp is 'tee' word in /usr/local/bin//HVite
+ WARNING [-8232]  ExpandWordNet: Pronunciation 1 of sp is 'tee' word in /usr/local/bin//HVite
+ WARNING [-8232]  ExpandWordNet: Pronunciation 1 of sp is 'tee' word in /usr/local/bin//HVite
+sil sil ax s ih d ax f ax k ey sh ax n sp th r eh t ax n z sp t uw sp d ih s t r oy sp aa r k t ih k sp f uw d sp w eh b z sp f r ah m sp dh ax sp b ey s sp ah p sil sil  ==  [1271 frames] -70.1287 [Ac=-89133.5 LM=0.0] (Act=12.2)
+Aligning File: /home/ali28729/Downloads/marytts/wiki/myvoice//htk//feat/s50.mfcc
+Created lattice with 39 nodes / 38 arcs from label file
+ WARNING [-8232]  ExpandWordNet: Pronunciation 1 of sp is 'tee' word in /usr/local/bin//HVite
+ WARNING [-8232]  ExpandWordNet: Pronunciation 1 of sp is 'tee' word in /usr/local/bin//HVite
+ WARNING [-8232]  ExpandWordNet: Pronunciation 1 of sp is 'tee' word in /usr/local/bin//HVite
+ WARNING [-8232]  ExpandWordNet: Pronunciation 1 of sp is 'tee' word in /usr/local/bin//HVite
+ WARNING [-8232]  ExpandWordNet: Pronunciation 1 of sp is 'tee' word in /usr/local/bin//HVite
+ WARNING [-8232]  ExpandWordNet: Pronunciation 1 of sp is 'tee' word in /usr/local/bin//HVite
+sil sil l eh t er ih ng sp ay d eh n t ax f ay ih ng sp iy ch sp b ih n sp ih z sp b ay sp hh ae n d sil sil  ==  [919 frames] -69.8416 [Ac=-64184.4 LM=0.0] (Act=12.3)
+Aligning File: /home/ali28729/Downloads/marytts/wiki/myvoice//htk//feat/s51.mfcc
+Created lattice with 40 nodes / 39 arcs from label file
+ WARNING [-8232]  ExpandWordNet: Pronunciation 1 of sp is 'tee' word in /usr/local/bin//HVite
+ WARNING [-8232]  ExpandWordNet: Pronunciation 1 of sp is 'tee' word in /usr/local/bin//HVite
+ WARNING [-8232]  ExpandWordNet: Pronunciation 1 of sp is 'tee' word in /usr/local/bin//HVite
+ WARNING [-8232]  ExpandWordNet: Pronunciation 1 of sp is 'tee' word in /usr/local/bin//HVite
+ WARNING [-8232]  ExpandWordNet: Pronunciation 1 of sp is 'tee' word in /usr/local/bin//HVite
+ WARNING [-8232]  ExpandWordNet: Pronunciation 1 of sp is 'tee' word in /usr/local/bin//HVite
+ WARNING [-8232]  ExpandWordNet: Pronunciation 1 of sp is 'tee' word in /usr/local/bin//HVite
+sil sil dh ax sp k er ax n t sp ch iy f sp k ax m ih sh ax n er sp ih z sp ch y uw ng sp k ay sp s ah n sil sil  ==  [1027 frames] -68.1030 [Ac=-69941.8 LM=0.0] (Act=10.9)
+Aligning File: /home/ali28729/Downloads/marytts/wiki/myvoice//htk//feat/s52.mfcc
+Created lattice with 70 nodes / 69 arcs from label file
+ WARNING [-8232]  ExpandWordNet: Pronunciation 1 of sp is 'tee' word in /usr/local/bin//HVite
+ WARNING [-8232]  ExpandWordNet: Pronunciation 1 of sp is 'tee' word in /usr/local/bin//HVite
+ WARNING [-8232]  ExpandWordNet: Pronunciation 1 of sp is 'tee' word in /usr/local/bin//HVite
+ WARNING [-8232]  ExpandWordNet: Pronunciation 1 of sp is 'tee' word in /usr/local/bin//HVite
+ WARNING [-8232]  ExpandWordNet: Pronunciation 1 of sp is 'tee' word in /usr/local/bin//HVite
+ WARNING [-8232]  ExpandWordNet: Pronunciation 1 of sp is 'tee' word in /usr/local/bin//HVite
+ WARNING [-8232]  ExpandWordNet: Pronunciation 1 of sp is 'tee' word in /usr/local/bin//HVite
+ WARNING [-8232]  ExpandWordNet: Pronunciation 1 of sp is 'tee' word in /usr/local/bin//HVite
+ WARNING [-8232]  ExpandWordNet: Pronunciation 1 of sp is 'tee' word in /usr/local/bin//HVite
+ WARNING [-8232]  ExpandWordNet: Pronunciation 1 of sp is 'tee' word in /usr/local/bin//HVite
+ WARNING [-8232]  ExpandWordNet: Pronunciation 1 of sp is 'tee' word in /usr/local/bin//HVite
+sil sil hh er sp m ao r sp k ey aa t ih k sp ae n d sp m ax l ih sh ax s sp ae k sh ax n z sp s t aa r t sp t uw sp k ax n s er n sp hh er sp ae m ax z aa n sp jh eh n er ax l z sil sil  ==  [1277 frames] -67.9991 [Ac=-86834.9 LM=0.0] (Act=11.9)
+Aligning File: /home/ali28729/Downloads/marytts/wiki/myvoice//htk//feat/s53.mfcc
+Created lattice with 66 nodes / 65 arcs from label file
+ WARNING [-8232]  ExpandWordNet: Pronunciation 1 of sp is 'tee' word in /usr/local/bin//HVite
+ WARNING [-8232]  ExpandWordNet: Pronunciation 1 of sp is 'tee' word in /usr/local/bin//HVite
+ WARNING [-8232]  ExpandWordNet: Pronunciation 1 of sp is 'tee' word in /usr/local/bin//HVite
+ WARNING [-8232]  ExpandWordNet: Pronunciation 1 of sp is 'tee' word in /usr/local/bin//HVite
+ WARNING [-8232]  ExpandWordNet: Pronunciation 1 of sp is 'tee' word in /usr/local/bin//HVite
+ WARNING [-8232]  ExpandWordNet: Pronunciation 1 of sp is 'tee' word in /usr/local/bin//HVite
+ WARNING [-8232]  ExpandWordNet: Pronunciation 1 of sp is 'tee' word in /usr/local/bin//HVite
+sil sil dh ow sp aa r t ih s t ih k l iy sp s ax k s eh s f ax l ssil v iy v ax sp w aa z sp n eh v er sp v eh r iy sp s ax k s eh s f ax l sp f ax n ae n sh ax l iy sil sil  ==  [1333 frames] -69.8766 [Ac=-93145.6 LM=0.0] (Act=11.6)
+Aligning File: /home/ali28729/Downloads/marytts/wiki/myvoice//htk//feat/s54.mfcc
+Created lattice with 38 nodes / 37 arcs from label file
+ WARNING [-8232]  ExpandWordNet: Pronunciation 1 of sp is 'tee' word in /usr/local/bin//HVite
+ WARNING [-8232]  ExpandWordNet: Pronunciation 1 of sp is 'tee' word in /usr/local/bin//HVite
+ WARNING [-8232]  ExpandWordNet: Pronunciation 1 of sp is 'tee' word in /usr/local/bin//HVite
+ WARNING [-8232]  ExpandWordNet: Pronunciation 1 of sp is 'tee' word in /usr/local/bin//HVite
+sil sil k ae l ax b er sp ae n t ay eh r k r ae f t sp m ax sh iy n sp g ah n sp b ae t er iy sil sil  ==  [951 frames] -68.7091 [Ac=-65342.4 LM=0.0] (Act=10.7)
+Aligning File: /home/ali28729/Downloads/marytts/wiki/myvoice//htk//feat/s55.mfcc
+Created lattice with 81 nodes / 80 arcs from label file
+ WARNING [-8232]  ExpandWordNet: Pronunciation 1 of sp is 'tee' word in /usr/local/bin//HVite
+ WARNING [-8232]  ExpandWordNet: Pronunciation 1 of sp is 'tee' word in /usr/local/bin//HVite
+ WARNING [-8232]  ExpandWordNet: Pronunciation 1 of sp is 'tee' word in /usr/local/bin//HVite
+ WARNING [-8232]  ExpandWordNet: Pronunciation 1 of sp is 'tee' word in /usr/local/bin//HVite
+ WARNING [-8232]  ExpandWordNet: Pronunciation 1 of sp is 'tee' word in /usr/local/bin//HVite
+ WARNING [-8232]  ExpandWordNet: Pronunciation 1 of sp is 'tee' word in /usr/local/bin//HVite
+ WARNING [-8232]  ExpandWordNet: Pronunciation 1 of sp is 'tee' word in /usr/local/bin//HVite
+ WARNING [-8232]  ExpandWordNet: Pronunciation 1 of sp is 'tee' word in /usr/local/bin//HVite
+ WARNING [-8232]  ExpandWordNet: Pronunciation 1 of sp is 'tee' word in /usr/local/bin//HVite
+ WARNING [-8232]  ExpandWordNet: Pronunciation 1 of sp is 'tee' word in /usr/local/bin//HVite
+ WARNING [-8232]  ExpandWordNet: Pronunciation 1 of sp is 'tee' word in /usr/local/bin//HVite
+ WARNING [-8232]  ExpandWordNet: Pronunciation 1 of sp is 'tee' word in /usr/local/bin//HVite
+ WARNING [-8232]  ExpandWordNet: Pronunciation 1 of sp is 'tee' word in /usr/local/bin//HVite
+ WARNING [-8232]  ExpandWordNet: Pronunciation 1 of sp is 'tee' word in /usr/local/bin//HVite
+ WARNING [-8232]  ExpandWordNet: Pronunciation 1 of sp is 'tee' word in /usr/local/bin//HVite
+ WARNING [-8232]  ExpandWordNet: Pronunciation 1 of sp is 'tee' word in /usr/local/bin//HVite
+sil sil dh ax sp k ao r r aa d sp ih z sp m ey d sp ae n d sp b ih f ao r sp b iy ih ng sp d r ao n sp ih n t uw sp f ay b er sp ih t s sp k ao r sp d ay ae m ax t er sp ae n d sp n aa sp aa r sp ch eh k t sil sil  ==  [1529 frames] -70.1842 [Ac=-107311.7 LM=0.0] (Act=14.0)
+Aligning File: /home/ali28729/Downloads/marytts/wiki/myvoice//htk//feat/s56.mfcc
+Created lattice with 83 nodes / 82 arcs from label file
+ WARNING [-8232]  ExpandWordNet: Pronunciation 1 of sp is 'tee' word in /usr/local/bin//HVite
+ WARNING [-8232]  ExpandWordNet: Pronunciation 1 of sp is 'tee' word in /usr/local/bin//HVite
+ WARNING [-8232]  ExpandWordNet: Pronunciation 1 of sp is 'tee' word in /usr/local/bin//HVite
+ WARNING [-8232]  ExpandWordNet: Pronunciation 1 of sp is 'tee' word in /usr/local/bin//HVite
+ WARNING [-8232]  ExpandWordNet: Pronunciation 1 of sp is 'tee' word in /usr/local/bin//HVite
+ WARNING [-8232]  ExpandWordNet: Pronunciation 1 of sp is 'tee' word in /usr/local/bin//HVite
+ WARNING [-8232]  ExpandWordNet: Pronunciation 1 of sp is 'tee' word in /usr/local/bin//HVite
+ WARNING [-8232]  ExpandWordNet: Pronunciation 1 of sp is 'tee' word in /usr/local/bin//HVite
+ WARNING [-8232]  ExpandWordNet: Pronunciation 1 of sp is 'tee' word in /usr/local/bin//HVite
+ WARNING [-8232]  ExpandWordNet: Pronunciation 1 of sp is 'tee' word in /usr/local/bin//HVite
+ WARNING [-8232]  ExpandWordNet: Pronunciation 1 of sp is 'tee' word in /usr/local/bin//HVite
+ WARNING [-8232]  ExpandWordNet: Pronunciation 1 of sp is 'tee' word in /usr/local/bin//HVite
+ WARNING [-8232]  ExpandWordNet: Pronunciation 1 of sp is 'tee' word in /usr/local/bin//HVite
+ WARNING [-8232]  ExpandWordNet: Pronunciation 1 of sp is 'tee' word in /usr/local/bin//HVite
+ WARNING [-8232]  ExpandWordNet: Pronunciation 1 of sp is 'tee' word in /usr/local/bin//HVite
+sil sil ih t sp w aa z sp dh ax sp k ih w ih s sp f er s t sp eh v er sp w er l d sp k ah p sp v ih k t er iy ssil ih n sp ey sp g ey m sp dh ey sp w er sp k ax n s ih d er d sp m ae s ih v sp ah n d er d ao g z sil sil  ==  [1545 frames] -71.8395 [Ac=-110992.0 LM=0.0] (Act=13.9)
+Aligning File: /home/ali28729/Downloads/marytts/wiki/myvoice//htk//feat/s57.mfcc
+Created lattice with 72 nodes / 71 arcs from label file
+ WARNING [-8232]  ExpandWordNet: Pronunciation 1 of sp is 'tee' word in /usr/local/bin//HVite
+ WARNING [-8232]  ExpandWordNet: Pronunciation 1 of sp is 'tee' word in /usr/local/bin//HVite
+ WARNING [-8232]  ExpandWordNet: Pronunciation 1 of sp is 'tee' word in /usr/local/bin//HVite
+ WARNING [-8232]  ExpandWordNet: Pronunciation 1 of sp is 'tee' word in /usr/local/bin//HVite
+ WARNING [-8232]  ExpandWordNet: Pronunciation 1 of sp is 'tee' word in /usr/local/bin//HVite
+ WARNING [-8232]  ExpandWordNet: Pronunciation 1 of sp is 'tee' word in /usr/local/bin//HVite
+ WARNING [-8232]  ExpandWordNet: Pronunciation 1 of sp is 'tee' word in /usr/local/bin//HVite
+ WARNING [-8232]  ExpandWordNet: Pronunciation 1 of sp is 'tee' word in /usr/local/bin//HVite
+ WARNING [-8232]  ExpandWordNet: Pronunciation 1 of sp is 'tee' word in /usr/local/bin//HVite
+ WARNING [-8232]  ExpandWordNet: Pronunciation 1 of sp is 'tee' word in /usr/local/bin//HVite
+sil sil k aa m p ax t ih sh ax n z sp b ih g ih n sp l ow k ax l iy sp ae n d sp k ax n t ih n y uw sp th r uw sp dh ax sp s t ey t sp ae n d sp n ae sh ax n ax l sp l eh v ax l z sil sil  ==  [1329 frames] -68.7805 [Ac=-91409.2 LM=0.0] (Act=13.2)
+Aligning File: /home/ali28729/Downloads/marytts/wiki/myvoice//htk//feat/s58.mfcc
+Created lattice with 57 nodes / 56 arcs from label file
+ WARNING [-8232]  ExpandWordNet: Pronunciation 1 of sp is 'tee' word in /usr/local/bin//HVite
+ WARNING [-8232]  ExpandWordNet: Pronunciation 1 of sp is 'tee' word in /usr/local/bin//HVite
+ WARNING [-8232]  ExpandWordNet: Pronunciation 1 of sp is 'tee' word in /usr/local/bin//HVite
+ WARNING [-8232]  ExpandWordNet: Pronunciation 1 of sp is 'tee' word in /usr/local/bin//HVite
+ WARNING [-8232]  ExpandWordNet: Pronunciation 1 of sp is 'tee' word in /usr/local/bin//HVite
+ WARNING [-8232]  ExpandWordNet: Pronunciation 1 of sp is 'tee' word in /usr/local/bin//HVite
+ WARNING [-8232]  ExpandWordNet: Pronunciation 1 of sp is 'tee' word in /usr/local/bin//HVite
+ WARNING [-8232]  ExpandWordNet: Pronunciation 1 of sp is 'tee' word in /usr/local/bin//HVite
+ WARNING [-8232]  ExpandWordNet: Pronunciation 1 of sp is 'tee' word in /usr/local/bin//HVite
+sil sil dh ax sp aa n t uh r aa zh sp w aa z sp ao l s ow sp ax l aw d sp t uw sp s eh l ax b r ey t sp k r ih s ch ax n sp m ae s sp d ey l iy sil sil  ==  [1191 frames] -67.2385 [Ac=-80081.1 LM=0.0] (Act=12.3)
+Aligning File: /home/ali28729/Downloads/marytts/wiki/myvoice//htk//feat/s59.mfcc
+Created lattice with 45 nodes / 44 arcs from label file
+ WARNING [-8232]  ExpandWordNet: Pronunciation 1 of sp is 'tee' word in /usr/local/bin//HVite
+ WARNING [-8232]  ExpandWordNet: Pronunciation 1 of sp is 'tee' word in /usr/local/bin//HVite
+ WARNING [-8232]  ExpandWordNet: Pronunciation 1 of sp is 'tee' word in /usr/local/bin//HVite
+ WARNING [-8232]  ExpandWordNet: Pronunciation 1 of sp is 'tee' word in /usr/local/bin//HVite
+sil sil b ae m b uw sp k ax n s t r ah k sh ax n sp ih z sp ao l s ow sp er th k w ey k r eh s ih s t ax n t sil sil  ==  [1025 frames] -69.8433 [Ac=-71589.4 LM=0.0] (Act=11.7)
+Aligning File: /home/ali28729/Downloads/marytts/wiki/myvoice//htk//feat/s60.mfcc
+Created lattice with 43 nodes / 42 arcs from label file
+ WARNING [-8232]  ExpandWordNet: Pronunciation 1 of sp is 'tee' word in /usr/local/bin//HVite
+ WARNING [-8232]  ExpandWordNet: Pronunciation 1 of sp is 'tee' word in /usr/local/bin//HVite
+ WARNING [-8232]  ExpandWordNet: Pronunciation 1 of sp is 'tee' word in /usr/local/bin//HVite
+ WARNING [-8232]  ExpandWordNet: Pronunciation 1 of sp is 'tee' word in /usr/local/bin//HVite
+sil sil n uw sp iy v ae n jh eh l ih k ax l sp y uw n ay t ax d sp b r eh dh r ax n sp s eh m ax t eh r iy sil sil  ==  [973 frames] -66.4257 [Ac=-64632.2 LM=0.0] (Act=12.5)
+Aligning File: /home/ali28729/Downloads/marytts/wiki/myvoice//htk//feat/s61.mfcc
+Created lattice with 82 nodes / 81 arcs from label file
+ WARNING [-8232]  ExpandWordNet: Pronunciation 1 of sp is 'tee' word in /usr/local/bin//HVite
+ WARNING [-8232]  ExpandWordNet: Pronunciation 1 of sp is 'tee' word in /usr/local/bin//HVite
+ WARNING [-8232]  ExpandWordNet: Pronunciation 1 of sp is 'tee' word in /usr/local/bin//HVite
+ WARNING [-8232]  ExpandWordNet: Pronunciation 1 of sp is 'tee' word in /usr/local/bin//HVite
+ WARNING [-8232]  ExpandWordNet: Pronunciation 1 of sp is 'tee' word in /usr/local/bin//HVite
+ WARNING [-8232]  ExpandWordNet: Pronunciation 1 of sp is 'tee' word in /usr/local/bin//HVite
+ WARNING [-8232]  ExpandWordNet: Pronunciation 1 of sp is 'tee' word in /usr/local/bin//HVite
+ WARNING [-8232]  ExpandWordNet: Pronunciation 1 of sp is 'tee' word in /usr/local/bin//HVite
+ WARNING [-8232]  ExpandWordNet: Pronunciation 1 of sp is 'tee' word in /usr/local/bin//HVite
+ WARNING [-8232]  ExpandWordNet: Pronunciation 1 of sp is 'tee' word in /usr/local/bin//HVite
+ WARNING [-8232]  ExpandWordNet: Pronunciation 1 of sp is 'tee' word in /usr/local/bin//HVite
+ WARNING [-8232]  ExpandWordNet: Pronunciation 1 of sp is 'tee' word in /usr/local/bin//HVite
+ WARNING [-8232]  ExpandWordNet: Pronunciation 1 of sp is 'tee' word in /usr/local/bin//HVite
+ WARNING [-8232]  ExpandWordNet: Pronunciation 1 of sp is 'tee' word in /usr/local/bin//HVite
+ WARNING [-8232]  ExpandWordNet: Pronunciation 1 of sp is 'tee' word in /usr/local/bin//HVite
+sil sil dh ax sp f ih l m sp s t aa r z sp ae l ax n sp ae z sp dh ax sp t ih ch ax l er sp k eh r ih k t er ssil ae z sp w eh l sp ae z sp m iy ax sp f eh r ow sp ae n d sp n ih k sp ax p aa l ow sp f ao r t ey sil sil  ==  [1433 frames] -67.4311 [Ac=-96628.8 LM=0.0] (Act=13.5)
+Aligning File: /home/ali28729/Downloads/marytts/wiki/myvoice//htk//feat/s62.mfcc
+Created lattice with 85 nodes / 84 arcs from label file
+ WARNING [-8232]  ExpandWordNet: Pronunciation 1 of sp is 'tee' word in /usr/local/bin//HVite
+ WARNING [-8232]  ExpandWordNet: Pronunciation 1 of sp is 'tee' word in /usr/local/bin//HVite
+ WARNING [-8232]  ExpandWordNet: Pronunciation 1 of sp is 'tee' word in /usr/local/bin//HVite
+ WARNING [-8232]  ExpandWordNet: Pronunciation 1 of sp is 'tee' word in /usr/local/bin//HVite
+ WARNING [-8232]  ExpandWordNet: Pronunciation 1 of sp is 'tee' word in /usr/local/bin//HVite
+ WARNING [-8232]  ExpandWordNet: Pronunciation 1 of sp is 'tee' word in /usr/local/bin//HVite
+ WARNING [-8232]  ExpandWordNet: Pronunciation 1 of sp is 'tee' word in /usr/local/bin//HVite
+ WARNING [-8232]  ExpandWordNet: Pronunciation 1 of sp is 'tee' word in /usr/local/bin//HVite
+ WARNING [-8232]  ExpandWordNet: Pronunciation 1 of sp is 'tee' word in /usr/local/bin//HVite
+ WARNING [-8232]  ExpandWordNet: Pronunciation 1 of sp is 'tee' word in /usr/local/bin//HVite
+ WARNING [-8232]  ExpandWordNet: Pronunciation 1 of sp is 'tee' word in /usr/local/bin//HVite
+ WARNING [-8232]  ExpandWordNet: Pronunciation 1 of sp is 'tee' word in /usr/local/bin//HVite
+sil sil hh iy sp b r ao t sp f r eh sh sp ay d iy ax z sp ae n d sp m ah ch sp n iy d ax d sp ih n v eh s t m ax n t sp ae n d sp ih n t r ax d uw s t sp b eh t er sp f ax n ae n sh ax l sp m ae n ax jh m ax n t sil sil  ==  [1539 frames] -70.1069 [Ac=-107894.5 LM=0.0] (Act=12.3)
+Aligning File: /home/ali28729/Downloads/marytts/wiki/myvoice//htk//feat/s63.mfcc
+Created lattice with 98 nodes / 97 arcs from label file
+ WARNING [-8232]  ExpandWordNet: Pronunciation 1 of sp is 'tee' word in /usr/local/bin//HVite
+ WARNING [-8232]  ExpandWordNet: Pronunciation 1 of sp is 'tee' word in /usr/local/bin//HVite
+ WARNING [-8232]  ExpandWordNet: Pronunciation 1 of sp is 'tee' word in /usr/local/bin//HVite
+ WARNING [-8232]  ExpandWordNet: Pronunciation 1 of sp is 'tee' word in /usr/local/bin//HVite
+ WARNING [-8232]  ExpandWordNet: Pronunciation 1 of sp is 'tee' word in /usr/local/bin//HVite
+ WARNING [-8232]  ExpandWordNet: Pronunciation 1 of sp is 'tee' word in /usr/local/bin//HVite
+ WARNING [-8232]  ExpandWordNet: Pronunciation 1 of sp is 'tee' word in /usr/local/bin//HVite
+ WARNING [-8232]  ExpandWordNet: Pronunciation 1 of sp is 'tee' word in /usr/local/bin//HVite
+ WARNING [-8232]  ExpandWordNet: Pronunciation 1 of sp is 'tee' word in /usr/local/bin//HVite
+ WARNING [-8232]  ExpandWordNet: Pronunciation 1 of sp is 'tee' word in /usr/local/bin//HVite
+ WARNING [-8232]  ExpandWordNet: Pronunciation 1 of sp is 'tee' word in /usr/local/bin//HVite
+ WARNING [-8232]  ExpandWordNet: Pronunciation 1 of sp is 'tee' word in /usr/local/bin//HVite
+ WARNING [-8232]  ExpandWordNet: Pronunciation 1 of sp is 'tee' word in /usr/local/bin//HVite
+ WARNING [-8232]  ExpandWordNet: Pronunciation 1 of sp is 'tee' word in /usr/local/bin//HVite
+ WARNING [-8232]  ExpandWordNet: Pronunciation 1 of sp is 'tee' word in /usr/local/bin//HVite
+ WARNING [-8232]  ExpandWordNet: Pronunciation 1 of sp is 'tee' word in /usr/local/bin//HVite
+ WARNING [-8232]  ExpandWordNet: Pronunciation 1 of sp is 'tee' word in /usr/local/bin//HVite
+ WARNING [-8232]  ExpandWordNet: Pronunciation 1 of sp is 'tee' word in /usr/local/bin//HVite
+ WARNING [-8232]  ExpandWordNet: Pronunciation 1 of sp is 'tee' word in /usr/local/bin//HVite
+ WARNING [-8232]  ExpandWordNet: Pronunciation 1 of sp is 'tee' word in /usr/local/bin//HVite
+ WARNING [-8232]  ExpandWordNet: Pronunciation 1 of sp is 'tee' word in /usr/local/bin//HVite
+ WARNING [-8232]  ExpandWordNet: Pronunciation 1 of sp is 'tee' word in /usr/local/bin//HVite
+sil sil dh ae t sp ih z ssil w iy sp aa r sp l uh k ih ng sp ae t sp hh aw sp er l iy sp ih n t uw sp w iy sp k ae n sp g eh t sp f r ah m ssil ae n d sp hh aw sp f aa r sp w iy sp k ae n sp s t ey sp ih n sp ae n d sp s t ih l sp g eh t sp b ae k sp t uw sil sil  ==  [1783 frames] -70.0222 [Ac=-124849.6 LM=0.0] (Act=13.8)
+Aligning File: /home/ali28729/Downloads/marytts/wiki/myvoice//htk//feat/s64.mfcc
+Created lattice with 52 nodes / 51 arcs from label file
+ WARNING [-8232]  ExpandWordNet: Pronunciation 1 of sp is 'tee' word in /usr/local/bin//HVite
+ WARNING [-8232]  ExpandWordNet: Pronunciation 1 of sp is 'tee' word in /usr/local/bin//HVite
+ WARNING [-8232]  ExpandWordNet: Pronunciation 1 of sp is 'tee' word in /usr/local/bin//HVite
+ WARNING [-8232]  ExpandWordNet: Pronunciation 1 of sp is 'tee' word in /usr/local/bin//HVite
+ WARNING [-8232]  ExpandWordNet: Pronunciation 1 of sp is 'tee' word in /usr/local/bin//HVite
+ WARNING [-8232]  ExpandWordNet: Pronunciation 1 of sp is 'tee' word in /usr/local/bin//HVite
+ WARNING [-8232]  ExpandWordNet: Pronunciation 1 of sp is 'tee' word in /usr/local/bin//HVite
+ WARNING [-8232]  ExpandWordNet: Pronunciation 1 of sp is 'tee' word in /usr/local/bin//HVite
+sil sil hh iy sp w aa n t s sp f ih t s jh eh r ax l d sp t uw sp f ih n ih sh sp r ay t ih ng sp dh ax sp l ae s t sp t ay k uw n sil sil  ==  [985 frames] -67.1019 [Ac=-66095.4 LM=0.0] (Act=10.6)
+Aligning File: /home/ali28729/Downloads/marytts/wiki/myvoice//htk//feat/s65.mfcc
+Created lattice with 43 nodes / 42 arcs from label file
+ WARNING [-8232]  ExpandWordNet: Pronunciation 1 of sp is 'tee' word in /usr/local/bin//HVite
+ WARNING [-8232]  ExpandWordNet: Pronunciation 1 of sp is 'tee' word in /usr/local/bin//HVite
+ WARNING [-8232]  ExpandWordNet: Pronunciation 1 of sp is 'tee' word in /usr/local/bin//HVite
+ WARNING [-8232]  ExpandWordNet: Pronunciation 1 of sp is 'tee' word in /usr/local/bin//HVite
+ WARNING [-8232]  ExpandWordNet: Pronunciation 1 of sp is 'tee' word in /usr/local/bin//HVite
+ WARNING [-8232]  ExpandWordNet: Pronunciation 1 of sp is 'tee' word in /usr/local/bin//HVite
+sil sil m aa n t ae n ax sp dh eh n sp s t aa r t ax d sp w er k ih ng sp f ao r sp dh ax sp k ih ng p ih n sil sil  ==  [883 frames] -67.3292 [Ac=-59451.6 LM=0.0] (Act=10.2)
+Aligning File: /home/ali28729/Downloads/marytts/wiki/myvoice//htk//feat/s66.mfcc
+Created lattice with 38 nodes / 37 arcs from label file
+ WARNING [-8232]  ExpandWordNet: Pronunciation 1 of sp is 'tee' word in /usr/local/bin//HVite
+ WARNING [-8232]  ExpandWordNet: Pronunciation 1 of sp is 'tee' word in /usr/local/bin//HVite
+sil sil m ay k r ow ae f er m ey sh ax n z sp ae n d sp m ay k r ow ae d v ae n t ih jh ih z sil sil  ==  [853 frames] -70.1627 [Ac=-59848.8 LM=0.0] (Act=10.2)
+Aligning File: /home/ali28729/Downloads/marytts/wiki/myvoice//htk//feat/s67.mfcc
+Created lattice with 49 nodes / 48 arcs from label file
+ WARNING [-8232]  ExpandWordNet: Pronunciation 1 of sp is 'tee' word in /usr/local/bin//HVite
+ WARNING [-8232]  ExpandWordNet: Pronunciation 1 of sp is 'tee' word in /usr/local/bin//HVite
+ WARNING [-8232]  ExpandWordNet: Pronunciation 1 of sp is 'tee' word in /usr/local/bin//HVite
+ WARNING [-8232]  ExpandWordNet: Pronunciation 1 of sp is 'tee' word in /usr/local/bin//HVite
+ WARNING [-8232]  ExpandWordNet: Pronunciation 1 of sp is 'tee' word in /usr/local/bin//HVite
+ WARNING [-8232]  ExpandWordNet: Pronunciation 1 of sp is 'tee' word in /usr/local/bin//HVite
+sil sil er l iy sp dh ax sp f aa l ow ih ng sp d ey ssil dh ax sp s ih k l ow n sp k er v d sp iy s t s aw th iy s t w ao r d sil sil  ==  [1135 frames] -68.6717 [Ac=-77942.3 LM=0.0] (Act=12.3)
+Aligning File: /home/ali28729/Downloads/marytts/wiki/myvoice//htk//feat/s68.mfcc
+Created lattice with 46 nodes / 45 arcs from label file
+ WARNING [-8232]  ExpandWordNet: Pronunciation 1 of sp is 'tee' word in /usr/local/bin//HVite
+ WARNING [-8232]  ExpandWordNet: Pronunciation 1 of sp is 'tee' word in /usr/local/bin//HVite
+ WARNING [-8232]  ExpandWordNet: Pronunciation 1 of sp is 'tee' word in /usr/local/bin//HVite
+ WARNING [-8232]  ExpandWordNet: Pronunciation 1 of sp is 'tee' word in /usr/local/bin//HVite
+ WARNING [-8232]  ExpandWordNet: Pronunciation 1 of sp is 'tee' word in /usr/local/bin//HVite
+ WARNING [-8232]  ExpandWordNet: Pronunciation 1 of sp is 'tee' word in /usr/local/bin//HVite
+ WARNING [-8232]  ExpandWordNet: Pronunciation 1 of sp is 'tee' word in /usr/local/bin//HVite
+sil sil m ah l t ax p ax l sp g r ey d sp ay sp w ih n er sp aa sp ih n s p ay r ih ng sp f ih n ih sh t sp th er d sil sil  ==  [1203 frames] -68.0101 [Ac=-81816.2 LM=0.0] (Act=11.8)
+Aligning File: /home/ali28729/Downloads/marytts/wiki/myvoice//htk//feat/s69.mfcc
+Created lattice with 60 nodes / 59 arcs from label file
+ WARNING [-8232]  ExpandWordNet: Pronunciation 1 of sp is 'tee' word in /usr/local/bin//HVite
+ WARNING [-8232]  ExpandWordNet: Pronunciation 1 of sp is 'tee' word in /usr/local/bin//HVite
+ WARNING [-8232]  ExpandWordNet: Pronunciation 1 of sp is 'tee' word in /usr/local/bin//HVite
+ WARNING [-8232]  ExpandWordNet: Pronunciation 1 of sp is 'tee' word in /usr/local/bin//HVite
+ WARNING [-8232]  ExpandWordNet: Pronunciation 1 of sp is 'tee' word in /usr/local/bin//HVite
+ WARNING [-8232]  ExpandWordNet: Pronunciation 1 of sp is 'tee' word in /usr/local/bin//HVite
+ WARNING [-8232]  ExpandWordNet: Pronunciation 1 of sp is 'tee' word in /usr/local/bin//HVite
+ WARNING [-8232]  ExpandWordNet: Pronunciation 1 of sp is 'tee' word in /usr/local/bin//HVite
+ WARNING [-8232]  ExpandWordNet: Pronunciation 1 of sp is 'tee' word in /usr/local/bin//HVite
+ WARNING [-8232]  ExpandWordNet: Pronunciation 1 of sp is 'tee' word in /usr/local/bin//HVite
+sil sil f ao r sp dh ih s sp eh n d ssil dh ax sp hh uh n t ax sp w uh d sp n iy d sp t uw sp k r iy ey t sp ae n sp eh s p iy ax n aa jh sp n eh t w er k sil sil  ==  [1185 frames] -68.8220 [Ac=-81554.0 LM=0.0] (Act=13.4)
+Aligning File: /home/ali28729/Downloads/marytts/wiki/myvoice//htk//feat/s70.mfcc
+Created lattice with 42 nodes / 41 arcs from label file
+ WARNING [-8232]  ExpandWordNet: Pronunciation 1 of sp is 'tee' word in /usr/local/bin//HVite
+ WARNING [-8232]  ExpandWordNet: Pronunciation 1 of sp is 'tee' word in /usr/local/bin//HVite
+ WARNING [-8232]  ExpandWordNet: Pronunciation 1 of sp is 'tee' word in /usr/local/bin//HVite
+ WARNING [-8232]  ExpandWordNet: Pronunciation 1 of sp is 'tee' word in /usr/local/bin//HVite
+sil sil dh ae t sp ih z sp ae n t iy d eh m ax k r ae t ih k sp ae n d sp ae n t iy w ih k ay p eh iy ax sil sil  ==  [971 frames] -69.9262 [Ac=-67898.4 LM=0.0] (Act=12.5)
+Aligning File: /home/ali28729/Downloads/marytts/wiki/myvoice//htk//feat/s71.mfcc
+Created lattice with 46 nodes / 45 arcs from label file
+ WARNING [-8232]  ExpandWordNet: Pronunciation 1 of sp is 'tee' word in /usr/local/bin//HVite
+ WARNING [-8232]  ExpandWordNet: Pronunciation 1 of sp is 'tee' word in /usr/local/bin//HVite
+ WARNING [-8232]  ExpandWordNet: Pronunciation 1 of sp is 'tee' word in /usr/local/bin//HVite
+ WARNING [-8232]  ExpandWordNet: Pronunciation 1 of sp is 'tee' word in /usr/local/bin//HVite
+ WARNING [-8232]  ExpandWordNet: Pronunciation 1 of sp is 'tee' word in /usr/local/bin//HVite
+ WARNING [-8232]  ExpandWordNet: Pronunciation 1 of sp is 'tee' word in /usr/local/bin//HVite
+ WARNING [-8232]  ExpandWordNet: Pronunciation 1 of sp is 'tee' word in /usr/local/bin//HVite
+ WARNING [-8232]  ExpandWordNet: Pronunciation 1 of sp is 'tee' word in /usr/local/bin//HVite
+sil sil hh iy sp w aa z sp dh eh n sp m uw v d sp t uw sp dh ax sp ae l f aa r ah k w sp t r ey n ih ng sp k ae m p sil sil  ==  [891 frames] -67.6290 [Ac=-60257.4 LM=0.0] (Act=12.3)
+Aligning File: /home/ali28729/Downloads/marytts/wiki/myvoice//htk//feat/s72.mfcc
+Created lattice with 90 nodes / 89 arcs from label file
+ WARNING [-8232]  ExpandWordNet: Pronunciation 1 of sp is 'tee' word in /usr/local/bin//HVite
+ WARNING [-8232]  ExpandWordNet: Pronunciation 1 of sp is 'tee' word in /usr/local/bin//HVite
+ WARNING [-8232]  ExpandWordNet: Pronunciation 1 of sp is 'tee' word in /usr/local/bin//HVite
+ WARNING [-8232]  ExpandWordNet: Pronunciation 1 of sp is 'tee' word in /usr/local/bin//HVite
+ WARNING [-8232]  ExpandWordNet: Pronunciation 1 of sp is 'tee' word in /usr/local/bin//HVite
+ WARNING [-8232]  ExpandWordNet: Pronunciation 1 of sp is 'tee' word in /usr/local/bin//HVite
+ WARNING [-8232]  ExpandWordNet: Pronunciation 1 of sp is 'tee' word in /usr/local/bin//HVite
+ WARNING [-8232]  ExpandWordNet: Pronunciation 1 of sp is 'tee' word in /usr/local/bin//HVite
+ WARNING [-8232]  ExpandWordNet: Pronunciation 1 of sp is 'tee' word in /usr/local/bin//HVite
+ WARNING [-8232]  ExpandWordNet: Pronunciation 1 of sp is 'tee' word in /usr/local/bin//HVite
+ WARNING [-8232]  ExpandWordNet: Pronunciation 1 of sp is 'tee' word in /usr/local/bin//HVite
+ WARNING [-8232]  ExpandWordNet: Pronunciation 1 of sp is 'tee' word in /usr/local/bin//HVite
+ WARNING [-8232]  ExpandWordNet: Pronunciation 1 of sp is 'tee' word in /usr/local/bin//HVite
+ WARNING [-8232]  ExpandWordNet: Pronunciation 1 of sp is 'tee' word in /usr/local/bin//HVite
+ WARNING [-8232]  ExpandWordNet: Pronunciation 1 of sp is 'tee' word in /usr/local/bin//HVite
+sil sil ao l s ow sp ih n sp dh ax sp m ey n sp b ih l d ih ng sp ih z sp dh ax sp l ay b r eh r iy ssil w eh r sp ey sp k er ih r sp ae n d sp ih g z ae m sp ae d v ay z er sp m ey k s sp b ay w iy k l iy sp ax p ih r ax n s ax z sil sil  ==  [1713 frames] -68.8800 [Ac=-117991.4 LM=0.0] (Act=13.5)
+Aligning File: /home/ali28729/Downloads/marytts/wiki/myvoice//htk//feat/s73.mfcc
+Created lattice with 43 nodes / 42 arcs from label file
+ WARNING [-8232]  ExpandWordNet: Pronunciation 1 of sp is 'tee' word in /usr/local/bin//HVite
+ WARNING [-8232]  ExpandWordNet: Pronunciation 1 of sp is 'tee' word in /usr/local/bin//HVite
+ WARNING [-8232]  ExpandWordNet: Pronunciation 1 of sp is 'tee' word in /usr/local/bin//HVite
+ WARNING [-8232]  ExpandWordNet: Pronunciation 1 of sp is 'tee' word in /usr/local/bin//HVite
+ WARNING [-8232]  ExpandWordNet: Pronunciation 1 of sp is 'tee' word in /usr/local/bin//HVite
+ WARNING [-8232]  ExpandWordNet: Pronunciation 1 of sp is 'tee' word in /usr/local/bin//HVite
+sil sil dh ax sp t ey t sp g ae l er iy z sp ao l s ow sp y uw z sp z ih r ow aw er sp k ax n t r ae k t s sil sil  ==  [1035 frames] -69.3450 [Ac=-71772.1 LM=0.0] (Act=12.3)
+Aligning File: /home/ali28729/Downloads/marytts/wiki/myvoice//htk//feat/s74.mfcc
+Created lattice with 46 nodes / 45 arcs from label file
+ WARNING [-8232]  ExpandWordNet: Pronunciation 1 of sp is 'tee' word in /usr/local/bin//HVite
+ WARNING [-8232]  ExpandWordNet: Pronunciation 1 of sp is 'tee' word in /usr/local/bin//HVite
+ WARNING [-8232]  ExpandWordNet: Pronunciation 1 of sp is 'tee' word in /usr/local/bin//HVite
+ WARNING [-8232]  ExpandWordNet: Pronunciation 1 of sp is 'tee' word in /usr/local/bin//HVite
+ WARNING [-8232]  ExpandWordNet: Pronunciation 1 of sp is 'tee' word in /usr/local/bin//HVite
+ WARNING [-8232]  ExpandWordNet: Pronunciation 1 of sp is 'tee' word in /usr/local/bin//HVite
+ WARNING [-8232]  ExpandWordNet: Pronunciation 1 of sp is 'tee' word in /usr/local/bin//HVite
+sil sil dh ey sp er n sp dh eh r sp l ay v l iy hh uh d sp b ay sp k ah l t ih v ey sh ax n sp ae n d sp w iy v ih ng sil sil  ==  [979 frames] -68.6128 [Ac=-67171.9 LM=0.0] (Act=13.4)
+Aligning File: /home/ali28729/Downloads/marytts/wiki/myvoice//htk//feat/s75.mfcc
+Created lattice with 70 nodes / 69 arcs from label file
+ WARNING [-8232]  ExpandWordNet: Pronunciation 1 of sp is 'tee' word in /usr/local/bin//HVite
+ WARNING [-8232]  ExpandWordNet: Pronunciation 1 of sp is 'tee' word in /usr/local/bin//HVite
+ WARNING [-8232]  ExpandWordNet: Pronunciation 1 of sp is 'tee' word in /usr/local/bin//HVite
+ WARNING [-8232]  ExpandWordNet: Pronunciation 1 of sp is 'tee' word in /usr/local/bin//HVite
+ WARNING [-8232]  ExpandWordNet: Pronunciation 1 of sp is 'tee' word in /usr/local/bin//HVite
+ WARNING [-8232]  ExpandWordNet: Pronunciation 1 of sp is 'tee' word in /usr/local/bin//HVite
+ WARNING [-8232]  ExpandWordNet: Pronunciation 1 of sp is 'tee' word in /usr/local/bin//HVite
+ WARNING [-8232]  ExpandWordNet: Pronunciation 1 of sp is 'tee' word in /usr/local/bin//HVite
+ WARNING [-8232]  ExpandWordNet: Pronunciation 1 of sp is 'tee' word in /usr/local/bin//HVite
+ WARNING [-8232]  ExpandWordNet: Pronunciation 1 of sp is 'tee' word in /usr/local/bin//HVite
+ WARNING [-8232]  ExpandWordNet: Pronunciation 1 of sp is 'tee' word in /usr/local/bin//HVite
+ WARNING [-8232]  ExpandWordNet: Pronunciation 1 of sp is 'tee' word in /usr/local/bin//HVite
+sil sil eh n iy w ey ssil m ay sp ax n eh jh uh k ey t ih d sp g eh s sp ih z sp dh ae t sp dh ih s sp n uw sp n ey m sp m iy n z sp f iy n iy ax n sp s w ay n sp ih n sp ay r ih sh sil sil  ==  [1443 frames] -68.5842 [Ac=-98967.0 LM=0.0] (Act=13.9)
+Aligning File: /home/ali28729/Downloads/marytts/wiki/myvoice//htk//feat/s76.mfcc
+Created lattice with 46 nodes / 45 arcs from label file
+ WARNING [-8232]  ExpandWordNet: Pronunciation 1 of sp is 'tee' word in /usr/local/bin//HVite
+ WARNING [-8232]  ExpandWordNet: Pronunciation 1 of sp is 'tee' word in /usr/local/bin//HVite
+ WARNING [-8232]  ExpandWordNet: Pronunciation 1 of sp is 'tee' word in /usr/local/bin//HVite
+ WARNING [-8232]  ExpandWordNet: Pronunciation 1 of sp is 'tee' word in /usr/local/bin//HVite
+ WARNING [-8232]  ExpandWordNet: Pronunciation 1 of sp is 'tee' word in /usr/local/bin//HVite
+ WARNING [-8232]  ExpandWordNet: Pronunciation 1 of sp is 'tee' word in /usr/local/bin//HVite
+sil sil ih n sp dh ih s sp s t ao r iy ssil w uh l v er iy n sp ae n d sp s ay k l ao p s sp aa r sp b r ah dh er z sil sil  ==  [993 frames] -68.6260 [Ac=-68145.6 LM=0.0] (Act=11.2)
+Aligning File: /home/ali28729/Downloads/marytts/wiki/myvoice//htk//feat/s77.mfcc
+Created lattice with 45 nodes / 44 arcs from label file
+ WARNING [-8232]  ExpandWordNet: Pronunciation 1 of sp is 'tee' word in /usr/local/bin//HVite
+ WARNING [-8232]  ExpandWordNet: Pronunciation 1 of sp is 'tee' word in /usr/local/bin//HVite
+ WARNING [-8232]  ExpandWordNet: Pronunciation 1 of sp is 'tee' word in /usr/local/bin//HVite
+ WARNING [-8232]  ExpandWordNet: Pronunciation 1 of sp is 'tee' word in /usr/local/bin//HVite
+ WARNING [-8232]  ExpandWordNet: Pronunciation 1 of sp is 'tee' word in /usr/local/bin//HVite
+sil sil dh ax sp ax m eh r ax k ax n sp jh uw ih sh sp jh oy n t sp d ih s t r ax b y uw sh ax n sp k ax m ih t iy sil sil  ==  [1007 frames] -67.7601 [Ac=-68234.5 LM=0.0] (Act=11.0)
+Aligning File: /home/ali28729/Downloads/marytts/wiki/myvoice//htk//feat/s78.mfcc
+Created lattice with 45 nodes / 44 arcs from label file
+ WARNING [-8232]  ExpandWordNet: Pronunciation 1 of sp is 'tee' word in /usr/local/bin//HVite
+ WARNING [-8232]  ExpandWordNet: Pronunciation 1 of sp is 'tee' word in /usr/local/bin//HVite
+ WARNING [-8232]  ExpandWordNet: Pronunciation 1 of sp is 'tee' word in /usr/local/bin//HVite
+ WARNING [-8232]  ExpandWordNet: Pronunciation 1 of sp is 'tee' word in /usr/local/bin//HVite
+ WARNING [-8232]  ExpandWordNet: Pronunciation 1 of sp is 'tee' word in /usr/local/bin//HVite
+sil sil dh ax sp ae l b ax m sp w aa z sp jh eh n er ax l iy sp w eh l r eh s eh ih v d sp k r ih t ih k ax l iy sil sil  ==  [939 frames] -67.0334 [Ac=-62944.4 LM=0.0] (Act=12.6)
+Aligning File: /home/ali28729/Downloads/marytts/wiki/myvoice//htk//feat/s79.mfcc
+Created lattice with 53 nodes / 52 arcs from label file
+ WARNING [-8232]  ExpandWordNet: Pronunciation 1 of sp is 'tee' word in /usr/local/bin//HVite
+ WARNING [-8232]  ExpandWordNet: Pronunciation 1 of sp is 'tee' word in /usr/local/bin//HVite
+ WARNING [-8232]  ExpandWordNet: Pronunciation 1 of sp is 'tee' word in /usr/local/bin//HVite
+ WARNING [-8232]  ExpandWordNet: Pronunciation 1 of sp is 'tee' word in /usr/local/bin//HVite
+ WARNING [-8232]  ExpandWordNet: Pronunciation 1 of sp is 'tee' word in /usr/local/bin//HVite
+ WARNING [-8232]  ExpandWordNet: Pronunciation 1 of sp is 'tee' word in /usr/local/bin//HVite
+ WARNING [-8232]  ExpandWordNet: Pronunciation 1 of sp is 'tee' word in /usr/local/bin//HVite
+ WARNING [-8232]  ExpandWordNet: Pronunciation 1 of sp is 'tee' word in /usr/local/bin//HVite
+ WARNING [-8232]  ExpandWordNet: Pronunciation 1 of sp is 'tee' word in /usr/local/bin//HVite
+ WARNING [-8232]  ExpandWordNet: Pronunciation 1 of sp is 'tee' word in /usr/local/bin//HVite
+ WARNING [-8232]  ExpandWordNet: Pronunciation 1 of sp is 'tee' word in /usr/local/bin//HVite
+sil sil hh er sp b aa d iy sp w aa z sp d ih s k ah v er d sp b ay sp ey sp b uh ch er sp w eh n sp hh iy sp er ay v d sp t uw sp w er k sil sil  ==  [1113 frames] -67.9408 [Ac=-75618.1 LM=0.0] (Act=14.2)
+Aligning File: /home/ali28729/Downloads/marytts/wiki/myvoice//htk//feat/s80.mfcc
+Created lattice with 52 nodes / 51 arcs from label file
+ WARNING [-8232]  ExpandWordNet: Pronunciation 1 of sp is 'tee' word in /usr/local/bin//HVite
+ WARNING [-8232]  ExpandWordNet: Pronunciation 1 of sp is 'tee' word in /usr/local/bin//HVite
+ WARNING [-8232]  ExpandWordNet: Pronunciation 1 of sp is 'tee' word in /usr/local/bin//HVite
+ WARNING [-8232]  ExpandWordNet: Pronunciation 1 of sp is 'tee' word in /usr/local/bin//HVite
+ WARNING [-8232]  ExpandWordNet: Pronunciation 1 of sp is 'tee' word in /usr/local/bin//HVite
+ WARNING [-8232]  ExpandWordNet: Pronunciation 1 of sp is 'tee' word in /usr/local/bin//HVite
+sil sil ih b r aa hh iy m ssil b ao r n sp ey sp k r ih s ch ax n ssil w aa z sp eh n s l ey v d sp d uh r ih ng sp hh ih z sp y uw th sil sil  ==  [1109 frames] -69.5033 [Ac=-77079.1 LM=0.0] (Act=11.7)
+Aligning File: /home/ali28729/Downloads/marytts/wiki/myvoice//htk//feat/s81.mfcc
+Created lattice with 95 nodes / 94 arcs from label file
+ WARNING [-8232]  ExpandWordNet: Pronunciation 1 of sp is 'tee' word in /usr/local/bin//HVite
+ WARNING [-8232]  ExpandWordNet: Pronunciation 1 of sp is 'tee' word in /usr/local/bin//HVite
+ WARNING [-8232]  ExpandWordNet: Pronunciation 1 of sp is 'tee' word in /usr/local/bin//HVite
+ WARNING [-8232]  ExpandWordNet: Pronunciation 1 of sp is 'tee' word in /usr/local/bin//HVite
+ WARNING [-8232]  ExpandWordNet: Pronunciation 1 of sp is 'tee' word in /usr/local/bin//HVite
+ WARNING [-8232]  ExpandWordNet: Pronunciation 1 of sp is 'tee' word in /usr/local/bin//HVite
+ WARNING [-8232]  ExpandWordNet: Pronunciation 1 of sp is 'tee' word in /usr/local/bin//HVite
+ WARNING [-8232]  ExpandWordNet: Pronunciation 1 of sp is 'tee' word in /usr/local/bin//HVite
+ WARNING [-8232]  ExpandWordNet: Pronunciation 1 of sp is 'tee' word in /usr/local/bin//HVite
+ WARNING [-8232]  ExpandWordNet: Pronunciation 1 of sp is 'tee' word in /usr/local/bin//HVite
+ WARNING [-8232]  ExpandWordNet: Pronunciation 1 of sp is 'tee' word in /usr/local/bin//HVite
+ WARNING [-8232]  ExpandWordNet: Pronunciation 1 of sp is 'tee' word in /usr/local/bin//HVite
+ WARNING [-8232]  ExpandWordNet: Pronunciation 1 of sp is 'tee' word in /usr/local/bin//HVite
+ WARNING [-8232]  ExpandWordNet: Pronunciation 1 of sp is 'tee' word in /usr/local/bin//HVite
+ WARNING [-8232]  ExpandWordNet: Pronunciation 1 of sp is 'tee' word in /usr/local/bin//HVite
+ WARNING [-8232]  ExpandWordNet: Pronunciation 1 of sp is 'tee' word in /usr/local/bin//HVite
+sil sil hh iy sp ao l s ow sp k uh d sp d r ao sp eh n iy th ih ng ssil m ey k sp eh n iy th ih ng sp l uh k sp ih k s ay t ih ng ssil ae n d sp ay sp ae k ch ax w ax l iy sp th ih ng k sp hh iy sp w aa z sp iy v ax n sp f ae s t er sp dh ae n sp jh ae k sil sil  ==  [1791 frames] -69.7901 [Ac=-124994.1 LM=0.0] (Act=13.2)
+Aligning File: /home/ali28729/Downloads/marytts/wiki/myvoice//htk//feat/s82.mfcc
+Created lattice with 109 nodes / 108 arcs from label file
+ WARNING [-8232]  ExpandWordNet: Pronunciation 1 of sp is 'tee' word in /usr/local/bin//HVite
+ WARNING [-8232]  ExpandWordNet: Pronunciation 1 of sp is 'tee' word in /usr/local/bin//HVite
+ WARNING [-8232]  ExpandWordNet: Pronunciation 1 of sp is 'tee' word in /usr/local/bin//HVite
+ WARNING [-8232]  ExpandWordNet: Pronunciation 1 of sp is 'tee' word in /usr/local/bin//HVite
+ WARNING [-8232]  ExpandWordNet: Pronunciation 1 of sp is 'tee' word in /usr/local/bin//HVite
+ WARNING [-8232]  ExpandWordNet: Pronunciation 1 of sp is 'tee' word in /usr/local/bin//HVite
+ WARNING [-8232]  ExpandWordNet: Pronunciation 1 of sp is 'tee' word in /usr/local/bin//HVite
+ WARNING [-8232]  ExpandWordNet: Pronunciation 1 of sp is 'tee' word in /usr/local/bin//HVite
+ WARNING [-8232]  ExpandWordNet: Pronunciation 1 of sp is 'tee' word in /usr/local/bin//HVite
+ WARNING [-8232]  ExpandWordNet: Pronunciation 1 of sp is 'tee' word in /usr/local/bin//HVite
+ WARNING [-8232]  ExpandWordNet: Pronunciation 1 of sp is 'tee' word in /usr/local/bin//HVite
+ WARNING [-8232]  ExpandWordNet: Pronunciation 1 of sp is 'tee' word in /usr/local/bin//HVite
+ WARNING [-8232]  ExpandWordNet: Pronunciation 1 of sp is 'tee' word in /usr/local/bin//HVite
+ WARNING [-8232]  ExpandWordNet: Pronunciation 1 of sp is 'tee' word in /usr/local/bin//HVite
+ WARNING [-8232]  ExpandWordNet: Pronunciation 1 of sp is 'tee' word in /usr/local/bin//HVite
+ WARNING [-8232]  ExpandWordNet: Pronunciation 1 of sp is 'tee' word in /usr/local/bin//HVite
+ WARNING [-8232]  ExpandWordNet: Pronunciation 1 of sp is 'tee' word in /usr/local/bin//HVite
+ WARNING [-8232]  ExpandWordNet: Pronunciation 1 of sp is 'tee' word in /usr/local/bin//HVite
+ WARNING [-8232]  ExpandWordNet: Pronunciation 1 of sp is 'tee' word in /usr/local/bin//HVite
+ WARNING [-8232]  ExpandWordNet: Pronunciation 1 of sp is 'tee' word in /usr/local/bin//HVite
+sil sil hh iy sp w aa z sp ao l r eh d iy sp ey sp m ey jh er sp l ae n d ow n er sp ih n sp dh ax sp eh r iy ax ssil ey sp n ae b aa b sp hh uw z sp f ao r ch ax n sp k ey m sp f r ah m sp hh ih z sp ae d v eh n ch er z sp ae n d sp t r ey d ih ng sp d iy l z sp ih n sp ih n d iy ax sil sil  ==  [1973 frames] -69.1209 [Ac=-136375.5 LM=0.0] (Act=14.7)
+Aligning File: /home/ali28729/Downloads/marytts/wiki/myvoice//htk//feat/s83.mfcc
+Created lattice with 50 nodes / 49 arcs from label file
+ WARNING [-8232]  ExpandWordNet: Pronunciation 1 of sp is 'tee' word in /usr/local/bin//HVite
+ WARNING [-8232]  ExpandWordNet: Pronunciation 1 of sp is 'tee' word in /usr/local/bin//HVite
+ WARNING [-8232]  ExpandWordNet: Pronunciation 1 of sp is 'tee' word in /usr/local/bin//HVite
+ WARNING [-8232]  ExpandWordNet: Pronunciation 1 of sp is 'tee' word in /usr/local/bin//HVite
+ WARNING [-8232]  ExpandWordNet: Pronunciation 1 of sp is 'tee' word in /usr/local/bin//HVite
+ WARNING [-8232]  ExpandWordNet: Pronunciation 1 of sp is 'tee' word in /usr/local/bin//HVite
+ WARNING [-8232]  ExpandWordNet: Pronunciation 1 of sp is 'tee' word in /usr/local/bin//HVite
+sil sil ih n sp m iy d iy ax m sp t uw sp l aa r jh s ay z d sp k ah m p ax n iy z sp aw er z sp hh ae v sp ih n k r iy s t sil sil  ==  [1023 frames] -67.7148 [Ac=-69272.3 LM=0.0] (Act=12.1)
+Aligning File: /home/ali28729/Downloads/marytts/wiki/myvoice//htk//feat/s84.mfcc
+Created lattice with 96 nodes / 95 arcs from label file
+ WARNING [-8232]  ExpandWordNet: Pronunciation 1 of sp is 'tee' word in /usr/local/bin//HVite
+ WARNING [-8232]  ExpandWordNet: Pronunciation 1 of sp is 'tee' word in /usr/local/bin//HVite
+ WARNING [-8232]  ExpandWordNet: Pronunciation 1 of sp is 'tee' word in /usr/local/bin//HVite
+ WARNING [-8232]  ExpandWordNet: Pronunciation 1 of sp is 'tee' word in /usr/local/bin//HVite
+ WARNING [-8232]  ExpandWordNet: Pronunciation 1 of sp is 'tee' word in /usr/local/bin//HVite
+ WARNING [-8232]  ExpandWordNet: Pronunciation 1 of sp is 'tee' word in /usr/local/bin//HVite
+ WARNING [-8232]  ExpandWordNet: Pronunciation 1 of sp is 'tee' word in /usr/local/bin//HVite
+ WARNING [-8232]  ExpandWordNet: Pronunciation 1 of sp is 'tee' word in /usr/local/bin//HVite
+ WARNING [-8232]  ExpandWordNet: Pronunciation 1 of sp is 'tee' word in /usr/local/bin//HVite
+ WARNING [-8232]  ExpandWordNet: Pronunciation 1 of sp is 'tee' word in /usr/local/bin//HVite
+ WARNING [-8232]  ExpandWordNet: Pronunciation 1 of sp is 'tee' word in /usr/local/bin//HVite
+sil sil dh ax sp ih n t ax g r ey t er sp ih z sp m ow s t l iy sp y uw z d sp ih n sp ae n ax l ao g sp k ax m p y uw t er z ssil ae n ax l ao g t uw d ih jh ax t ax l sp k ax n v er t er z sp ae n d sp w ey v sh ax p ih ng sp s er k ax t s sil sil  ==  [1849 frames] -69.0331 [Ac=-127642.2 LM=0.0] (Act=11.8)
+Aligning File: /home/ali28729/Downloads/marytts/wiki/myvoice//htk//feat/s85.mfcc
+Created lattice with 52 nodes / 51 arcs from label file
+ WARNING [-8232]  ExpandWordNet: Pronunciation 1 of sp is 'tee' word in /usr/local/bin//HVite
+ WARNING [-8232]  ExpandWordNet: Pronunciation 1 of sp is 'tee' word in /usr/local/bin//HVite
+ WARNING [-8232]  ExpandWordNet: Pronunciation 1 of sp is 'tee' word in /usr/local/bin//HVite
+ WARNING [-8232]  ExpandWordNet: Pronunciation 1 of sp is 'tee' word in /usr/local/bin//HVite
+ WARNING [-8232]  ExpandWordNet: Pronunciation 1 of sp is 'tee' word in /usr/local/bin//HVite
+ WARNING [-8232]  ExpandWordNet: Pronunciation 1 of sp is 'tee' word in /usr/local/bin//HVite
+ WARNING [-8232]  ExpandWordNet: Pronunciation 1 of sp is 'tee' word in /usr/local/bin//HVite
+ WARNING [-8232]  ExpandWordNet: Pronunciation 1 of sp is 'tee' word in /usr/local/bin//HVite
+ WARNING [-8232]  ExpandWordNet: Pronunciation 1 of sp is 'tee' word in /usr/local/bin//HVite
+sil sil m ey ow sp w er sp d ih k l eh r d sp ch ae m p iy ax n z sp w ih th aw t sp dh ax sp n iy d sp f ao r sp ey sp f ay n ax l sil sil  ==  [1057 frames] -67.7308 [Ac=-71591.4 LM=0.0] (Act=12.1)
+Aligning File: /home/ali28729/Downloads/marytts/wiki/myvoice//htk//feat/s86.mfcc
+Created lattice with 52 nodes / 51 arcs from label file
+ WARNING [-8232]  ExpandWordNet: Pronunciation 1 of sp is 'tee' word in /usr/local/bin//HVite
+ WARNING [-8232]  ExpandWordNet: Pronunciation 1 of sp is 'tee' word in /usr/local/bin//HVite
+ WARNING [-8232]  ExpandWordNet: Pronunciation 1 of sp is 'tee' word in /usr/local/bin//HVite
+ WARNING [-8232]  ExpandWordNet: Pronunciation 1 of sp is 'tee' word in /usr/local/bin//HVite
+ WARNING [-8232]  ExpandWordNet: Pronunciation 1 of sp is 'tee' word in /usr/local/bin//HVite
+ WARNING [-8232]  ExpandWordNet: Pronunciation 1 of sp is 'tee' word in /usr/local/bin//HVite
+ WARNING [-8232]  ExpandWordNet: Pronunciation 1 of sp is 'tee' word in /usr/local/bin//HVite
+ WARNING [-8232]  ExpandWordNet: Pronunciation 1 of sp is 'tee' word in /usr/local/bin//HVite
+sil sil ey sp d ah z ax n sp k ae p t ax n z sp w er sp t r ay d sp b ay sp k ao r t m aa r sh ax l sp ae n d sp k ae sh ih r d sil sil  ==  [1085 frames] -68.1085 [Ac=-73897.7 LM=0.0] (Act=12.0)
+Aligning File: /home/ali28729/Downloads/marytts/wiki/myvoice//htk//feat/s87.mfcc
+Created lattice with 53 nodes / 52 arcs from label file
+ WARNING [-8232]  ExpandWordNet: Pronunciation 1 of sp is 'tee' word in /usr/local/bin//HVite
+ WARNING [-8232]  ExpandWordNet: Pronunciation 1 of sp is 'tee' word in /usr/local/bin//HVite
+ WARNING [-8232]  ExpandWordNet: Pronunciation 1 of sp is 'tee' word in /usr/local/bin//HVite
+ WARNING [-8232]  ExpandWordNet: Pronunciation 1 of sp is 'tee' word in /usr/local/bin//HVite
+ WARNING [-8232]  ExpandWordNet: Pronunciation 1 of sp is 'tee' word in /usr/local/bin//HVite
+ WARNING [-8232]  ExpandWordNet: Pronunciation 1 of sp is 'tee' word in /usr/local/bin//HVite
+ WARNING [-8232]  ExpandWordNet: Pronunciation 1 of sp is 'tee' word in /usr/local/bin//HVite
+ WARNING [-8232]  ExpandWordNet: Pronunciation 1 of sp is 'tee' word in /usr/local/bin//HVite
+ WARNING [-8232]  ExpandWordNet: Pronunciation 1 of sp is 'tee' word in /usr/local/bin//HVite
+sil sil ey ch aw er sp w aa z sp ao l s ow sp f ih k s t sp f ao r sp th r iy sp aw er z sp b ih f ao r sp hh ay w ao t er sp m aa r k sil sil  ==  [1159 frames] -68.9305 [Ac=-79890.5 LM=0.0] (Act=11.9)
+Aligning File: /home/ali28729/Downloads/marytts/wiki/myvoice//htk//feat/s88.mfcc
+Created lattice with 45 nodes / 44 arcs from label file
+ WARNING [-8232]  ExpandWordNet: Pronunciation 1 of sp is 'tee' word in /usr/local/bin//HVite
+ WARNING [-8232]  ExpandWordNet: Pronunciation 1 of sp is 'tee' word in /usr/local/bin//HVite
+ WARNING [-8232]  ExpandWordNet: Pronunciation 1 of sp is 'tee' word in /usr/local/bin//HVite
+ WARNING [-8232]  ExpandWordNet: Pronunciation 1 of sp is 'tee' word in /usr/local/bin//HVite
+ WARNING [-8232]  ExpandWordNet: Pronunciation 1 of sp is 'tee' word in /usr/local/bin//HVite
+ WARNING [-8232]  ExpandWordNet: Pronunciation 1 of sp is 'tee' word in /usr/local/bin//HVite
+ WARNING [-8232]  ExpandWordNet: Pronunciation 1 of sp is 'tee' word in /usr/local/bin//HVite
+ WARNING [-8232]  ExpandWordNet: Pronunciation 1 of sp is 'tee' word in /usr/local/bin//HVite
+sil sil ch aa r m d sp b ay sp dh ax sp g er l ssil hh iy sp l eh t sp hh er sp ih n t uw sp hh ih z sp aa d ih sh ax n sil sil  ==  [915 frames] -67.0510 [Ac=-61351.7 LM=0.0] (Act=12.0)
+Aligning File: /home/ali28729/Downloads/marytts/wiki/myvoice//htk//feat/s89.mfcc
+Created lattice with 115 nodes / 114 arcs from label file
+ WARNING [-8232]  ExpandWordNet: Pronunciation 1 of sp is 'tee' word in /usr/local/bin//HVite
+ WARNING [-8232]  ExpandWordNet: Pronunciation 1 of sp is 'tee' word in /usr/local/bin//HVite
+ WARNING [-8232]  ExpandWordNet: Pronunciation 1 of sp is 'tee' word in /usr/local/bin//HVite
+ WARNING [-8232]  ExpandWordNet: Pronunciation 1 of sp is 'tee' word in /usr/local/bin//HVite
+ WARNING [-8232]  ExpandWordNet: Pronunciation 1 of sp is 'tee' word in /usr/local/bin//HVite
+ WARNING [-8232]  ExpandWordNet: Pronunciation 1 of sp is 'tee' word in /usr/local/bin//HVite
+ WARNING [-8232]  ExpandWordNet: Pronunciation 1 of sp is 'tee' word in /usr/local/bin//HVite
+ WARNING [-8232]  ExpandWordNet: Pronunciation 1 of sp is 'tee' word in /usr/local/bin//HVite
+ WARNING [-8232]  ExpandWordNet: Pronunciation 1 of sp is 'tee' word in /usr/local/bin//HVite
+ WARNING [-8232]  ExpandWordNet: Pronunciation 1 of sp is 'tee' word in /usr/local/bin//HVite
+ WARNING [-8232]  ExpandWordNet: Pronunciation 1 of sp is 'tee' word in /usr/local/bin//HVite
+ WARNING [-8232]  ExpandWordNet: Pronunciation 1 of sp is 'tee' word in /usr/local/bin//HVite
+ WARNING [-8232]  ExpandWordNet: Pronunciation 1 of sp is 'tee' word in /usr/local/bin//HVite
+ WARNING [-8232]  ExpandWordNet: Pronunciation 1 of sp is 'tee' word in /usr/local/bin//HVite
+ WARNING [-8232]  ExpandWordNet: Pronunciation 1 of sp is 'tee' word in /usr/local/bin//HVite
+ WARNING [-8232]  ExpandWordNet: Pronunciation 1 of sp is 'tee' word in /usr/local/bin//HVite
+ WARNING [-8232]  ExpandWordNet: Pronunciation 1 of sp is 'tee' word in /usr/local/bin//HVite
+ WARNING [-8232]  ExpandWordNet: Pronunciation 1 of sp is 'tee' word in /usr/local/bin//HVite
+ WARNING [-8232]  ExpandWordNet: Pronunciation 1 of sp is 'tee' word in /usr/local/bin//HVite
+ WARNING [-8232]  ExpandWordNet: Pronunciation 1 of sp is 'tee' word in /usr/local/bin//HVite
+ WARNING [-8232]  ExpandWordNet: Pronunciation 1 of sp is 'tee' word in /usr/local/bin//HVite
+ WARNING [-8232]  ExpandWordNet: Pronunciation 1 of sp is 'tee' word in /usr/local/bin//HVite
+ WARNING [-8232]  ExpandWordNet: Pronunciation 1 of sp is 'tee' word in /usr/local/bin//HVite
+sil sil ih t sp hh ae z sp ih n d iy d sp b ih n sp ey sp b ih g sp d ih s ih zh ax n sp t uw sp m uw v sp t uw sp ih n d iy ax ssil b ah t sp ay sp f iy l sp dh ae t sp dh eh r sp ih z sp dh ih s sp hh y uw jh sp z eh s t sp ae n d sp ih n th uw z iy ae z ax m sp f ao r sp f uh t b ao l sp hh ih r sil sil  ==  [1841 frames] -71.2881 [Ac=-131241.3 LM=0.0] (Act=15.8)
+Aligning File: /home/ali28729/Downloads/marytts/wiki/myvoice//htk//feat/s90.mfcc
+Created lattice with 117 nodes / 116 arcs from label file
+ WARNING [-8232]  ExpandWordNet: Pronunciation 1 of sp is 'tee' word in /usr/local/bin//HVite
+ WARNING [-8232]  ExpandWordNet: Pronunciation 1 of sp is 'tee' word in /usr/local/bin//HVite
+ WARNING [-8232]  ExpandWordNet: Pronunciation 1 of sp is 'tee' word in /usr/local/bin//HVite
+ WARNING [-8232]  ExpandWordNet: Pronunciation 1 of sp is 'tee' word in /usr/local/bin//HVite
+ WARNING [-8232]  ExpandWordNet: Pronunciation 1 of sp is 'tee' word in /usr/local/bin//HVite
+ WARNING [-8232]  ExpandWordNet: Pronunciation 1 of sp is 'tee' word in /usr/local/bin//HVite
+ WARNING [-8232]  ExpandWordNet: Pronunciation 1 of sp is 'tee' word in /usr/local/bin//HVite
+ WARNING [-8232]  ExpandWordNet: Pronunciation 1 of sp is 'tee' word in /usr/local/bin//HVite
+ WARNING [-8232]  ExpandWordNet: Pronunciation 1 of sp is 'tee' word in /usr/local/bin//HVite
+ WARNING [-8232]  ExpandWordNet: Pronunciation 1 of sp is 'tee' word in /usr/local/bin//HVite
+ WARNING [-8232]  ExpandWordNet: Pronunciation 1 of sp is 'tee' word in /usr/local/bin//HVite
+ WARNING [-8232]  ExpandWordNet: Pronunciation 1 of sp is 'tee' word in /usr/local/bin//HVite
+ WARNING [-8232]  ExpandWordNet: Pronunciation 1 of sp is 'tee' word in /usr/local/bin//HVite
+ WARNING [-8232]  ExpandWordNet: Pronunciation 1 of sp is 'tee' word in /usr/local/bin//HVite
+ WARNING [-8232]  ExpandWordNet: Pronunciation 1 of sp is 'tee' word in /usr/local/bin//HVite
+ WARNING [-8232]  ExpandWordNet: Pronunciation 1 of sp is 'tee' word in /usr/local/bin//HVite
+sil sil dh ax sp m ey n sp th r eh t sp t uw sp dh ax sp iy k ax l aa jh ih k ax l sp k ax m y uw n ax t iy sp ih z sp k l ih r ih ng sp f ao r sp er b ax n sp d ih v eh l ax p m ax n t ssil ae n d sp dh ax sp s ah b s ax k w ax n t sp ih m p ae k t s sp f r ah m sp f r ae g m ax n t ey sh ax n sil sil  ==  [1829 frames] -72.7591 [Ac=-133076.4 LM=0.0] (Act=14.0)
+
+HTK Configuration Parameters[10]
+  Module/Tool     Parameter                  Value
+                  ENORMALISE                 FALSE
+#                 CEPFILTER                     22
+                  NUMCHANS                      26
+                  PREEMCOEF               0.970000
+                  USEHAMMING                  TRUE
+                  NUMCEPS                       12
+                  TARGETRATE          50000.000000
+                  WINDOWSIZE         100000.000000
+#                 PARAMETERKIND         MFCC_0_D_A
+                  TARGETKIND            MFCC_0_D_A
+

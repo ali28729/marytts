@@ -1,0 +1,36 @@
+/usr/local/bin//HHEd -A -D -V -T 1 -H /home/ali28729/Downloads/marytts/wiki/myvoice//htk//hmm/hmm29/macros -H /home/ali28729/Downloads/marytts/wiki/myvoice//htk//hmm/hmm29/hmmdefs -M /home/ali28729/Downloads/marytts/wiki/myvoice//htk//hmm/hmm30 /home/ali28729/Downloads/marytts/wiki/myvoice//htk//config/sil_mix_30.hed /home/ali28729/Downloads/marytts/wiki/myvoice//htk//etc/htk.phone3.list 
+
+No HTK Configuration Parameters Set
+
+
+HTK Version Information
+Module     Version    Who    Date      : CVS Info
+HHEd       3.4.1      CUED   12/03/09  : $Id: HHEd.c,v 1.2 2006/12/07 11:09:08 mjfg Exp $
+HShell     3.4.1      CUED   12/03/09  : $Id: HShell.c,v 1.1.1.1 2006/10/11 09:54:58 jal58 Exp $
+HMem       3.4.1      CUED   12/03/09  : $Id: HMem.c,v 1.1.1.1 2006/10/11 09:54:58 jal58 Exp $
+HLabel     3.4.1      CUED   12/03/09  : $Id: HLabel.c,v 1.1.1.1 2006/10/11 09:54:57 jal58 Exp $
+HMath      3.4.1      CUED   12/03/09  : $Id: HMath.c,v 1.1.1.1 2006/10/11 09:54:58 jal58 Exp $
+HSigP      3.4.1      CUED   12/03/09  : $Id: HSigP.c,v 1.1.1.1 2006/10/11 09:54:58 jal58 Exp $
+HWave      3.4.1      CUED   12/03/09  : $Id: HWave.c,v 1.1.1.1 2006/10/11 09:54:59 jal58 Exp $
+HAudio     3.4.1      CUED   12/03/09  : $Id: HAudio.c,v 1.1.1.1 2006/10/11 09:54:57 jal58 Exp $
+HVQ        3.4.1      CUED   12/03/09  : $Id: HVQ.c,v 1.1.1.1 2006/10/11 09:54:59 jal58 Exp $
+HModel     3.4.1      CUED   12/03/09  : $Id: HModel.c,v 1.2 2006/12/07 11:09:08 mjfg Exp $
+HParm      3.4.1      CUED   12/03/09  : $Id: HParm.c,v 1.1.1.1 2006/10/11 09:54:58 jal58 Exp $
+HUtil      3.4.1      CUED   12/03/09  : $Id: HUtil.c,v 1.1.1.1 2006/10/11 09:54:59 jal58 Exp $
+
+HHEd
+ 45/45 Models Loaded [5 states max, 1 mixes max]
+
+MU 2 {}
+ Mixup to 2 components per stream
+ MU: Number of mixes increased from 43 to 86
+
+MU 2 {}
+ Mixup to 2 components per stream
+ MU: Number of mixes increased from 43 to 86
+
+Saving new HMM files ...
+Edit Complete
+
+No HTK Configuration Parameters Set
+

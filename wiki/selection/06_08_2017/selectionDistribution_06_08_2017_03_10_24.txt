@@ -1,0 +1,22 @@
+
+Settings of Coverage Definition:
+simpleDiphones true
+frequency inverse
+considerSentenceLength true
+phoneLevelWeight 25.0
+diphoneLevelWeight 5.0
+prosodyLevelWeight 1.0
+maxSentenceLength 150
+minSentenceLength 30
+divideWantedWeightBy 1000.0
+
+Results:
+Num sent in cover : 90
+Avg sent length : 45.60000
+Max sent length : 98
+Min sent length : 20
+phones: 0.77778 (0.77778)
+Simple Coverage:
+phones: 0.77778 (0.77778)
+diphones: 0.18417 (0.36910)
+overall: 0.02683 (0.06064)

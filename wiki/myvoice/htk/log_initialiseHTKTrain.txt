@@ -1,0 +1,54 @@
+/usr/local/bin//HCompV -A -D -V -T 1 -C /home/ali28729/Downloads/marytts/wiki/myvoice//htk//config/htkTrain.conf -f 0.01 -m -S /home/ali28729/Downloads/marytts/wiki/myvoice//htk//etc/htkTrain.list -M /home/ali28729/Downloads/marytts/wiki/myvoice//htk//hmm/hmm-dummy /home/ali28729/Downloads/marytts/wiki/myvoice//htk//config/htk.proto 
+
+HTK Configuration Parameters[10]
+  Module/Tool     Parameter                  Value
+#                 ENORMALISE                 FALSE
+#                 CEPFILTER                     22
+#                 NUMCHANS                      26
+#                 PREEMCOEF               0.970000
+#                 USEHAMMING                  TRUE
+#                 NUMCEPS                       12
+#                 TARGETRATE          50000.000000
+#                 WINDOWSIZE         100000.000000
+#                 PARAMETERKIND         MFCC_0_D_A
+#                 TARGETKIND            MFCC_0_D_A
+
+
+HTK Version Information
+Module     Version    Who    Date      : CVS Info
+HCompV     3.4.1      CUED   12/03/09  : $Id: HCompV.c,v 1.1.1.1 2006/10/11 09:54:59 jal58 Exp $
+HShell     3.4.1      CUED   12/03/09  : $Id: HShell.c,v 1.1.1.1 2006/10/11 09:54:58 jal58 Exp $
+HMem       3.4.1      CUED   12/03/09  : $Id: HMem.c,v 1.1.1.1 2006/10/11 09:54:58 jal58 Exp $
+HLabel     3.4.1      CUED   12/03/09  : $Id: HLabel.c,v 1.1.1.1 2006/10/11 09:54:57 jal58 Exp $
+HMath      3.4.1      CUED   12/03/09  : $Id: HMath.c,v 1.1.1.1 2006/10/11 09:54:58 jal58 Exp $
+HSigP      3.4.1      CUED   12/03/09  : $Id: HSigP.c,v 1.1.1.1 2006/10/11 09:54:58 jal58 Exp $
+HWave      3.4.1      CUED   12/03/09  : $Id: HWave.c,v 1.1.1.1 2006/10/11 09:54:59 jal58 Exp $
+HAudio     3.4.1      CUED   12/03/09  : $Id: HAudio.c,v 1.1.1.1 2006/10/11 09:54:57 jal58 Exp $
+HVQ        3.4.1      CUED   12/03/09  : $Id: HVQ.c,v 1.1.1.1 2006/10/11 09:54:59 jal58 Exp $
+HModel     3.4.1      CUED   12/03/09  : $Id: HModel.c,v 1.2 2006/12/07 11:09:08 mjfg Exp $
+HParm      3.4.1      CUED   12/03/09  : $Id: HParm.c,v 1.1.1.1 2006/10/11 09:54:58 jal58 Exp $
+
+Calculating Fixed Variance
+  HMM Prototype: /home/ali28729/Downloads/marytts/wiki/myvoice//htk//config/htk.proto
+  Segment Label: None
+  Num Streams  : 1
+  UpdatingMeans: Yes
+  Target Direct: /home/ali28729/Downloads/marytts/wiki/myvoice//htk//hmm/hmm-dummy
+103566 speech frames accumulated
+Updating HMM Means and Covariances
+Output written to directory /home/ali28729/Downloads/marytts/wiki/myvoice//htk//hmm/hmm-dummy
+Var floor macros output to file /home/ali28729/Downloads/marytts/wiki/myvoice//htk//hmm/hmm-dummy/vFloors
+
+HTK Configuration Parameters[10]
+  Module/Tool     Parameter                  Value
+                  ENORMALISE                 FALSE
+#                 CEPFILTER                     22
+                  NUMCHANS                      26
+                  PREEMCOEF               0.970000
+                  USEHAMMING                  TRUE
+                  NUMCEPS                       12
+                  TARGETRATE          50000.000000
+                  WINDOWSIZE         100000.000000
+#                 PARAMETERKIND         MFCC_0_D_A
+                  TARGETKIND            MFCC_0_D_A
+

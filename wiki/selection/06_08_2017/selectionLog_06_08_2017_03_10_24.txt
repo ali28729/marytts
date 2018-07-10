@@ -1,0 +1,29 @@
+Date: 06_08_2017_03_10_24
+locale : nls
+mysqlHost : localhost
+mysqlUser : mary
+mysqlPasswd : wiki123
+mysqlDB : wiki
+selectedSentencesTable name : test
+tableDescription : add here a table description
+FeatDefFileName : /home/ali28729/workspace/marytts/wiki/nls_featureDefinition.txt
+stop criterion : numSentences 30 simpleDiphones simpleProsody 
+coverageConfig : /home/ali28729/workspace/marytts/wiki/covDef.config
+initFile : /home/ali28729/workspace/marytts/wiki/init.bin
+overallLogFile : /home/ali28729/workspace/marytts/wiki/overallLog.txt
+selectionDir : /home/ali28729/workspace/marytts/wiki/selection
+
+Startup took 1170 milliseconds
+
+Settings of Coverage Definition:
+simpleDiphones true
+frequency inverse
+considerSentenceLength true
+phoneLevelWeight 25.0
+diphoneLevelWeight 5.0
+prosodyLevelWeight 1.0
+divideWantedWeightBy 1000.0
+maxSentenceLength 150
+minSentenceLength 30
+Total number of sentences : 90
+Selection took 0.12263333333333333 minutes (7358 milliseconds)

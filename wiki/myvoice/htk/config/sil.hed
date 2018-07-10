@@ -1,0 +1,7 @@
+AT 2 4 0.2 {sil.transP}
+AT 4 2 0.2 {sil.transP}
+AT 2 4 0.2 {ssil.transP}
+AT 4 2 0.2 {ssil.transP}
+TI silst2 {sil.state[2],ssil.state[2]}
+TI silst3 {sil.state[3],ssil.state[3]}
+TI silst4 {sil.state[4],ssil.state[4]}

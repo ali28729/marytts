@@ -1,0 +1,1 @@
+The core-rod is made and before being drawn into fiber its core diameter and NA are checked.

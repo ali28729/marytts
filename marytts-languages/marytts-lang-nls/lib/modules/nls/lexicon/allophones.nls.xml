@@ -1,0 +1,51 @@
+<allophones name="sampa" xml:lang="nls"
+		features="vlng vheight vfront vrnd ctype cplace cvox">
+	<silence ph="_"/>
+
+	<consonant ph="p" ctype="s" cplace="l" cvox="-"/><!-- PARKING p aa r k ix ng -->
+	<consonant ph="b" ctype="s" cplace="l" cvox="+"/><!-- BEDS b eh d z -->
+	<consonant ph="m" ctype="n" cplace="l" cvox="+"/><!-- MOON m uw n -->
+	<consonant ph="th" ctype="s" cplace="d" cvox="-"/><!-- YOUTH y uw th = "tdh" -->
+	<consonant ph="dh" ctype="f" cplace="d" cvox="+"/><!-- BROTHER b r ah dh e -->
+	<consonant ph="n" ctype="n" cplace="a" cvox="+"/><!-- NOON n uw n -->
+	<consonant ph="t" ctype="s" cplace="a" cvox="-"/><!-- TAILOR t ey l er = "T" -->
+	<consonant ph="dx" ctype="s" cplace="a" cvox="-"/><!-- FLATTER f l ae dx er = "T" -->
+	<consonant ph="d" ctype="s" cplace="a" cvox="+"/><!-- DEAD d eh d = "D" -->
+	<consonant ph="k" ctype="s" cplace="v" cvox="-"/><!-- KING k ih ng -->
+	<consonant ph="g" ctype="s" cplace="v" cvox="+"/><!-- GOAT g ow t -->
+	<consonant ph="f" ctype="f" cplace="b" cvox="-"/><!-- FOOD f uw d -->
+	<consonant ph="v" ctype="f" cplace="b" cvox="+"/><!-- SERVICE s er v ax s -->
+	<consonant ph="s" ctype="f" cplace="a" cvox="-"/><!-- SWAN s w aa n -->
+	<consonant ph="z" ctype="f" cplace="a" cvox="+"/><!-- ZEBRA z iy b r ax -->
+	<consonant ph="hh" ctype="f" cplace="g" cvox="-"/><!-- HOUSE hh aw s = "h" -->
+	<consonant ph="ch" ctype="a" cplace="p" cvox="-"/><!-- CHICKEN ch ih k ax n -->
+	<consonant ph="jh" ctype="a" cplace="p" cvox="+"/><!-- JUG jh ah g -->
+	<consonant ph="r" ctype="l" cplace="a" cvox="+"/><!-- ROAR r ao r -->
+	<consonant ph="l" ctype="l" cplace="p" cvox="+"/><!-- LION l ay ax n -->
+	<consonant ph="sh" ctype="f" cplace="p" cvox="-"/><!-- SLASH s l ae sh = "S" -->
+    	<consonant ph="zh" ctype="f" cplace="p" cvox="+"/><!-- MALAYSIA m ax l ey zh ax -->
+	<consonant ph="ng" ctype="n" cplace="v" cvox="+"/><!-- SLEEPING l iy p ix ng = "N" -->
+    	<consonant ph="w" ctype="r" cplace="l" cvox="+"/><!-- WALK w ao k -->
+    	<consonant ph="y" ctype="r" cplace="p" cvox="+"/><!-- YES y eh s -->
+
+	<vowel ph="iy" vlng="l" vheight="1" vfront="1" vrnd="-"/><!-- FLEE f l iy = "i" -->
+	<vowel ph="ih" vlng="l" vheight="1" vfront="1" vrnd="-"/><!-- FLIP f l ih p = "ii" -->
+	<vowel ph="ix" vlng="l" vheight="1" vfront="1" vrnd="-"/><!-- BRUSHES b r ah sh ix z = "ii" -->
+	<vowel ph="ax" vlng="s" vheight="2" vfront="1" vrnd="-"/><!-- HOLIDAY hh aa l ax d ey = "e" -->
+	<vowel ph="ey" vlng="s" vheight="2" vfront="1" vrnd="-"/><!-- WAKE w ey k = "YY" -->
+	<vowel ph="ae" vlng="s" vheight="3" vfront="1" vrnd="-"/><!-- APPLE ae p ax l = "YY" -->
+	<vowel ph="ay" vlng="s" vheight="3" vfront="1" vrnd="-"/><!-- LIKE l ay k = "YY" -->
+		
+	<vowel ph="eh" vlng="s" vheight="3" vfront="1" vrnd="-"/><!-- BERRY b eh r iy = "Y" -->
+	<vowel ph="uh" vlng="s" vheight="1" vfront="3" vrnd="+"/><!-- BULL b uh l = "u" -->
+	<vowel ph="uw" vlng="s" vheight="1" vfront="3" vrnd="+"/><!-- BUTANE b y uw t ey n, PROOF p r uw f = "uu" -->
+	<vowel ph="aw" vlng="l" vheight="3" vfront="3" vrnd="+"/><!-- LOUD l aw d = "O" -->
+	<vowel ph="ao" vlng="l" vheight="3" vfront="3" vrnd="+"/><!-- HORSE hh ao r s = "OO" -->
+	<vowel ph="ow" vlng="l" vheight="3" vfront="3" vrnd="+"/><!-- POTATO p ax t ey t ow = "O" -->
+	<vowel ph="oy" vlng="l" vheight="3" vfront="3" vrnd="+"/><!-- JOIN jh oy n = "OO" --> 
+	<vowel ph="er" vlng="l" vheight="3" vfront="3" vrnd="-"/><!-- LAUGHTER l ae f t er = "a" -->
+	<vowel ph="ah" vlng="l" vheight="3" vfront="3" vrnd="-"/><!-- PUB p ah b = "a" -->
+	<vowel ph="aa" vlng="l" vheight="3" vfront="3" vrnd="-"/><!-- GARDEN g aa r d ax n = "a" -->
+	
+
+</allophones>

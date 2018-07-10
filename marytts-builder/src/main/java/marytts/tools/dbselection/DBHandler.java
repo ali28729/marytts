@@ -561,7 +561,7 @@ public class DBHandler {
 				+ " ) MAX_ROWS=250000 AVG_ROW_LENGTH=10240 CHARACTER SET utf8;";
 
 		String createPageTable = "CREATE TABLE page (" + "page_id int UNSIGNED NOT NULL AUTO_INCREMENT,"
-				+ "page_namespace int(11) NOT NULL," + "page_title varchar(255) NOT NULL,"
+				+ "page_namespace int(11) NOT NULL," + "page_title varbinary(255) NOT NULL,"
 				+ "page_restrictions tinyblob NOT NULL," + "page_counter bigint(20) unsigned NOT NULL,"
 				+ "page_is_redirect tinyint(3) unsigned NOT NULL," + "page_is_new tinyint(3) unsigned NOT NULL,"
 				+ "page_random double unsigned NOT NULL," + "page_touched binary(14) NOT NULL,"
@@ -571,8 +571,8 @@ public class DBHandler {
 
 		String createRevisionTable = "CREATE TABLE revision (" + "rev_id int UNSIGNED NOT NULL AUTO_INCREMENT,"
 				+ "rev_page int(10) unsigned NOT NULL," + "rev_text_id int(10) unsigned NOT NULL,"
-				+ "rev_comment tinyblob NOT NULL," + "rev_user int(10) unsigned NOT NULL,"
-				+ "rev_user_text varchar(255) NOT NULL, " + "rev_timestamp binary(14) NOT NULL, "
+				+ "rev_comment mediumblob NOT NULL," + "rev_user int(10) unsigned NOT NULL,"
+				+ "rev_user_text varbinary(255) NOT NULL, " + "rev_timestamp binary(14) NOT NULL, "
 				+ "rev_minor_edit tinyint(3) unsigned NOT NULL," + " rev_deleted tinyint(3) unsigned NOT NULL,"
 				+ "rev_len int(10) unsigned NULL," + "rev_parent_id int(10) unsigned NULL,"
 				+ "KEY rev_user (rev_user),KEY rev_user_text (rev_user_text)," + "KEY rev_timestamp (rev_timestamp),"

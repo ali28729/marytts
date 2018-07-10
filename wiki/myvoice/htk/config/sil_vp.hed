@@ -1,0 +1,4 @@
+AT 1 5 0.3 {sp.transP}
+TI ssilst2 {ssil.state[2],sp.state[2]}
+TI ssilst3 {ssil.state[3],sp.state[3]}
+TI ssilst4 {ssil.state[4],sp.state[4]}
